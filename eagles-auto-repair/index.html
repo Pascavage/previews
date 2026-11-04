@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>document.documentElement.classList.add('js')</script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Eagles Auto Repair | Malvern, PA</title>
+<meta name="description" content="Auto repair on Lancaster Avenue in Malvern. Blerim and Albano find the real problem, fix it properly, and explain everything at a fair price.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#14304F">
+<link rel="preload" href="fonts/archivo-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+:root{--paper:#F2F4F7;--ink:#111B27;--muted:#55606E;--line:#D3DAE3;--brand:#14304F;--accent:#E94F37;--accent-ink:#FFFFFF}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0}a{color:inherit}img{max-width:100%;display:block}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.demo{background:#111;color:#fff;font:500 13px/1.4 system-ui,sans-serif;text-align:center;padding:8px 16px}
+.js .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}.js .reveal.on{opacity:1;transform:none}
+
+@font-face{font-family:'Archivo';src:url(fonts/archivo-latin-standard-normal.woff2) format('woff2');font-weight:100 900;font-stretch:62% 125%;font-display:swap}
+body{overflow-x:hidden;background:var(--brand);color:#F4F2EE;font:400 18px/1.55 'Archivo',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1240px;margin:0 auto;padding:0 28px}
+h1,h2,h3{margin:0;font-weight:900;text-transform:uppercase;line-height:.9;letter-spacing:-.01em;font-stretch:68%}
+h2{font-size:clamp(48px,7vw,96px)}
+.k{font-size:13px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);font-stretch:110%}
+.mut{color:color-mix(in srgb,#F4F2EE 62%,transparent)}
+
+/* header */
+.site-head{position:sticky;top:0;z-index:20;transition:background .3s,backdrop-filter .3s}
+.site-head.scrolled{background:color-mix(in srgb,var(--brand) 72%,transparent);backdrop-filter:blur(16px) saturate(1.4);-webkit-backdrop-filter:blur(16px) saturate(1.4)}
+.bar{display:flex;align-items:center;justify-content:space-between;min-height:76px;gap:20px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.logo .sq{width:44px;height:44px;display:grid;place-items:center;background:var(--accent);color:var(--accent-ink);font-weight:900;font-stretch:70%;font-size:20px;transform:rotate(-4deg);transition:transform .3s}
+.logo:hover .sq{transform:rotate(4deg)}
+.logo b{font-size:20px;font-weight:800;text-transform:uppercase;font-stretch:80%;letter-spacing:.02em}
+.site-head nav{display:flex;gap:28px;font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;font-stretch:105%}
+.site-head nav a{text-decoration:none;opacity:.7}.site-head nav a:hover{opacity:1;color:var(--accent)}
+.phi{width:1em;height:1em}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font:800 16px/1 'Archivo',sans-serif;font-stretch:100%;text-transform:uppercase;letter-spacing:.08em;padding:19px 28px;text-decoration:none;border:0;cursor:pointer;transition:transform .15s,box-shadow .15s}
+.btn.hot{background:var(--accent);color:var(--accent-ink);box-shadow:5px 5px 0 #F4F2EE}
+.btn.hot:hover{transform:translate(-2px,-2px);box-shadow:7px 7px 0 #F4F2EE}
+.btn.ghost{color:#F4F2EE;box-shadow:inset 0 0 0 2px #F4F2EE}.btn.ghost:hover{background:#F4F2EE;color:var(--brand)}
+.pill{padding:13px 18px;font-size:14px}
+
+/* hero */
+.hero{position:relative;min-height:min(86vh,820px);display:flex;align-items:flex-end;margin-top:-76px;padding:150px 0 70px;background:linear-gradient(180deg,color-mix(in srgb,var(--brand) 55%,transparent) 0%,color-mix(in srgb,var(--brand) 35%,transparent) 40%,var(--brand) 100%),var(--img,none) center/cover no-repeat,var(--brand)}
+.hero h1{font-size:clamp(64px,11vw,170px);max-width:11ch;margin:22px 0 28px}
+.hero h1 .hl{color:var(--accent)}
+.hero .lead{font-size:20px;max-width:34em;margin:0 0 36px;color:color-mix(in srgb,#F4F2EE 85%,transparent)}
+.actions{display:flex;flex-wrap:wrap;gap:16px}
+.chip{display:inline-flex;align-items:center;gap:10px;background:rgba(0,0,0,.35);backdrop-filter:blur(6px);padding:9px 14px;font-size:14px;font-weight:600}
+.chip b{background:var(--accent);color:var(--accent-ink);padding:3px 8px;font-weight:900}
+
+/* ticker */
+.tickwrap{overflow:hidden;padding:14px 0;margin:-24px 0 -14px;position:relative;z-index:2}
+.ticker{background:var(--accent);color:var(--accent-ink);overflow:hidden;padding:18px 0;transform:rotate(-1.2deg) scale(1.02)}
+.ticker .run{display:flex;gap:0;width:max-content;animation:run 32s linear infinite}
+.ticker span{font-size:30px;font-weight:900;text-transform:uppercase;font-stretch:70%;white-space:nowrap;padding:0 26px}
+.ticker span::after{content:"✱";margin-left:52px}
+@keyframes run{to{transform:translateX(-50%)}}
+
+/* stats */
+.stats{padding:110px 0 40px}
+.stats ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.stats li{border-top:2px solid color-mix(in srgb,#F4F2EE 25%,transparent);padding-top:22px}
+.stats b{display:block;font-size:clamp(46px,5.6vw,80px);font-weight:900;font-stretch:66%;text-transform:uppercase;line-height:.95;color:#F4F2EE}
+.stats span{display:block;margin-top:10px;font-size:16px}
+
+section.band{padding:100px 0}
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;margin-bottom:52px}
+.head p{max-width:24em;margin:0}
+
+/* services */
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:color-mix(in srgb,#F4F2EE 14%,transparent);border:2px solid color-mix(in srgb,#F4F2EE 14%,transparent)}
+.grid > div{background:var(--brand);padding:34px 30px 36px;position:relative;transition:background .25s}
+.grid > div:hover{background:color-mix(in srgb,var(--brand) 88%,#fff)}
+.grid .n{font-size:64px;font-weight:900;font-stretch:62%;line-height:1;color:transparent;-webkit-text-stroke:1.5px var(--accent);display:block;margin-bottom:18px}
+.grid .ic{position:absolute;right:26px;top:30px;color:var(--accent);transition:transform .3s}
+.grid > div:hover .ic{transform:rotate(-12deg) scale(1.15)}
+.grid h3{font-size:30px;margin-bottom:12px;font-stretch:72%}
+.grid p{margin:0;font-size:16.5px}
+.grid .pr{margin-top:14px;font-weight:800;color:var(--accent)}
+
+/* steps */
+.steps ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:28px;counter-reset:s}
+.steps li{counter-increment:s;background:#F4F2EE;color:var(--brand);padding:30px 28px;position:relative}
+.steps li::before{content:"0" counter(s);position:absolute;right:20px;top:14px;font-size:54px;font-weight:900;font-stretch:62%;color:color-mix(in srgb,var(--brand) 15%,transparent)}
+.steps h3{font-size:28px;margin-bottom:10px;max-width:9ch}
+.steps p{margin:0;font-size:16.5px;color:color-mix(in srgb,var(--brand) 75%,transparent)}
+
+/* reviews */
+.rv{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.rv blockquote{margin:0;padding:34px 30px;border:2px solid color-mix(in srgb,#F4F2EE 18%,transparent);display:flex;flex-direction:column;justify-content:space-between;gap:24px}
+.rv blockquote::before{content:"“";font-size:90px;line-height:.6;font-weight:900;color:var(--accent);height:34px}
+.rv p{margin:0;font-size:19px;line-height:1.45}
+.rv footer{font-size:13px;letter-spacing:.16em;text-transform:uppercase;font-weight:700}
+
+/* visit */
+.visit{background:#F4F2EE;color:var(--brand)}
+.visit .wrap{display:grid;grid-template-columns:1.3fr .7fr;gap:60px;align-items:start}
+.visit .k{color:var(--brand);opacity:.6}
+.visit .addr{font-size:clamp(54px,8vw,120px);font-weight:900;text-transform:uppercase;font-stretch:64%;line-height:.88;margin:18px 0 22px}
+.visit .addr span{color:var(--accent);-webkit-text-stroke:2px var(--brand)}
+.visit p{color:color-mix(in srgb,var(--brand) 75%,transparent);max-width:32em}
+.visit .btn.hot{box-shadow:5px 5px 0 var(--brand)}
+.hours{width:100%;border-collapse:collapse;font-size:17px}
+.hours td{padding:14px 0;border-bottom:2px solid color-mix(in srgb,var(--brand) 14%,transparent)}
+.hours td:last-child{text-align:right;font-weight:800}
+.about{margin-top:34px}.about p{margin:10px 0 0}
+
+/* request */
+.req{display:grid;grid-template-columns:.8fr 1.2fr;gap:60px}
+.req .bigtel{display:inline-flex;align-items:center;gap:12px;font-size:clamp(34px,4vw,52px);font-weight:900;font-stretch:66%;text-decoration:none;margin-top:22px;color:var(--accent)}
+.req form{background:#F4F2EE;color:var(--brand);padding:36px}
+.req form input,.req form textarea,.req form select{border-radius:0;border:2px solid color-mix(in srgb,var(--brand) 20%,transparent)}
+.req .btn.hot{box-shadow:5px 5px 0 var(--brand)}
+
+.foot{padding:50px 0 60px;border-top:2px solid color-mix(in srgb,#F4F2EE 12%,transparent)}
+.foot .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:18px;font-size:15px}
+.callbar{display:none}
+
+@media (max-width:900px){
+  body{font-size:17px}
+  .site-head nav,.site-head .pill{display:none}
+  .hero{min-height:auto;padding:130px 0 56px}
+  .ticker span{font-size:22px}
+  .stats ul,.grid,.steps ol,.rv,.visit .wrap,.req{grid-template-columns:1fr}
+  .stats{padding:80px 0 20px}
+  .head{flex-direction:column;align-items:flex-start;gap:14px}
+  section.band{padding:72px 0}
+  .req form{padding:24px 18px}
+  .callbar{display:flex;position:fixed;left:12px;right:12px;bottom:12px;z-index:30}.callbar .btn{flex:1;box-shadow:0 10px 28px rgba(0,0,0,.4)}
+  .foot{padding-bottom:110px}
+}
+form{display:grid;grid-template-columns:1fr 1fr;gap:16px}form .full{grid-column:1/-1}
+form label{display:block;font-size:14px;font-weight:600;margin-bottom:6px}
+form input,form textarea,form select{width:100%;font:inherit;font-size:16px;padding:13px 14px;border:1.5px solid var(--line);border-radius:var(--r-in,10px);background:#fff;color:var(--ink)}
+form textarea{min-height:110px;resize:vertical}form button{width:100%}.hp{position:absolute;left:-9999px}
+@media (max-width:700px){form{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none !important;transition:none !important}.reveal{opacity:1;transform:none}}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"AutoRepair","name":"Eagles Auto Repair","telephone":"484-320-9444","address":"360 Lancaster Ave, Suite D, Malvern, PA 19355"}</script>
+</head>
+<body>
+<div class="demo">Concept homepage for Eagles Auto Repair, made by a Royersford designer. Not live and not affiliated with the business.</div>
+
+<header class="site-head" id="head"><div class="wrap bar">
+  <a class="logo" href="#top"><span class="sq">EA</span><b>Eagles Auto Repair</b></a>
+  <nav aria-label="Main"><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a><a href="#request">Contact</a></nav>
+  <a class="btn ghost pill" href="tel:+14843209444"><svg class="phi" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg>484-320-9444</a>
+</div></header>
+
+<main id="top">
+<section class="hero" style="--img:url('https://images.unsplash.com/photo-1643700973089-baa86a1ab9ee?auto=format&amp;fit=crop&amp;w=2000&amp;q=70')"><div class="wrap">
+  <span class="chip"><b>★ 5.0</b>from 44 Google reviews</span>
+  <h1>Honest repairs. No upsell. Done <span class="hl">right.</span></h1>
+  <p class="lead">Auto repair on Lancaster Avenue in Malvern. Blerim and Albano find the real problem, fix it properly, and explain everything at a fair price.</p>
+  <div class="actions"><a class="btn hot" href="#request">Request service</a><a class="btn ghost" href="tel:+14843209444"><svg class="phi" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg>Call 484-320-9444</a></div>
+</div></section>
+
+<div class="tickwrap"><div class="ticker" aria-hidden="true"><div class="run"><span>Diagnostics</span><span>Brakes</span><span>Oil changes</span><span>Headlight restoration</span><span>General repairs</span><span>Clear explanations</span><span>Diagnostics</span><span>Brakes</span><span>Oil changes</span><span>Headlight restoration</span><span>General repairs</span><span>Clear explanations</span><span>Diagnostics</span><span>Brakes</span><span>Oil changes</span><span>Headlight restoration</span><span>General repairs</span><span>Clear explanations</span><span>Diagnostics</span><span>Brakes</span><span>Oil changes</span><span>Headlight restoration</span><span>General repairs</span><span>Clear explanations</span></div></div></div>
+
+<section class="stats"><div class="wrap"><ul>
+  <li class="reveal"><b>5.0★</b><span class="mut">from 44 Google reviews</span></li>
+  <li class="reveal"><b>No upselling</b><span class="mut">only the work your car needs</span></li>
+  <li class="reveal"><b>Open Saturdays</b><span class="mut">9am to 2:30pm</span></li>
+</ul></div></section>
+
+<section class="band" id="services"><div class="wrap">
+  <div class="head reveal"><div><div class="k">Malvern</div><h2 style="margin-top:14px">What we do</h2></div></div>
+  <div class="grid reveal">
+    <div><span class="n">01</span><span class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 17a8 8 0 1116 0"/><path d="M12 17l4-5"/></svg></span><h3>Diagnostics</h3><p class="mut">We find the real problem before we touch anything.</p></div>
+    <div><span class="n">02</span><span class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="3"/><path d="M5.5 9a7.5 7.5 0 013.5-3.5"/></svg></span><h3>Brakes</h3><p class="mut">Pads, rotors and brake work done right.</p></div>
+    <div><span class="n">03</span><span class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5c3.2 4 6 7.4 6 10.6a6 6 0 01-12 0c0-3.2 2.8-6.6 6-10.6z"/></svg></span><h3>Oil changes</h3><p class="mut">Quick, clean and on your schedule.</p></div>
+    <div><span class="n">04</span><span class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4M12 3a6 6 0 00-3.5 10.9c.6.5 1 1.3 1 2.1h5c0-.8.4-1.6 1-2.1A6 6 0 0012 3z"/></svg></span><h3>Headlight restoration</h3><p class="mut">Cloudy headlights brought back to like-new.</p></div>
+    <div><span class="n">05</span><span class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 6.5a4 4 0 00-5.3 5.3L3.5 17.5l3 3 5.7-5.7a4 4 0 005.3-5.3l-2.6 2.6-2.4-.6-.6-2.4z"/></svg></span><h3>General repairs</h3><p class="mut">Everyday repairs and maintenance.</p></div>
+    <div><span class="n">06</span><span class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8zM18.5 15.5l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/></svg></span><h3>Clear explanations</h3><p class="mut">You&#39;ll know what was done and why.</p></div>
+  </div>
+</div></section>
+
+<section class="band steps" style="padding-top:0"><div class="wrap">
+  <div class="head reveal"><h2>How it works</h2></div>
+  <ol class="reveal"><li><h3>Call or send a request</h3><p>Tell us what&#39;s going on with your car.</p></li><li><h3>We diagnose it</h3><p>You get a clear answer and a fair price.</p></li><li><h3>Back on the road</h3><p>Fixed right, with no surprise charges.</p></li></ol>
+</div></section>
+
+<section class="band" id="reviews" style="padding-top:0"><div class="wrap">
+  <div class="head reveal"><h2>What drivers say</h2><p class="k" style="margin:0">★ 5.0 · from 44 Google reviews</p></div>
+  <div class="rv reveal">
+    <blockquote><p>They diagnosed the problem quickly and fixed it perfectly. No unnecessary work, no hidden costs.</p><footer class="mut">Google review</footer></blockquote>
+    <blockquote><p>The staff was friendly, honest, and didn&#39;t try to upsell anything unnecessary.</p><footer class="mut">Google review</footer></blockquote>
+    <blockquote><p>I had my headlights restored and the results were amazing. It was like magic!</p><footer class="mut">Google review</footer></blockquote>
+  </div>
+</div></section>
+
+<section class="band visit" id="visit"><div class="wrap">
+  <div class="reveal">
+    <div class="k">Find the shop</div>
+    <p class="addr">360 Lancaster Ave <span>Malvern</span></p>
+    <p>We&#39;re at 360 Lancaster Ave, Suite D, on the rear lower level of the building.</p>
+    <a class="btn hot" href="https://www.google.com/maps/search/?api=1&query=Eagles%20Auto%20Repair%20360%20Lancaster%20Ave%2C%20Suite%20D%2C%20Malvern%2C%20PA%2019355" target="_blank" rel="noopener">Get directions</a>
+    <div class="about"><div class="k">About</div><p>Eagles Auto Repair is a small, independent shop in Malvern run by experienced mechanics Blerim and Albano. Customers come back for the same reasons: honest diagnosis, careful work, clear explanations and fair prices.</p></div>
+  </div>
+  <div class="reveal"><div class="k" style="margin-bottom:10px">Hours</div>
+    <table class="hours"><tr><td>Monday to Friday</td><td>9am to 6pm</td></tr><tr><td>Saturday</td><td>9am to 2:30pm</td></tr><tr><td>Sunday</td><td>Closed</td></tr></table>
+  </div>
+</div></section>
+
+<section class="band" id="request"><div class="wrap req">
+  <div class="reveal">
+    <h2>Request service</h2>
+    <p class="mut" style="margin-top:22px">Tell us about your car and what&#39;s going on. We&#39;ll call you back to set up a time.</p>
+    <a class="bigtel" href="tel:+14843209444"><svg class="phi" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg>484-320-9444</a>
+  </div>
+  <div class="reveal"><form name="visit" method="POST" action="thanks.html" data-netlify="true" netlify-honeypot="company" onsubmit="event.preventDefault();this.querySelector('.fnote').hidden=false">
+    <input type="hidden" name="form-name" value="visit">
+    <p class="hp"><label>Leave this empty <input name="company"></label></p>
+    <div><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name" required></div>
+    <div><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" required></div>
+    <div class="full"><label for="f-email">Email (optional)</label><input id="f-email" name="email" type="email" autocomplete="email"></div>
+    <div class="full"><label for="f-msg">What&#39;s going on with your car?</label><textarea id="f-msg" name="message" placeholder="For example: 2016 Honda Civic, squeaking brakes and due for an oil change"></textarea></div>
+    <div class="full"><label for="f-when">Best time to reach you</label>
+      <select id="f-when" name="best_time"><option>Morning</option><option>Afternoon</option><option>Evening</option><option>Any time</option></select></div>
+    <div class="full"><button class="btn hot" type="submit">Send request</button></div>
+    <p class="full fnote" hidden style="margin:0;font-size:15px">This is a preview, so nothing was sent. On the real site, this form sends requests straight to the business.</p>
+  </form></div>
+</div></section>
+</main>
+
+<footer class="foot"><div class="wrap">
+  <a class="logo" href="#top"><span class="sq" style="width:34px;height:34px;font-size:15px">EA</span><b style="font-size:16px">Eagles Auto Repair</b></a>
+  <span class="mut">360 Lancaster Ave, Suite D, Malvern, PA 19355 · <a href="tel:+14843209444">484-320-9444</a></span>
+</div></footer>
+<div class="callbar"><a class="btn hot" href="tel:+14843209444"><svg class="phi" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg>Call 484-320-9444</a></div>
+<script>
+(() => { const h = document.getElementById('head'); if (h) { const f = () => h.classList.toggle('scrolled', scrollY > 8); f(); addEventListener('scroll', f, {passive:true}); }
+  const els = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) { const o = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('on'); o.unobserve(e.target); } }), {threshold:.12}); els.forEach(el => o.observe(el)); }
+  else els.forEach(el => el.classList.add('on'));
+})();
+</script>
+</body>
+</html>
