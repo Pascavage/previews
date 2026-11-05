@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>document.documentElement.classList.add('js')</script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Got it | MAR Auto Repair</title>
+<meta name="description" content="Auto repair on Wallace Avenue in Downingtown. Matt and his crew find the real problem, show you what they found, and give you a clear quote before any work starts.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#13294B">
+<link rel="preload" href="fonts/archivo-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+:root{--paper:#F1F2F4;--ink:#14171C;--muted:#5A606B;--line:#D5D9DF;--brand:#13294B;--accent:#F2B31D;--accent-ink:#14171C}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0}a{color:inherit}img{max-width:100%;display:block}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.demo{background:#111;color:#fff;font:500 13px/1.4 system-ui,sans-serif;text-align:center;padding:8px 16px}
+.js .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}.js .reveal.on{opacity:1;transform:none}
+
+@font-face{font-family:'Archivo';src:url(fonts/archivo-latin-standard-normal.woff2) format('woff2');font-weight:100 900;font-stretch:62% 125%;font-display:swap}
+body{overflow-x:hidden;background:var(--brand);color:#F4F2EE;font:400 18px/1.55 'Archivo',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1240px;margin:0 auto;padding:0 28px}
+h1,h2,h3{margin:0;font-weight:900;text-transform:uppercase;line-height:.9;letter-spacing:-.01em;font-stretch:68%}
+h2{font-size:clamp(48px,7vw,96px)}
+.k{font-size:13px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);font-stretch:110%}
+.mut{color:color-mix(in srgb,#F4F2EE 62%,transparent)}
+
+/* header */
+.site-head{position:sticky;top:0;z-index:20;transition:background .3s,backdrop-filter .3s}
+.site-head.scrolled{background:color-mix(in srgb,var(--brand) 72%,transparent);backdrop-filter:blur(16px) saturate(1.4);-webkit-backdrop-filter:blur(16px) saturate(1.4)}
+.bar{display:flex;align-items:center;justify-content:space-between;min-height:76px;gap:20px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.logo .sq{width:44px;height:44px;display:grid;place-items:center;background:var(--accent);color:var(--accent-ink);font-weight:900;font-stretch:70%;font-size:20px;transform:rotate(-4deg);transition:transform .3s}
+.logo:hover .sq{transform:rotate(4deg)}
+.logo b{font-size:20px;font-weight:800;text-transform:uppercase;font-stretch:80%;letter-spacing:.02em}
+.site-head nav{display:flex;gap:28px;font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;font-stretch:105%}
+.site-head nav a{text-decoration:none;opacity:.7}.site-head nav a:hover{opacity:1;color:var(--accent)}
+.phi{width:1em;height:1em}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font:800 16px/1 'Archivo',sans-serif;font-stretch:100%;text-transform:uppercase;letter-spacing:.08em;padding:19px 28px;text-decoration:none;border:0;cursor:pointer;transition:transform .15s,box-shadow .15s}
+.btn.hot{background:var(--accent);color:var(--accent-ink);box-shadow:5px 5px 0 #F4F2EE}
+.btn.hot:hover{transform:translate(-2px,-2px);box-shadow:7px 7px 0 #F4F2EE}
+.btn.ghost{color:#F4F2EE;box-shadow:inset 0 0 0 2px #F4F2EE}.btn.ghost:hover{background:#F4F2EE;color:var(--brand)}
+.pill{padding:13px 18px;font-size:14px}
+
+/* hero */
+.hero{position:relative;min-height:min(86vh,820px);display:flex;align-items:flex-end;margin-top:-76px;padding:150px 0 70px;background:linear-gradient(180deg,color-mix(in srgb,var(--brand) 55%,transparent) 0%,color-mix(in srgb,var(--brand) 35%,transparent) 40%,var(--brand) 100%),var(--img,none) center/cover no-repeat,var(--brand)}
+.hero h1{font-size:clamp(64px,11vw,170px);max-width:11ch;margin:22px 0 28px}
+.hero h1 .hl{color:var(--accent)}
+.hero .lead{font-size:20px;max-width:34em;margin:0 0 36px;color:color-mix(in srgb,#F4F2EE 85%,transparent)}
+.actions{display:flex;flex-wrap:wrap;gap:16px}
+.chip{display:inline-flex;align-items:center;gap:10px;background:rgba(0,0,0,.35);backdrop-filter:blur(6px);padding:9px 14px;font-size:14px;font-weight:600}
+.chip b{background:var(--accent);color:var(--accent-ink);padding:3px 8px;font-weight:900}
+
+/* ticker */
+.tickwrap{overflow:hidden;padding:14px 0;margin:-24px 0 -14px;position:relative;z-index:2}
+.ticker{background:var(--accent);color:var(--accent-ink);overflow:hidden;padding:18px 0;transform:rotate(-1.2deg) scale(1.02)}
+.ticker .run{display:flex;gap:0;width:max-content;animation:run 32s linear infinite}
+.ticker span{font-size:30px;font-weight:900;text-transform:uppercase;font-stretch:70%;white-space:nowrap;padding:0 26px}
+.ticker span::after{content:"✱";margin-left:52px}
+@keyframes run{to{transform:translateX(-50%)}}
+
+/* stats */
+.stats{padding:110px 0 40px}
+.stats ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.stats li{border-top:2px solid color-mix(in srgb,#F4F2EE 25%,transparent);padding-top:22px}
+.stats b{display:block;font-size:clamp(46px,5.6vw,80px);font-weight:900;font-stretch:66%;text-transform:uppercase;line-height:.95;color:#F4F2EE}
+.stats span{display:block;margin-top:10px;font-size:16px}
+
+section.band{padding:100px 0}
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;margin-bottom:52px}
+.head p{max-width:24em;margin:0}
+
+/* services */
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:color-mix(in srgb,#F4F2EE 14%,transparent);border:2px solid color-mix(in srgb,#F4F2EE 14%,transparent)}
+.grid > div{background:var(--brand);padding:34px 30px 36px;position:relative;transition:background .25s}
+.grid > div:hover{background:color-mix(in srgb,var(--brand) 88%,#fff)}
+.grid .n{font-size:64px;font-weight:900;font-stretch:62%;line-height:1;color:transparent;-webkit-text-stroke:1.5px var(--accent);display:block;margin-bottom:18px}
+.grid .ic{position:absolute;right:26px;top:30px;color:var(--accent);transition:transform .3s}
+.grid > div:hover .ic{transform:rotate(-12deg) scale(1.15)}
+.grid h3{font-size:30px;margin-bottom:12px;font-stretch:72%}
+.grid p{margin:0;font-size:16.5px}
+.grid .pr{margin-top:14px;font-weight:800;color:var(--accent)}
+
+/* steps */
+.steps ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:28px;counter-reset:s}
+.steps li{counter-increment:s;background:#F4F2EE;color:var(--brand);padding:30px 28px;position:relative}
+.steps li::before{content:"0" counter(s);position:absolute;right:20px;top:14px;font-size:54px;font-weight:900;font-stretch:62%;color:color-mix(in srgb,var(--brand) 15%,transparent)}
+.steps h3{font-size:28px;margin-bottom:10px;max-width:9ch}
+.steps p{margin:0;font-size:16.5px;color:color-mix(in srgb,var(--brand) 75%,transparent)}
+
+/* reviews */
+.rv{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.rv blockquote{margin:0;padding:34px 30px;border:2px solid color-mix(in srgb,#F4F2EE 18%,transparent);display:flex;flex-direction:column;justify-content:space-between;gap:24px}
+.rv blockquote::before{content:"“";font-size:90px;line-height:.6;font-weight:900;color:var(--accent);height:34px}
+.rv p{margin:0;font-size:19px;line-height:1.45}
+.rv footer{font-size:13px;letter-spacing:.16em;text-transform:uppercase;font-weight:700}
+
+/* visit */
+.visit{background:#F4F2EE;color:var(--brand)}
+.visit .wrap{display:grid;grid-template-columns:1.3fr .7fr;gap:60px;align-items:start}
+.visit .k{color:var(--brand);opacity:.6}
+.visit .addr{font-size:clamp(54px,8vw,120px);font-weight:900;text-transform:uppercase;font-stretch:64%;line-height:.88;margin:18px 0 22px}
+.visit .addr span{color:var(--accent);-webkit-text-stroke:2px var(--brand)}
+.visit p{color:color-mix(in srgb,var(--brand) 75%,transparent);max-width:32em}
+.visit .btn.hot{box-shadow:5px 5px 0 var(--brand)}
+.hours{width:100%;border-collapse:collapse;font-size:17px}
+.hours td{padding:14px 0;border-bottom:2px solid color-mix(in srgb,var(--brand) 14%,transparent)}
+.hours td:last-child{text-align:right;font-weight:800}
+.about{margin-top:34px}.about p{margin:10px 0 0}
+
+/* request */
+.req{display:grid;grid-template-columns:.8fr 1.2fr;gap:60px}
+.req .bigtel{display:inline-flex;align-items:center;gap:12px;font-size:clamp(34px,4vw,52px);font-weight:900;font-stretch:66%;text-decoration:none;margin-top:22px;color:var(--accent)}
+.req form{background:#F4F2EE;color:var(--brand);padding:36px}
+.req form input,.req form textarea,.req form select{border-radius:0;border:2px solid color-mix(in srgb,var(--brand) 20%,transparent)}
+.req .btn.hot{box-shadow:5px 5px 0 var(--brand)}
+
+.foot{padding:50px 0 60px;border-top:2px solid color-mix(in srgb,#F4F2EE 12%,transparent)}
+.foot .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:18px;font-size:15px}
+.callbar{display:none}
+
+@media (max-width:900px){
+  body{font-size:17px}
+  .site-head nav,.site-head .pill{display:none}
+  .hero{min-height:auto;padding:130px 0 56px}
+  .ticker span{font-size:22px}
+  .stats ul,.grid,.steps ol,.rv,.visit .wrap,.req{grid-template-columns:1fr}
+  .stats{padding:80px 0 20px}
+  .head{flex-direction:column;align-items:flex-start;gap:14px}
+  section.band{padding:72px 0}
+  .req form{padding:24px 18px}
+  .callbar{display:flex;position:fixed;left:12px;right:12px;bottom:12px;z-index:30}.callbar .btn{flex:1;box-shadow:0 10px 28px rgba(0,0,0,.4)}
+  .foot{padding-bottom:110px}
+}
+form{display:grid;grid-template-columns:1fr 1fr;gap:16px}form .full{grid-column:1/-1}
+form label{display:block;font-size:14px;font-weight:600;margin-bottom:6px}
+form input,form textarea,form select{width:100%;font:inherit;font-size:16px;padding:13px 14px;border:1.5px solid var(--line);border-radius:var(--r-in,10px);background:#fff;color:var(--ink)}
+form textarea{min-height:110px;resize:vertical}form button{width:100%}.hp{position:absolute;left:-9999px}
+@media (max-width:700px){form{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none !important;transition:none !important}.reveal{opacity:1;transform:none}}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"AutoRepair","name":"MAR Auto Repair","telephone":"484-691-8068","address":"137 Wallace Ave, Unit B, Downingtown, PA 19335"}</script>
+</head>
+<body>
+<div class="demo">Concept homepage for MAR Auto Repair, made by a Royersford designer. Not live and not affiliated with the business.</div>
+
+<header class="site-head" id="head"><div class="wrap bar"><a class="logo" href="index.html"><span class="sq">MAR</span><b>MAR Auto Repair</b></a></div></header>
+<section class="hero" style="min-height:70vh"><div class="wrap">
+  <h1>Got <span class="hl">it.</span></h1>
+  <p class="lead">Thanks. We'll get back to you soon. Need us now? Call <a href="tel:+14846918068">484-691-8068</a>.</p>
+  <a class="btn ghost" href="index.html">Back to the home page</a>
+</div></section>
+<script>
+(() => { const h = document.getElementById('head'); if (h) { const f = () => h.classList.toggle('scrolled', scrollY > 8); f(); addEventListener('scroll', f, {passive:true}); }
+  const els = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) { const o = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('on'); o.unobserve(e.target); } }), {threshold:.12}); els.forEach(el => o.observe(el)); }
+  else els.forEach(el => el.classList.add('on'));
+})();
+</script>
+</body>
+</html>
