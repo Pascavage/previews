@@ -51,7 +51,7 @@ h2{font-size:clamp(38px,4.8vw,62px)}
 .hero{position:relative;padding:56px 0 96px;overflow:hidden}
 .confetti .tri{position:absolute;animation:drift 7s ease-in-out infinite;opacity:.95}
 @keyframes drift{50%{translate:0 -10px}}
-.hero .wrap{position:relative;display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:center}
+.hero .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:center}
 .pill{display:inline-flex;align-items:center;gap:10px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 16px 8px 10px;font-size:14px;font-weight:600;box-shadow:0 8px 20px -14px rgba(30,10,60,.3)}
 .hero h1{font-size:clamp(50px,6.6vw,92px);margin:26px 0 24px}
 .hero h1 .hl{background:linear-gradient(transparent 62%,color-mix(in srgb,var(--c3) 85%,transparent) 62% 92%,transparent 92%);padding:0 .06em}
@@ -137,7 +137,8 @@ form .btn{width:100%}
 .cta h2{font-size:clamp(40px,5.6vw,76px)}
 .cta p{opacity:.8;max-width:34em;margin:18px auto 34px;font-size:18.5px}
 .cta .actions{justify-content:center}
-.cta .tri{position:absolute}
+.cta .tri{position:absolute;z-index:0}
+.cta h2,.cta p,.cta .actions{position:relative;z-index:1}
 
 .foot{padding:56px 0 64px}
 .foot .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:18px;color:var(--muted);font-size:15px}
@@ -155,8 +156,14 @@ form .btn{width:100%}
   .stats ul{grid-template-columns:1fr 1fr;row-gap:40px;padding:56px 28px}
   section.band{padding:76px 0}
   .card{padding:28px 22px}
-  .cta{margin:0 14px;padding:70px 22px;border-radius:28px}
-  .confetti .tri:nth-child(n+7){display:none}
+  .cta{margin:0 14px;padding:80px 22px;border-radius:28px}
+  .cta .tri{width:44px !important;height:44px !important;opacity:.9}
+  .cta .tri:nth-of-type(1){left:14px !important;top:16px !important}
+  .cta .tri:nth-of-type(2){right:16px !important;top:18px !important;left:auto !important}
+  .cta .tri:nth-of-type(3){right:18px !important;bottom:16px !important;top:auto !important;left:auto !important}
+  .cta .tri:nth-of-type(4){left:18px !important;bottom:18px !important;top:auto !important}
+  .confetti .tri{display:none}
+  .confetti .tri:nth-child(5),.confetti .tri:nth-child(9){display:block;width:20px;height:20px}
   .callbar{display:flex;position:fixed;left:12px;right:12px;bottom:12px;z-index:30}.callbar .btn{flex:1}
   .foot{padding-bottom:110px}
 }
