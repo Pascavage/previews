@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>document.documentElement.classList.add('js')</script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nicky&#39;s &amp; Son Pizzeria | Boyertown, PA</title>
+<meta name="description" content="Sicilian and upside-down pies, specialty pizzas, garlic knots and Nicky&#39;s fries on East Philadelphia Avenue. Fresh, loaded to the edges, and ready fast.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#C8232C">
+<link rel="preload" href="fonts/shrikhand-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/dm-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+:root{--paper:#FFF7EC;--ink:#1E1612;--muted:#6A5A50;--line:#F0DFC9;--brand:#C8232C;--accent:#2E9A48;--accent-ink:#FFFFFF}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0}a{color:inherit}img{max-width:100%;display:block}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.demo{background:#111;color:#fff;font:500 13px/1.4 system-ui,sans-serif;text-align:center;padding:8px 16px}
+.js .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}.js .reveal.on{opacity:1;transform:none}
+
+@font-face{font-family:'Shrikhand';src:url(fonts/shrikhand-latin-400-normal.woff2) format('woff2');font-display:swap}
+@font-face{font-family:'DM Sans';src:url(fonts/dm-sans-latin-wght-normal.woff2) format('woff2');font-weight:100 1000;font-display:swap}
+body{background:var(--paper);color:var(--ink);font:400 18px/1.6 'DM Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+.disp{font-family:'Shrikhand',Georgia,serif;font-weight:400;letter-spacing:.005em}
+h1,h2,h3{margin:0;line-height:1.02}
+h2{font-family:'Shrikhand',Georgia,serif;font-weight:400;font-size:clamp(40px,5.4vw,70px);color:var(--brand)}
+.kicker{display:inline-block;font-weight:800;font-size:13px;letter-spacing:.2em;text-transform:uppercase;background:var(--ink);color:var(--paper);padding:7px 12px;border-radius:4px}
+.check{height:22px;background:repeating-conic-gradient(var(--ink) 0 25%,var(--paper) 0 50%) 0 0/22px 22px}
+
+/* header */
+.site-head{position:sticky;top:0;z-index:20;background:var(--paper);transition:box-shadow .3s}
+.site-head.scrolled{box-shadow:0 8px 24px -16px rgba(0,0,0,.45)}
+.bar{display:flex;align-items:center;justify-content:space-between;min-height:80px;gap:24px}
+.logo{font-family:'Shrikhand',Georgia,serif;font-size:30px;text-decoration:none;color:var(--brand);text-shadow:2px 2px 0 var(--accent)}
+.site-head nav{display:flex;gap:28px;font-weight:700;font-size:15px;text-transform:uppercase;letter-spacing:.08em}
+.site-head nav a{text-decoration:none}.site-head nav a:hover{color:var(--brand)}
+.phi{width:1em;height:1em}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font:800 16px/1 'DM Sans',sans-serif;letter-spacing:.04em;text-transform:uppercase;padding:18px 26px;border-radius:999px;text-decoration:none;border:3px solid var(--ink);cursor:pointer;transition:transform .15s,box-shadow .15s}
+.btn.main{background:var(--brand);color:#fff;box-shadow:4px 4px 0 var(--ink)}
+.btn.alt{background:var(--accent);color:var(--accent-ink);box-shadow:4px 4px 0 var(--ink)}
+.btn:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--ink)}
+.btn.small{padding:12px 18px;font-size:14px}
+
+/* hero */
+.hero{position:relative;overflow:hidden;padding:56px 0 90px;background:var(--paper)}
+.hero::before{content:"";position:absolute;right:-20%;top:50%;width:1400px;height:1400px;transform:translateY(-50%);background:repeating-conic-gradient(from 0deg,color-mix(in srgb,var(--accent) 38%,var(--paper)) 0 6deg,transparent 6deg 12deg);border-radius:50%;opacity:.7;animation:turn 120s linear infinite}
+@keyframes turn{to{transform:translateY(-50%) rotate(360deg)}}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+.hero h1{font-family:'Shrikhand',Georgia,serif;font-weight:400;font-size:clamp(52px,7.4vw,108px);line-height:.98;color:var(--brand);text-shadow:4px 4px 0 var(--accent),8px 8px 0 var(--ink);margin:22px 0 28px}
+.hero .lead{font-size:20px;max-width:29em;margin:0 0 34px;font-weight:500}
+.actions{display:flex;flex-wrap:wrap;gap:16px}
+.plate{position:relative;justify-self:center;width:min(460px,100%);aspect-ratio:1}
+.plate .ph{position:absolute;inset:0;border-radius:50%;border:10px solid var(--ink);background:var(--brand) var(--img,none) center/cover no-repeat;box-shadow:0 0 0 14px var(--paper),0 0 0 20px var(--brand),18px 22px 0 20px var(--ink)}
+.plate .ini{position:absolute;inset:0;display:grid;place-items:center;font-family:'Shrikhand',serif;font-size:120px;color:var(--paper)}
+.badge{position:absolute;display:grid;place-items:center;text-align:center;border-radius:50%;border:3px solid var(--ink);font-weight:800;line-height:1.05;text-transform:uppercase;letter-spacing:.06em}
+.badge.since{left:-26px;top:10px;width:132px;height:132px;background:var(--accent);color:var(--accent-ink);transform:rotate(-12deg);font-size:13px}
+.badge.since b{display:block;font-family:'Shrikhand',serif;font-size:34px;letter-spacing:0;text-transform:none;font-weight:400}
+.badge.stars{right:-14px;bottom:18px;width:120px;height:120px;background:var(--paper);color:var(--ink);transform:rotate(10deg);font-size:12px}
+.badge.stars b{display:block;font-family:'Shrikhand',serif;font-size:32px;color:var(--brand);font-weight:400;letter-spacing:0}
+
+/* proof strip */
+.strip{background:var(--brand);color:#fff;border-top:3px solid var(--ink);border-bottom:3px solid var(--ink)}
+.strip ul{list-style:none;margin:0 auto;padding:0;display:grid;grid-template-columns:repeat(3,1fr)}
+.strip li{padding:22px 26px;text-align:center}
+.strip li+li{border-left:2px dashed rgba(255,255,255,.4)}
+.strip b{display:block;font-family:'Shrikhand',serif;font-weight:400;font-size:26px;color:var(--accent)}
+.strip span{font-size:15px;font-weight:600;opacity:.9}
+
+section.band{padding:110px 0}
+.center{text-align:center}.center p.sub{max-width:34em;margin:18px auto 0;font-weight:500}
+
+/* menu board */
+.board{margin-top:54px;background:var(--ink);color:var(--paper);border-radius:28px;padding:56px 60px;border:10px solid color-mix(in srgb,var(--ink) 70%,var(--accent));box-shadow:12px 12px 0 var(--brand);position:relative}
+.board::before{content:attr(data-title);position:absolute;top:-24px;left:50%;transform:translateX(-50%) rotate(-2deg);background:var(--accent);color:var(--accent-ink);font-family:'Shrikhand',serif;font-size:26px;padding:6px 26px;border-radius:999px;border:3px solid var(--ink);white-space:nowrap}
+.board ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;column-gap:64px}
+.board li{padding:20px 0;border-bottom:2px dotted rgba(255,255,255,.22)}
+.board h3{display:flex;align-items:baseline;gap:12px;font-size:23px;font-weight:800;letter-spacing:.02em;text-transform:uppercase}
+.board h3 .dots{flex:1;border-bottom:3px dotted color-mix(in srgb,var(--accent) 70%,transparent);transform:translateY(-6px)}
+.board h3 .pr{font-family:'Shrikhand',serif;font-weight:400;color:var(--accent);font-size:24px;text-transform:none}
+.board p{margin:6px 0 0;opacity:.78;font-size:16.5px}
+
+/* tickets */
+.tickets{display:grid;grid-template-columns:repeat(3,1fr);gap:34px;margin-top:56px}
+.ticket{background:#fff;color:var(--ink);padding:30px 28px 34px;position:relative;box-shadow:0 18px 30px -18px rgba(0,0,0,.4);font-size:17px}
+.ticket:nth-child(1){transform:rotate(-2deg)}.ticket:nth-child(2){transform:rotate(1.4deg) translateY(16px)}.ticket:nth-child(3){transform:rotate(-1deg)}
+.ticket::after{content:"";position:absolute;left:0;right:0;bottom:-12px;height:12px;background:radial-gradient(circle at 8px 0,transparent 8px,#fff 8.5px) 0 0/16px 12px repeat-x}
+.ticket .tno{display:flex;justify-content:space-between;font-weight:800;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);border-bottom:2px dashed var(--line);padding-bottom:12px;margin-bottom:16px}
+.ticket .st{color:var(--brand);letter-spacing:2px}
+.ticket p{margin:0;font-weight:500}
+.ticket .who{margin-top:14px;font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:var(--brand)}
+
+/* visit */
+.visit{background:color-mix(in srgb,var(--accent) 22%,var(--paper));border-top:3px solid var(--ink);border-bottom:3px solid var(--ink)}
+.visit .wrap{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.addr{font-family:'Shrikhand',serif;font-size:clamp(34px,4vw,52px);line-height:1.05;color:var(--brand);margin:18px 0}
+.sign{background:var(--paper);border:4px solid var(--ink);border-radius:26px;padding:34px 36px;box-shadow:10px 10px 0 var(--ink)}
+.sign .disp{font-size:30px;color:var(--brand);text-align:center;margin-bottom:12px}
+.hours{width:100%;border-collapse:collapse;font-size:17px}
+.hours td{padding:12px 0;border-bottom:2px dotted var(--line);font-weight:600}.hours td:last-child{text-align:right;font-weight:800}
+.about{margin-top:26px;font-weight:500}
+
+/* request */
+.req{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px;align-items:start}
+.req .bigtel{display:inline-flex;align-items:center;gap:10px;font-family:'Shrikhand',serif;font-size:34px;color:var(--brand);text-decoration:none;margin-top:16px}
+.req form{background:#fff;border:3px solid var(--ink);border-radius:24px;padding:32px;box-shadow:8px 8px 0 var(--accent)}
+form input,form textarea,form select{border-width:2px}
+form .btn{width:100%}
+
+.foot{background:var(--ink);color:var(--paper);padding:44px 0 56px}
+.foot .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;font-size:15px;opacity:.95}
+.foot .logo{color:var(--accent);text-shadow:none;font-size:26px}
+.callbar{display:none}
+
+@media (max-width:900px){
+  body{font-size:17px}
+  .site-head nav{display:none}.bar .btn{display:none}
+  .hero{padding:26px 0 70px}
+  .hero .wrap,.visit .wrap,.req{grid-template-columns:1fr;gap:48px}
+  .hero h1{text-shadow:3px 3px 0 var(--accent),6px 6px 0 var(--ink)}
+  .plate{width:min(330px,82%)}
+  .badge.since{left:-14px;width:104px;height:104px;font-size:11px}.badge.since b{font-size:26px}
+  .badge.stars{right:-10px;width:96px;height:96px;font-size:10px}.badge.stars b{font-size:24px}
+  .strip ul,.board ul,.tickets{grid-template-columns:1fr}
+  .strip li+li{border-left:0;border-top:2px dashed rgba(255,255,255,.4)}
+  .board{padding:46px 24px 30px;border-width:7px}
+  .board::before{font-size:20px}
+  .ticket:nth-child(n){transform:none}
+  section.band{padding:76px 0}
+  .callbar{display:flex;position:fixed;left:12px;right:12px;bottom:12px;z-index:30}.callbar .btn{flex:1}
+  .foot{padding-bottom:110px}
+}
+.fx{color:var(--ink);padding:100px 0;background:color-mix(in srgb,var(--brand) 7%,var(--paper));border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.fx h2,.fx h3,.fx h4,.fx dd{color:var(--ink)}
+.fx .fxw{max-width:1180px;margin:0 auto;padding:0 28px}
+.fx-top{display:flex;justify-content:space-between;align-items:end;gap:28px;flex-wrap:wrap;margin-bottom:40px}
+.fx-top p{margin:12px 0 0;max-width:34em;color:var(--muted)}
+.fx-eye{display:inline-flex;align-items:center;gap:8px;font:800 12px/1 system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--brand)}
+.fx-eye::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 30%,transparent)}
+.fx-pill{font:700 13px/1 system-ui,sans-serif;padding:10px 14px;border-radius:999px;background:var(--paper);border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.fx-card{background:#fff;border:1px solid var(--line);border-radius:var(--r-card,18px);box-shadow:0 24px 50px -36px rgba(0,0,0,.45)}
+.fx-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:100%;font:800 16px/1 system-ui,sans-serif;padding:17px 20px;border-radius:var(--r-btn,12px);border:0;background:var(--brand);color:#fff;cursor:pointer;transition:transform .15s,opacity .15s}
+.fx-btn:hover{transform:translateY(-1px)}.fx-btn[disabled]{opacity:.4;cursor:not-allowed;transform:none}
+.fx-note{margin:12px 0 0;font-size:14px;color:var(--muted);text-align:center}
+.fx-done{display:none;margin-top:14px;padding:14px 16px;border-radius:12px;background:color-mix(in srgb,var(--accent) 22%,#fff);font-size:15px;line-height:1.45}
+.fx-done.on{display:block}
+.fx label.l{display:block;font:700 13px/1 system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:22px 0 10px}
+.fx input.t,.fx select.t,.fx textarea.t{width:100%;font:inherit;font-size:16px;padding:12px 13px;border:1.5px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
+.fx textarea.t{min-height:90px;resize:vertical}
+.fx .two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font:600 15px/1.2 system-ui,sans-serif;padding:11px 15px;border-radius:999px;border:1.5px solid var(--line);background:#fff;color:var(--ink);cursor:pointer;transition:all .15s}
+.chip:hover{border-color:var(--brand)}
+.chip[aria-pressed=true]{background:var(--brand);border-color:var(--brand);color:#fff}
+
+/* order */
+.ord{display:grid;grid-template-columns:1.35fr .9fr;gap:30px;align-items:start}
+.ord-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.ord-list{padding:8px 26px}
+.ord-item{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:18px 0;border-bottom:1px dashed var(--line)}
+.ord-item:last-child{border-bottom:0}
+.ord-item h4{margin:0;font:700 18px/1.25 inherit}
+.ord-item p{margin:4px 0 0;font-size:15px;color:var(--muted);line-height:1.4}
+.qty{display:flex;align-items:center;gap:6px;flex:none}
+.qty button{width:38px;height:38px;border-radius:50%;border:1.5px solid var(--line);background:#fff;font:700 20px/1 system-ui;color:var(--ink);cursor:pointer}
+.qty button.add{background:var(--brand);border-color:var(--brand);color:#fff}
+.qty output{min-width:22px;text-align:center;font-weight:800}
+.ord-grp[hidden]{display:none}
+.bag{position:sticky;top:110px;padding:26px}
+.bag h3{margin:0 0 6px;font-size:24px}
+.bag ul{list-style:none;margin:14px 0 0;padding:0;max-height:220px;overflow:auto}
+.bag li{display:flex;justify-content:space-between;gap:10px;padding:9px 0;border-bottom:1px solid var(--line);font-size:15.5px}
+.bag li b{color:var(--brand)}
+.bag .empty{color:var(--muted);font-size:15px;padding:14px 0;border:0}
+
+/* book */
+.bk{display:grid;grid-template-columns:1.3fr .8fr;gap:30px;align-items:start}
+.bk-main{padding:28px 30px 32px}
+.bk-main label.l:first-child{margin-top:0}
+.days{display:grid;grid-template-columns:repeat(7,1fr);gap:8px}
+.day{display:flex;flex-direction:column;align-items:center;gap:3px;padding:11px 4px;border-radius:12px;border:1.5px solid var(--line);background:#fff;cursor:pointer;font:600 13px/1.1 system-ui,sans-serif;color:var(--muted)}
+.day b{font-size:20px;color:var(--ink)}
+.day[aria-pressed=true]{background:var(--brand);border-color:var(--brand);color:#fff}.day[aria-pressed=true] b{color:#fff}
+.slots{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:8px}
+.slot{padding:12px 6px;border-radius:10px;border:1.5px solid var(--line);background:#fff;font:700 15px/1 system-ui,sans-serif;cursor:pointer;color:var(--ink)}
+.slot[disabled]{opacity:.35;text-decoration:line-through;cursor:not-allowed}
+.slot[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.sum{position:sticky;top:110px;padding:26px}
+.sum h3{margin:0 0 14px;font-size:24px}
+.sum dl{margin:0 0 6px;display:grid;grid-template-columns:auto 1fr;gap:10px 14px;font-size:15.5px}
+.sum dt{color:var(--muted);font-weight:600}.sum dd{margin:0;font-weight:700;text-align:right}
+
+/* quote */
+.qt{display:grid;grid-template-columns:1.25fr .85fr;gap:30px;align-items:start}
+.qt-main{padding:28px 30px 32px}
+.qt-main label.l:first-child{margin-top:0}
+.drop{display:grid;place-items:center;text-align:center;gap:6px;padding:28px 18px;border:2px dashed color-mix(in srgb,var(--brand) 45%,var(--line));border-radius:14px;background:color-mix(in srgb,var(--brand) 4%,#fff);cursor:pointer;color:var(--muted);font-size:15px}
+.drop b{color:var(--brand);font-size:17px}
+.drop input{display:none}
+.thumbs{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.thumbs img{width:68px;height:68px;object-fit:cover;border-radius:10px;border:1px solid var(--line)}
+.how{padding:28px}
+.how ol{margin:0;padding:0;list-style:none;counter-reset:s}
+.how li{counter-increment:s;position:relative;padding:0 0 22px 52px}
+.how li::before{content:counter(s);position:absolute;left:0;top:0;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:var(--accent-ink);font-weight:800}
+.how li b{display:block;font-size:17px}
+.how li span{font-size:15px;color:var(--muted)}
+
+/* classes */
+.cl{display:grid;grid-template-columns:1.35fr .85fr;gap:30px;align-items:start}
+.cl-days{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.cl-list{padding:6px 24px}
+.cl-row{display:grid;grid-template-columns:120px 1fr auto;align-items:center;gap:16px;padding:18px 0;border-bottom:1px dashed var(--line)}
+.cl-row:last-child{border-bottom:0}
+.cl-row.nt{grid-template-columns:1fr auto}.cl-row.nt time{display:none}
+.cl-row time{font-weight:800;color:var(--brand)}
+.cl-row h4{margin:0;font:700 18px/1.2 inherit}
+.cl-row p{margin:3px 0 0;font-size:14.5px;color:var(--muted)}
+.cl-row button{font:700 14px/1 system-ui,sans-serif;padding:11px 14px;border-radius:999px;border:1.5px solid var(--brand);background:#fff;color:var(--brand);cursor:pointer;white-space:nowrap}
+.cl-row button[aria-pressed=true]{background:var(--brand);color:#fff}
+.cl-day[hidden]{display:none}
+.trial{position:sticky;top:110px;padding:26px}
+.trial h3{margin:0 0 6px;font-size:24px}
+.trial .pick{margin:12px 0 0;padding:12px 14px;border-radius:10px;background:color-mix(in srgb,var(--accent) 20%,#fff);font-weight:700;font-size:15px}
+
+@media (max-width:900px){
+  .fx{padding:72px 0}.fx h2,.fx h3,.fx h4,.fx dd{color:var(--ink)}
+.fx .fxw{padding:0 20px}
+  .ord,.bk,.qt,.cl{grid-template-columns:1fr}
+  .bag,.sum,.trial{position:static}
+  .ord-list,.cl-list{padding:4px 18px}.bk-main,.qt-main{padding:22px 18px 24px}
+  .days{grid-template-columns:repeat(4,1fr)}
+  .cl-row{grid-template-columns:1fr auto}.cl-row time{grid-column:1/-1;margin-bottom:-8px}
+}
+form{display:grid;grid-template-columns:1fr 1fr;gap:16px}form .full{grid-column:1/-1}
+form label{display:block;font-size:14px;font-weight:600;margin-bottom:6px}
+form input,form textarea,form select{width:100%;font:inherit;font-size:16px;padding:13px 14px;border:1.5px solid var(--line);border-radius:var(--r-in,10px);background:#fff;color:var(--ink)}
+form textarea{min-height:110px;resize:vertical}form button{width:100%}.hp{position:absolute;left:-9999px}
+@media (max-width:700px){form{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none !important;transition:none !important}.reveal{opacity:1;transform:none}}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"Nicky's & Son Pizzeria","telephone":"484-415-0025","address":"228 E Philadelphia Ave, Boyertown, PA 19512"}</script>
+</head>
+<body>
+<div class="demo">Concept homepage for Nicky&#39;s &amp; Son Pizzeria, made by a Royersford designer. Not live and not affiliated with the business.</div>
+
+<header class="site-head" id="head"><div class="wrap bar">
+  <a class="logo" href="#top">Nicky&#39;s &amp; Son</a>
+  <nav aria-label="Main"><a href="#menu">Menu</a><a href="#reviews">Reviews</a><a href="#visit">Hours</a><a href="#request">Big orders</a></nav>
+  <a class="btn alt small" href="tel:+14844150025"><svg class="phi" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg>484-415-0025</a>
+</div><div class="check" aria-hidden="true"></div></header>
+
+<main id="top">
+<section class="hero"><div class="wrap">
+  <div>
+    <span class="kicker">Philadelphia Ave · Boyertown</span>
+    <h1>Pizza made by family.</h1>
+    <p class="lead">Sicilian and upside-down pies, specialty pizzas, garlic knots and Nicky&#39;s fries on East Philadelphia Avenue. Fresh, loaded to the edges, and ready fast.</p>
+    <div class="actions"><a class="btn main" href="#order">Order online</a><a class="btn alt" href="#menu">See the menu</a></div>
+  </div>
+  <div class="plate">
+    <div class="ph" style="--img:url('https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&amp;fit=crop&amp;w=2000&amp;q=70')"></div>
+    
+    <div class="badge stars" aria-hidden="true"><span><b>4.9★</b>95 reviews</span></div>
+  </div>
+</div></section>
+
+<section class="strip"><ul class="wrap">
+  <li><b>4.9 stars</b><span>from 95 Google reviews</span></li>
+  <li><b>Family owned</b><span>on Philadelphia Ave</span></li>
+  <li><b>Ready fast</b><span>order ahead for pickup</span></li>
+</ul></section>
+
+<section class="band" id="menu"><div class="wrap">
+  <div class="center reveal"><h2>On the menu</h2><p class="sub">Order ahead and it will be ready when you walk in.</p></div>
+  <div class="board reveal" data-title="Fan favorites"><ul>
+    <li><h3>Sicilian pie</h3><p>Crunchy, saucy and a local favorite.</p></li>
+    <li><h3>Upside-down pie</h3><p>Cheese down, sauce on top. Excellent.</p></li>
+    <li><h3>Chicken bacon ranch</h3><p>Crispy bacon, loaded to the edges.</p></li>
+    <li><h3>Taco pizza</h3><p>A fun one that regulars come back for.</p></li>
+    <li><h3>Garlic knots</h3><p>Order a dozen. Trust us.</p></li>
+    <li><h3>Nicky&#39;s fries</h3><p>The side everyone asks about.</p></li>
+  </ul></div>
+</div></section>
+
+<section class="fx" id="order"><div class="fxw"><div class="fx-top"><div><span class="fx-eye">Order direct</span><h2>Order online, pick up hot</h2><p>Order straight from Nicky&#39;s, no app fees, and it will be ready when you walk in.</p></div><span class="fx-pill">Pickup in Boyertown</span></div><div class="ord">
+    <div><div class="ord-tabs" role="tablist"><button type="button" class="chip" data-tab="0" aria-pressed="true">Pizza</button><button type="button" class="chip" data-tab="1" aria-pressed="false">Sides</button></div>
+      <div class="fx-card ord-list"><div class="ord-grp" data-g="0">
+      <div class="ord-item" data-name="Sicilian pie"><div><h4>Sicilian pie</h4></div>
+        <div class="qty"><button type="button" class="sub" aria-label="Remove one Sicilian pie">−</button><output>0</output><button type="button" class="add" aria-label="Add Sicilian pie">+</button></div></div>
+      <div class="ord-item" data-name="Upside-down pie"><div><h4>Upside-down pie</h4></div>
+        <div class="qty"><button type="button" class="sub" aria-label="Remove one Upside-down pie">−</button><output>0</output><button type="button" class="add" aria-label="Add Upside-down pie">+</button></div></div>
+      <div class="ord-item" data-name="Chicken bacon ranch pizza"><div><h4>Chicken bacon ranch pizza</h4></div>
+        <div class="qty"><button type="button" class="sub" aria-label="Remove one Chicken bacon ranch pizza">−</button><output>0</output><button type="button" class="add" aria-label="Add Chicken bacon ranch pizza">+</button></div></div>
+      <div class="ord-item" data-name="Taco pizza"><div><h4>Taco pizza</h4></div>
+        <div class="qty"><button type="button" class="sub" aria-label="Remove one Taco pizza">−</button><output>0</output><button type="button" class="add" aria-label="Add Taco pizza">+</button></div></div></div><div class="ord-grp" data-g="1" hidden>
+      <div class="ord-item" data-name="Garlic knots"><div><h4>Garlic knots</h4></div>
+        <div class="qty"><button type="button" class="sub" aria-label="Remove one Garlic knots">−</button><output>0</output><button type="button" class="add" aria-label="Add Garlic knots">+</button></div></div>
+      <div class="ord-item" data-name="Nicky&#39;s fries"><div><h4>Nicky&#39;s fries</h4></div>
+        <div class="qty"><button type="button" class="sub" aria-label="Remove one Nicky&#39;s fries">−</button><output>0</output><button type="button" class="add" aria-label="Add Nicky&#39;s fries">+</button></div></div>
+      <div class="ord-item" data-name="Chicken Caesar salad"><div><h4>Chicken Caesar salad</h4></div>
+        <div class="qty"><button type="button" class="sub" aria-label="Remove one Chicken Caesar salad">−</button><output>0</output><button type="button" class="add" aria-label="Add Chicken Caesar salad">+</button></div></div></div></div></div>
+    <aside class="fx-card bag" aria-live="polite">
+      <h3>Your order</h3><div style="color:var(--muted);font-size:15px">Pickup at 228 E Philadelphia Ave</div>
+      <ul class="bag-list"><li class="empty">Nothing added yet. Tap + to add items.</li></ul>
+      <label class="l">Pickup time</label>
+      <div class="two"><select class="t" aria-label="Pickup day"><option>Today</option><option>Tomorrow</option></select><select class="t" aria-label="Pickup time"><option>ASAP</option><option>In 30 minutes</option><option>5:00 pm</option><option>5:30 pm</option><option>6:00 pm</option><option>6:30 pm</option></select></div>
+      <label class="l">Name and phone</label>
+      <div class="two"><input class="t" placeholder="Name" autocomplete="name"><input class="t" type="tel" placeholder="Phone" autocomplete="tel"></div>
+      <div style="margin-top:18px"><button type="button" class="fx-btn go" disabled>Place pickup order</button></div>
+      <p class="fx-note">Pay when you pick up.</p>
+      <div class="fx-done">This is a preview, so nothing was sent. On the real site, your order goes straight to the shop and you get a text when it is ready.</div>
+    </aside></div>
+  <script>(()=>{const r=document.currentScript.closest('.fx');const bag=r.querySelector('.bag-list'),go=r.querySelector('.go');const q={};
+    const draw=()=>{const e=Object.entries(q).filter(([,n])=>n>0);bag.innerHTML=e.length?e.map(([k,n])=>'<li><span>'+k+'</span><b>× '+n+'</b></li>').join(''):'<li class="empty">Nothing added yet. Tap + to add items.</li>';go.disabled=!e.length;};
+    r.querySelectorAll('.ord-item').forEach(it=>{const n=it.dataset.name,o=it.querySelector('output');it.querySelector('.add').onclick=()=>{q[n]=(q[n]||0)+1;o.value=q[n];draw()};it.querySelector('.sub').onclick=()=>{q[n]=Math.max(0,(q[n]||0)-1);o.value=q[n];draw()}});
+    r.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>{r.querySelectorAll('[data-tab]').forEach(x=>x.setAttribute('aria-pressed',x===b));r.querySelectorAll('.ord-grp').forEach(g=>g.hidden=g.dataset.g!==b.dataset.tab)});
+    go.onclick=()=>r.querySelector('.fx-done').classList.add('on');})()</script></div></section><section class="band" id="reviews" style="padding-top:0"><div class="wrap">
+  <div class="center reveal"><h2>Order up!</h2><p class="sub">4.9 stars from 95 Google reviews</p></div>
+  <div class="tickets reveal"><div class="ticket"><div class="tno"><span>Ticket #001</span><span class="st">★★★★★</span></div><p>This has become my new favorite local pizza spot.</p><div class="who">Google review</div></div><div class="ticket"><div class="tno"><span>Ticket #002</span><span class="st">★★★★★</span></div><p>…this might be the cleanest pizzeria I have ever been in!!</p><div class="who">Google review</div></div><div class="ticket"><div class="tno"><span>Ticket #003</span><span class="st">★★★★★</span></div><p>Sauce is top notch.</p><div class="who">Google review</div></div></div>
+</div></section>
+
+<section class="band visit" id="visit"><div class="wrap">
+  <div class="reveal">
+    <span class="kicker">Come hungry</span>
+    <p class="addr">228 E Philadelphia Ave, Boyertown</p>
+    <p style="margin:0 0 28px;font-weight:500">On East Philadelphia Avenue in Boyertown.</p>
+    <div class="actions"><a class="btn main" href="https://www.google.com/maps/search/?api=1&query=Nicky's%20%26%20Son%20Pizzeria%20228%20E%20Philadelphia%20Ave%2C%20Boyertown%2C%20PA%2019512" target="_blank" rel="noopener">Get directions</a><a class="btn alt" href="tel:+14844150025"><svg class="phi" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg>484-415-0025</a></div>
+    <p class="about">Nicky&#39;s &amp; Son is a family-owned pizzeria in Boyertown. The owners are friendly, the shop is spotless, and the pies, from Sicilian to chicken bacon ranch, are made with high grade ingredients.</p>
+  </div>
+  <div class="sign reveal">
+    <div class="disp">We&#39;re open</div>
+    <table class="hours"><tr><td>Monday</td><td>4pm to 8:30pm</td></tr><tr><td>Tuesday</td><td>Closed</td></tr><tr><td>Wed &amp; Thu</td><td>10:30am to 8:30pm</td></tr><tr><td>Fri &amp; Sat</td><td>10:30am to 9pm</td></tr><tr><td>Sunday</td><td>Closed</td></tr></table>
+  </div>
+</div></section>
+
+<section class="band" id="request"><div class="wrap req">
+  <div class="reveal">
+    <h2>Feeding a crowd?</h2>
+    <p style="font-weight:500">Feeding a team or a party? Send a note and we will get back to you.</p>
+    <a class="bigtel" href="tel:+14844150025"><svg class="phi" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg>484-415-0025</a>
+  </div>
+  <div class="reveal"><form name="visit" method="POST" action="thanks.html" data-netlify="true" netlify-honeypot="company" onsubmit="event.preventDefault();this.querySelector('.fnote').hidden=false">
+    <input type="hidden" name="form-name" value="visit">
+    <p class="hp"><label>Leave this empty <input name="company"></label></p>
+    <div><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name" required></div>
+    <div><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" required></div>
+    <div class="full"><label for="f-email">Email (optional)</label><input id="f-email" name="email" type="email" autocomplete="email"></div>
+    <div class="full"><label for="f-msg">What are you feeding?</label><textarea id="f-msg" name="message" placeholder="For example: 6 large pies and 3 dozen garlic knots for Saturday at 5"></textarea></div>
+    <div class="full"><label for="f-when">Best time to reach you</label>
+      <select id="f-when" name="best_time"><option>Morning</option><option>Afternoon</option><option>Evening</option><option>Any time</option></select></div>
+    <div class="full"><button class="btn main" type="submit">Send request</button></div>
+    <p class="full fnote" hidden style="margin:0;font-size:15px">This is a preview, so nothing was sent. On the real site, this form sends requests straight to the business.</p>
+  </form></div>
+</div></section>
+</main>
+
+<div class="check" aria-hidden="true"></div>
+<footer class="foot"><div class="wrap">
+  <span class="logo">Nicky&#39;s &amp; Son</span>
+  <span>228 E Philadelphia Ave, Boyertown, PA 19512 · <a href="tel:+14844150025">484-415-0025</a></span>
+</div></footer>
+<div class="callbar"><a class="btn main" href="tel:+14844150025"><svg class="phi" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg>Call 484-415-0025</a></div>
+<script>
+(() => { const h = document.getElementById('head'); if (h) { const f = () => h.classList.toggle('scrolled', scrollY > 8); f(); addEventListener('scroll', f, {passive:true}); }
+  const els = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) { const o = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('on'); o.unobserve(e.target); } }), {threshold:.12}); els.forEach(el => o.observe(el)); }
+  else els.forEach(el => el.classList.add('on'));
+})();
+</script>
+</body>
+</html>
