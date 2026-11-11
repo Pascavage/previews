@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>document.documentElement.classList.add('js')</script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Thanks! | Dirty Dogs Grooming</title>
+<meta name="description" content="Woman-owned, family-operated dog grooming in Pinetop-Lakeside. CPR certified, over 10 years of experience, and gentle with seniors, rescues and special-needs pups.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#5B3FA0">
+<link rel="preload" href="fonts/nunito-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+:root{--paper:#FFF9F2;--ink:#2A2330;--muted:#6D6474;--line:#F1E3D6;--brand:#5B3FA0;--accent:#FFC145;--accent-ink:#2A2330}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0}a{color:inherit}img{max-width:100%;display:block}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.demo{background:#111;color:#fff;font:500 13px/1.4 system-ui,sans-serif;text-align:center;padding:8px 16px}
+.js .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}.js .reveal.on{opacity:1;transform:none}
+
+@font-face{font-family:'Nunito';src:url(fonts/nunito-latin-wght-normal.woff2) format('woff2');font-weight:200 1000;font-display:swap}
+body{overflow-x:hidden;background:var(--paper);color:var(--ink);font:500 18px/1.6 'Nunito',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1160px;margin:0 auto;padding:0 26px}
+h1,h2,h3{margin:0;font-weight:900;line-height:1.02;letter-spacing:-.025em}
+h2{font-size:clamp(36px,4.8vw,58px)}
+.tint{--t:color-mix(in srgb,var(--brand) 9%,var(--paper))}
+.tag{display:inline-block;background:color-mix(in srgb,var(--accent) 30%,#fff);color:var(--ink);font-weight:800;font-size:14px;padding:6px 14px;border-radius:999px}
+
+/* header: floating pill */
+.site-head{position:sticky;top:12px;z-index:20;padding:0 14px}
+.bar{max-width:1160px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:10px 10px 10px 16px;border-radius:999px;background:#fff;box-shadow:0 6px 24px -10px rgba(0,0,0,.18);transition:background .3s}
+.site-head.scrolled .bar{background:color-mix(in srgb,#fff 75%,transparent);backdrop-filter:blur(14px) saturate(1.4);-webkit-backdrop-filter:blur(14px) saturate(1.4)}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:900;font-size:19px}
+.logo .dot{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:var(--brand);color:#fff;font-size:15px;font-weight:900}
+.site-head nav{display:flex;gap:6px;font-weight:700;font-size:16px}
+.site-head nav a{text-decoration:none;padding:8px 14px;border-radius:999px}.site-head nav a:hover{background:color-mix(in srgb,var(--brand) 10%,transparent)}
+.phi{width:1em;height:1em}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font:800 17px/1 'Nunito',sans-serif;padding:17px 26px;border-radius:999px;text-decoration:none;border:0;cursor:pointer;transition:transform .2s cubic-bezier(.3,1.6,.5,1)}
+.btn:hover{transform:translateY(-3px) rotate(-1deg)}
+.btn.pri{background:var(--brand);color:#fff;box-shadow:0 10px 0 -4px color-mix(in srgb,var(--brand) 60%,#000)}
+.btn.sec{background:var(--accent);color:var(--accent-ink)}
+.btn.sm{padding:12px 18px;font-size:15px}
+
+/* hero */
+.hero{position:relative;padding:70px 0 120px;background:color-mix(in srgb,var(--brand) 10%,var(--paper));margin-top:-70px;padding-top:140px;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center;position:relative}
+.hero h1{font-size:clamp(48px,6.6vw,92px);margin:18px 0 22px}
+.hero h1 .u{background:linear-gradient(transparent 62%,color-mix(in srgb,var(--accent) 70%,transparent) 62% 92%,transparent 92%)}
+.hero .lead{font-size:20px;color:var(--muted);margin:0 0 32px;max-width:30em}
+.actions{display:flex;flex-wrap:wrap;gap:14px}
+.blob-wrap{position:relative}
+.blob{aspect-ratio:1;border-radius:58% 42% 52% 48% / 46% 56% 44% 54%;background:var(--brand) var(--img,none) center/cover no-repeat;animation:morph 14s ease-in-out infinite;box-shadow:0 30px 60px -30px color-mix(in srgb,var(--brand) 80%,transparent)}
+.blob .ini{display:grid;place-items:center;height:100%;color:#fff;font-size:120px;font-weight:900;opacity:.3}
+@keyframes morph{50%{border-radius:44% 56% 40% 60% / 58% 42% 58% 42%}}
+.sticker{position:absolute;right:-6px;top:24px;background:#fff;border-radius:22px;padding:14px 18px;box-shadow:0 14px 30px -12px rgba(0,0,0,.25);transform:rotate(6deg);animation:bob 4s ease-in-out infinite;text-align:center}
+.sticker b{display:block;font-size:30px;line-height:1;font-weight:900}.sticker b span{color:var(--accent)}
+.sticker small{font-size:13px;font-weight:700;color:var(--muted)}
+.sticker.two{right:auto;left:-14px;top:auto;bottom:30px;transform:rotate(-5deg);animation-delay:-2s;background:var(--accent);color:var(--accent-ink)}
+.sticker.two b{font-size:18px}
+@keyframes bob{50%{translate:0 -10px}}
+.deco{position:absolute;border-radius:50%;background:var(--accent);opacity:.35}
+.wave{display:block;width:100%;height:60px;position:absolute;left:0;bottom:-1px}
+.wave.flip{transform:scaleY(-1);top:-1px;bottom:auto}
+
+section.band{padding:100px 0;position:relative}
+.head{text-align:center;max-width:700px;margin:0 auto 56px}
+.head p{color:var(--muted);margin:14px 0 0}
+
+/* proof */
+.proof{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:-28px;position:relative;z-index:2}
+.proof div{background:#fff;border-radius:999px;padding:14px 22px;box-shadow:0 10px 26px -14px rgba(0,0,0,.25);font-size:16px;display:flex;gap:8px;align-items:center}
+.proof b{font-weight:900}.proof span{color:var(--muted)}
+
+/* services */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.cards > div{border-radius:30px;padding:30px 28px;background:color-mix(in srgb,var(--c) 14%,#fff);transition:transform .3s cubic-bezier(.3,1.6,.5,1)}
+.cards > div:hover{transform:translateY(-6px) rotate(-1deg)}
+.cards .ic{width:60px;height:60px;border-radius:20px;display:grid;place-items:center;background:var(--c);color:#fff;margin-bottom:20px;transition:transform .4s cubic-bezier(.3,1.6,.5,1)}
+.cards > div:hover .ic{transform:rotate(-10deg) scale(1.08)}
+.cards h3{font-size:24px;margin-bottom:8px}.cards p{margin:0;color:var(--muted);font-size:16.5px}
+.cards .pr{margin-top:12px;font-weight:900;color:var(--ink)}
+
+/* steps */
+.steps{background:color-mix(in srgb,var(--brand) 10%,var(--paper))}
+.steps ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:30px;counter-reset:s;position:relative}
+.steps ol::before{content:"";position:absolute;left:12%;right:12%;top:36px;border-top:3px dashed color-mix(in srgb,var(--brand) 35%,transparent)}
+.steps li{counter-increment:s;text-align:center;position:relative}
+.steps li::before{content:counter(s);display:grid;place-items:center;width:72px;height:72px;margin:0 auto 20px;border-radius:50%;background:var(--brand);color:#fff;font-size:30px;font-weight:900;box-shadow:0 0 0 8px color-mix(in srgb,var(--brand) 10%,var(--paper))}
+.steps h3{font-size:24px;margin-bottom:8px}.steps p{margin:0;color:var(--muted)}
+
+/* reviews: speech bubbles */
+.bubbles{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;align-items:start}
+.bubbles figure{margin:0}
+.bubbles blockquote{margin:0;background:#fff;border-radius:28px;padding:28px 26px;position:relative;box-shadow:0 14px 34px -18px rgba(0,0,0,.25);font-size:18px}
+.bubbles blockquote::after{content:"";position:absolute;left:34px;bottom:-14px;width:28px;height:28px;background:#fff;transform:rotate(45deg);border-radius:4px}
+.bubbles figure:nth-child(2){margin-top:34px}
+.bubbles figcaption{margin:24px 0 0 26px;font-weight:800;font-size:14px;color:var(--muted)}
+.bubbles .st{color:var(--accent);letter-spacing:2px;display:block;margin-bottom:8px}
+
+/* visit */
+.visit-card{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;background:var(--brand);color:#fff;border-radius:40px;padding:56px}
+.visit-card .addr{font-size:clamp(34px,4vw,50px);font-weight:900;line-height:1.05;margin:16px 0 14px}
+.visit-card p{opacity:.85}
+.visit-card .tag{background:rgba(255,255,255,.18);color:#fff}
+.visit-card .btn.sec{margin-top:10px}
+.hours{width:100%;border-collapse:collapse;background:#fff;color:var(--ink);border-radius:26px;overflow:hidden}
+.hours td{padding:16px 22px;border-bottom:1px solid var(--line)}.hours tr:last-child td{border-bottom:0}
+.hours td:last-child{text-align:right;font-weight:800}
+.about{margin-top:26px}
+
+/* request */
+.req{display:grid;grid-template-columns:.85fr 1.15fr;gap:48px;align-items:start}
+.req form{background:#fff;border-radius:34px;padding:36px;box-shadow:0 20px 50px -28px rgba(0,0,0,.3)}
+.req form input,.req form textarea,.req form select{border-radius:16px;background:color-mix(in srgb,var(--brand) 5%,#fff)}
+.req .bigtel{display:inline-flex;align-items:center;gap:10px;font-size:30px;font-weight:900;text-decoration:none;margin-top:18px;color:var(--brand)}
+
+.foot{padding:40px 0 56px}
+.foot .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;color:var(--muted);font-size:15px}
+.callbar{display:none}
+
+@media (max-width:900px){
+  body{font-size:17px}
+  .site-head nav,.bar > .btn{display:none}
+  .hero{padding:120px 0 90px}
+  .hero .wrap,.req,.visit-card{grid-template-columns:1fr;gap:40px}
+  .blob-wrap{max-width:400px;margin:0 auto;width:100%}
+  .cards,.steps ol,.bubbles{grid-template-columns:1fr}
+  .steps ol::before{display:none}
+  .bubbles figure:nth-child(2){margin-top:0}
+  section.band{padding:76px 0}
+  .visit-card{padding:34px 24px;border-radius:30px}
+  .req form{padding:26px 18px}
+  .callbar{display:flex;position:fixed;left:12px;right:12px;bottom:12px;z-index:30}.callbar .btn{flex:1}
+  .foot{padding-bottom:110px}
+}
+form{display:grid;grid-template-columns:1fr 1fr;gap:16px}form .full{grid-column:1/-1}
+form label{display:block;font-size:14px;font-weight:600;margin-bottom:6px}
+form input,form textarea,form select{width:100%;font:inherit;font-size:16px;padding:13px 14px;border:1.5px solid var(--line);border-radius:var(--r-in,10px);background:#fff;color:var(--ink)}
+form textarea{min-height:110px;resize:vertical}form button{width:100%}.hp{position:absolute;left:-9999px}
+@media (max-width:700px){form{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none !important;transition:none !important}.reveal{opacity:1;transform:none}}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Dirty Dogs Grooming","telephone":"928-242-6848","address":"727 S Woodland Rd Ste F, Lakeside, AZ 85929"}</script>
+</head>
+<body>
+<div class="demo">Concept homepage for Dirty Dogs Grooming, made by a Pennsylvania designer. Not live and not affiliated with the business.</div>
+
+<header class="site-head" id="head"><div class="bar"><a class="logo" href="index.html"><span class="dot">DD</span>Dirty Dogs</a></div></header>
+<section class="hero"><div class="wrap" style="display:block;max-width:760px">
+  <h1>Thanks, <span class="u">we got it!</span></h1>
+  <p class="lead">We'll be in touch soon. Can't wait? Call <a href="tel:+19282426848">928-242-6848</a>.</p>
+  <a class="btn pri" href="index.html">Back to the home page</a>
+</div><svg class="wave" viewBox="0 0 1440 70" preserveAspectRatio="none" aria-hidden="true"><path d="M0 35c120-30 240-30 360 0s240 30 360 0 240-30 360 0 240 30 360 0v35H0z" fill="var(--paper)"/></svg></section>
+<script>
+(() => { const h = document.getElementById('head'); if (h) { const f = () => h.classList.toggle('scrolled', scrollY > 8); f(); addEventListener('scroll', f, {passive:true}); }
+  const els = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) { const o = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('on'); o.unobserve(e.target); } }), {threshold:.12}); els.forEach(el => o.observe(el)); }
+  else els.forEach(el => el.classList.add('on'));
+})();
+</script>
+</body>
+</html>
