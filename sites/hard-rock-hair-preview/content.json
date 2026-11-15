@@ -1,0 +1,157 @@
+{
+  "template": "editorial",
+  "schemaType": "HairSalon",
+  "business": "Hard Rock Hair",
+  "shortName": "Hard Rock Hair",
+  "initials": "HR",
+  "town": "Elkins, WV",
+  "phone": "304-940-8088",
+  "address": "80 Plantation Dr, Elkins, WV 26241",
+  "email": "hardrockhair@yahoo.com",
+  "headline": "Color, cuts and fades.",
+  "intro": "A hair salon in Elkins with great prices and friendly stylists. Color, cuts, fades and beard work, open seven days a week.",
+  "stampText": "Hard Rock Hair · Elkins · ",
+  "hours": [
+    [
+      "Monday to Friday",
+      "10am to 7pm"
+    ],
+    [
+      "Saturday",
+      "10am to 6pm"
+    ],
+    [
+      "Sunday",
+      "Noon to 6pm"
+    ]
+  ],
+  "proof": [
+    [
+      "4.6 stars",
+      "from 35 Google reviews"
+    ],
+    [
+      "Open daily",
+      "Sundays too"
+    ],
+    [
+      "Great prices",
+      "and service"
+    ]
+  ],
+  "servicesEyebrow": "The menu",
+  "servicesTitle": "What we do",
+  "servicesNote": "Not sure what you need? Ask your stylist.",
+  "services": [
+    [
+      "Color",
+      "From a refresh to something new."
+    ],
+    [
+      "Color repair",
+      "Help for damaged hair."
+    ],
+    [
+      "Cuts",
+      "Healthy, soft and shaped."
+    ],
+    [
+      "Fades",
+      "Clean and sharp."
+    ],
+    [
+      "Beard touch-ups",
+      "Lines straight again."
+    ],
+    [
+      "Styling",
+      "Ready for the day."
+    ]
+  ],
+  "steps": [
+    [
+      "Book a time",
+      "Pick your stylist."
+    ],
+    [
+      "Talk it over",
+      "Tell us what you're after."
+    ],
+    [
+      "Leave happy",
+      "And come back again."
+    ]
+  ],
+  "reviewsTitle": "Kind words",
+  "reviews": [
+    [
+      "Linleigh always exceeds my expectations with my hair color.",
+      "Google review"
+    ],
+    [
+      "Abby did such an amazing job with my color and cut.",
+      "Google review"
+    ],
+    [
+      "Tiffany gave me an amazing fade and a wonderful touch up on my beard…",
+      "Google review"
+    ]
+  ],
+  "visitTitle": "Visit the salon",
+  "visitNote": "On Plantation Drive in Elkins.",
+  "about": "Hard Rock Hair is a salon in Elkins, West Virginia. Clients rave about stylists Linleigh, Abby and Tiffany for color, cuts and fades, and say the prices and service are great.",
+  "formIntro": "Have a question? Send a note and we'll get back to you.",
+  "formQuestion": "What can we help with?",
+  "formPlaceholder": "For example: what would it take to go from dark brown to blonde?",
+  "requestLabel": "Ask a question",
+  "requestTitle": "Questions?",
+  "feature": {
+    "type": "book",
+    "id": "book",
+    "eyebrow": "Book online",
+    "title": "Book a visit",
+    "intro": "Pick a service, a day and a time, and we'll confirm your spot.",
+    "pill": "Sample times",
+    "heroCta": "Book a visit",
+    "nav": "Book",
+    "services": [
+      "Color",
+      "Cut",
+      "Color and cut",
+      "Fade",
+      "Beard"
+    ],
+    "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "from": 10,
+    "to": 17,
+    "step": 30,
+    "extra": "Anything we should know?",
+    "extraPlaceholder": "Who you usually see, or what you have in mind",
+    "cta": "Request this time",
+    "doneText": "On the real site, the request lands on the shop calendar and you get a text confirming your spot."
+  },
+  "theme": {
+    "paper": "#F7F3EF",
+    "ink": "#1E1B1C",
+    "muted": "#67605E",
+    "line": "#E6DDD6",
+    "brand": "#3A2A33",
+    "accent": "#C8455C",
+    "accentInk": "#FFFFFF"
+  },
+  "bookUrl": "#book",
+  "bookLabel": "Book a visit",
+  "heroImage": "https://images.unsplash.com/photo-1774660810725-fb04e002003d?auto=format&fit=crop&w=2000&q=70",
+  "storefront": true,
+  "slug": "hard-rock-hair-preview",
+  "demo": true,
+  "demoNote": "Concept homepage for Hard Rock Hair, made by a Pennsylvania designer. Not live and not affiliated with the business."
+}

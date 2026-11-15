@@ -1,0 +1,142 @@
+{
+  "template": "friendly",
+  "schemaType": "LocalBusiness",
+  "business": "Paws-A-Tively Canine Creations",
+  "shortName": "Paws-A-Tively",
+  "initials": "PC",
+  "owner": "Trish",
+  "tagline": "Dog grooming",
+  "town": "Ottumwa, IA",
+  "phone": "641-684-6025",
+  "address": "15125 Blackhawk Rd, Ottumwa, IA 52501",
+  "email": "paws.cc@yahoo.com",
+  "headline": "Groomed with love.",
+  "intro": "Dog grooming outside Ottumwa from Trish and her team. Patient with nervous pups, gentle with sensitive skin, and big dogs welcome.",
+  "hours": [
+    [
+      "By appointment",
+      "Send a note to book"
+    ]
+  ],
+  "proof": [
+    [
+      "4.9 stars",
+      "from 39 Google reviews"
+    ],
+    [
+      "Big dogs",
+      "welcome"
+    ],
+    [
+      "Patient",
+      "with nervous pups"
+    ]
+  ],
+  "servicesTitle": "What we do",
+  "services": [
+    [
+      "Full groom",
+      "Bath, haircut and tidy up."
+    ],
+    [
+      "Bath and brush",
+      "Clean and smelling good."
+    ],
+    [
+      "Nail clips",
+      "In and out fast."
+    ],
+    [
+      "Big breeds",
+      "Saint Bernards included."
+    ],
+    [
+      "Sensitive skin",
+      "Gentle care for itchy pups."
+    ],
+    [
+      "Nervous pups",
+      "Patience and a lap to sit by."
+    ]
+  ],
+  "steps": [
+    [
+      "Book a spot",
+      "Pick a day that works."
+    ],
+    [
+      "Drop off",
+      "Tell us how you like the cut."
+    ],
+    [
+      "Pick up",
+      "Clean, happy and smelling good."
+    ]
+  ],
+  "reviewsTitle": "Happy tails",
+  "reviews": [
+    [
+      "Trish has always done an excellent job grooming our dogs.",
+      "Google review"
+    ],
+    [
+      "They care for my St. Bernard Roscoe so well.",
+      "Google review"
+    ],
+    [
+      "…lenient & patient with our pups and got them in & out in record time!!",
+      "Google review"
+    ]
+  ],
+  "visitTitle": "Find us",
+  "visitNote": "On Blackhawk Road outside Ottumwa.",
+  "about": "Paws-A-Tively Canine Creations is a dog grooming shop in Ottumwa, Iowa. Owners say Trish and her team are caring and compassionate, patient with anxious dogs, and great with big breeds and sensitive skin.",
+  "formIntro": "Have a question about your pup? Send a note and we'll get back to you.",
+  "formQuestion": "Tell us about your dog",
+  "formPlaceholder": "For example: shih tzu, a little overdue, likes it short",
+  "requestLabel": "Ask a question",
+  "requestTitle": "Questions?",
+  "feature": {
+    "type": "book",
+    "id": "book",
+    "eyebrow": "Book online",
+    "title": "Book a groom",
+    "intro": "Pick a service, a day and a time, and we'll confirm your spot.",
+    "pill": "Sample times",
+    "heroCta": "Book a groom",
+    "nav": "Book",
+    "services": [
+      "Full groom",
+      "Bath and brush",
+      "Nail clip"
+    ],
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "from": 8,
+    "to": 15,
+    "step": 60,
+    "extra": "Tell us about your dog",
+    "extraPlaceholder": "Breed, size and how you like the cut",
+    "cta": "Request this time",
+    "doneText": "On the real site, the request lands on the shop calendar and you get a text confirming your spot."
+  },
+  "theme": {
+    "paper": "#FFF9F0",
+    "ink": "#2A2320",
+    "muted": "#6E625B",
+    "line": "#F2E3CF",
+    "brand": "#1F6F78",
+    "accent": "#FFB347",
+    "accentInk": "#2A2320"
+  },
+  "heroImage": "https://images.unsplash.com/photo-1789846959084-76aee60b1071?auto=format&fit=crop&w=2000&q=70",
+  "storefront": true,
+  "slug": "paws-a-tively-preview",
+  "demo": true,
+  "demoNote": "Concept homepage for Paws-A-Tively Canine Creations, made by a Pennsylvania designer. Not live and not affiliated with the business."
+}

@@ -1,0 +1,176 @@
+{
+  "template": "diner",
+  "schemaType": "CafeOrCoffeeShop",
+  "business": "Pony Express-O",
+  "shortName": "Pony Express-O",
+  "initials": "PE",
+  "town": "Belle Fourche, SD",
+  "phone": "605-569-2542",
+  "address": "1833 5th Ave, Belle Fourche, SD 57717",
+  "email": "ponyexpresso57717@gmail.com",
+  "kicker": "5th Avenue · Belle Fourche",
+  "headline": "Fast, friendly coffee.",
+  "intro": "A coffee stop in Belle Fourche with espresso pulled right, a big drink menu for coffee and tea drinkers, good food and local baked goods.",
+  "boardTitle": "Fan favorites",
+  "menuLabel": "The menu",
+  "servicesNav": "Menu",
+  "callLabel": "Call ahead",
+  "hours": [
+    [
+      "Monday to Friday",
+      "6:30am to 2pm"
+    ],
+    [
+      "Saturday",
+      "7am to 1pm"
+    ],
+    [
+      "Sunday",
+      "7am to noon"
+    ]
+  ],
+  "proof": [
+    [
+      "4.8 stars",
+      "from 88 Google reviews"
+    ],
+    [
+      "Open daily",
+      "early"
+    ],
+    [
+      "Local",
+      "baked goods"
+    ]
+  ],
+  "servicesTitle": "What we serve",
+  "servicesNote": "Order ahead when the line's long.",
+  "services": [
+    [
+      "Espresso",
+      "Shots pulled right."
+    ],
+    [
+      "Americanos",
+      "Made how you like."
+    ],
+    [
+      "Iced coffee",
+      "Lots of flavors."
+    ],
+    [
+      "Tea drinks",
+      "A big menu for tea fans."
+    ],
+    [
+      "Food",
+      "Breakfast and more."
+    ],
+    [
+      "Baked goods",
+      "From local bakers."
+    ]
+  ],
+  "steps": [
+    [
+      "Order ahead",
+      "Pick your drink."
+    ],
+    [
+      "Pull up",
+      "On 5th Avenue."
+    ],
+    [
+      "Grab and go",
+      "Ready when you are."
+    ]
+  ],
+  "reviewsTitle": "What people say",
+  "reviews": [
+    [
+      "Shots are pulled to perfection!",
+      "Google review"
+    ],
+    [
+      "Great food, fantastic coffee.",
+      "Google review"
+    ],
+    [
+      "…they sell local baked goods that are delicious!",
+      "Google review"
+    ]
+  ],
+  "visitTitle": "Swing by",
+  "visitNote": "On 5th Avenue in Belle Fourche.",
+  "about": "Pony Express-O is a coffee spot in Belle Fourche, South Dakota. Customers love the wide drink menu, the espresso, the food and the local baked goods, and say the staff are friendly and quick.",
+  "formIntro": "Ordering for a group? Send a note and we'll get back to you.",
+  "formQuestion": "What can we help with?",
+  "formPlaceholder": "For example: can I order 10 drinks for 8am Friday?",
+  "requestTitle": "Big order?",
+  "requestNav": "Contact",
+  "feature": {
+    "type": "order",
+    "id": "order",
+    "eyebrow": "Order ahead",
+    "title": "Skip the line",
+    "intro": "Order your drinks ahead and we'll have them ready when you pull up.",
+    "pill": "Pickup",
+    "heroCta": "Order ahead",
+    "nav": "Order ahead",
+    "groups": [
+      {
+        "name": "Drinks and treats",
+        "items": [
+          [
+            "Latte",
+            "Hot or iced"
+          ],
+          [
+            "Americano",
+            ""
+          ],
+          [
+            "Tea drink",
+            ""
+          ],
+          [
+            "Baked good",
+            "Ask what's fresh"
+          ]
+        ]
+      }
+    ],
+    "days": [
+      "Today",
+      "Tomorrow"
+    ],
+    "times": [
+      "7:00 am",
+      "8:00 am",
+      "9:00 am",
+      "10:00 am",
+      "11:00 am",
+      "12:00 pm",
+      "1:00 pm"
+    ],
+    "bagTitle": "Your order",
+    "pickupNote": "Ready at the counter",
+    "cta": "Place pickup order",
+    "note": "Pay when you pick up.",
+    "doneText": "On the real site, the order goes straight to the shop so it's ready when you walk in."
+  },
+  "theme": {
+    "paper": "#FBF4EA",
+    "ink": "#2A1C14",
+    "muted": "#6E5D50",
+    "line": "#EEDCC6",
+    "brand": "#2E4A6B",
+    "accent": "#E7A93C",
+    "accentInk": "#2A1C14"
+  },
+  "heroImage": "https://images.unsplash.com/photo-1787501883022-2d3ad1c8c6a3?auto=format&fit=crop&w=2000&q=70",
+  "storefront": true,
+  "slug": "pony-express-o-preview",
+  "demo": true,
+  "demoNote": "Concept homepage for Pony Express-O, made by a Pennsylvania designer. Not live and not affiliated with the business."
+}

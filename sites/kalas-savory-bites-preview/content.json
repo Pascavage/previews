@@ -1,0 +1,190 @@
+{
+  "template": "market",
+  "schemaType": "CafeOrCoffeeShop",
+  "business": "Kala's Savory Bites & Sifted Sweets",
+  "shortName": "Kala's",
+  "initials": "KB",
+  "owner": "Kala",
+  "tagline": "Cafe · tea room · bakery",
+  "town": "Beatrice, NE",
+  "phone": "402-223-0756",
+  "address": "512 Court St, Beatrice, NE 68310",
+  "topline": "Coffee, breakfast, lunch and bakery on Court Street",
+  "eyebrow": "Court Street · Beatrice",
+  "headline": "Coffee, bites and sweets.",
+  "intro": "A cozy cafe and tea room in Beatrice with breakfast burritos, paninis, handmade bread and a big case of bakery treats.",
+  "tagTitle": "Kala's",
+  "tagSub": "Beatrice, Nebraska",
+  "hours": [
+    [
+      "Wednesday to Friday",
+      "8:30am to 4pm"
+    ],
+    [
+      "Saturday",
+      "10am to 3pm"
+    ],
+    [
+      "Sunday to Tuesday",
+      "Closed"
+    ]
+  ],
+  "proof": [
+    [
+      "4.9 stars",
+      "from 61 Google reviews"
+    ],
+    [
+      "Tea room",
+      "and cafe"
+    ],
+    [
+      "Bakery case",
+      "full of treats"
+    ]
+  ],
+  "servicesEyebrow": "On the menu",
+  "servicesTitle": "What we serve",
+  "servicesNote": "Stay a while. It's a nice spot to work or meet.",
+  "services": [
+    [
+      "Coffee and tea",
+      "Lots of options."
+    ],
+    [
+      "Breakfast burritos",
+      "A morning favorite."
+    ],
+    [
+      "Paninis",
+      "Try the crab rangoon."
+    ],
+    [
+      "Handmade bread",
+      "Like grandma made."
+    ],
+    [
+      "Muffins",
+      "Like strawberry rhubarb."
+    ],
+    [
+      "Sticky caramel buns",
+      "Dripping, in the best way."
+    ]
+  ],
+  "steps": [
+    [
+      "Order ahead",
+      "Pick your bites and sweets."
+    ],
+    [
+      "Stop in",
+      "On Court Street."
+    ],
+    [
+      "Stay a while",
+      "Or take it to go."
+    ]
+  ],
+  "reviewsTitle": "Overheard at the counter",
+  "reviews": [
+    [
+      "Cutest coffee shop with many options and the kindest of workers!",
+      "Google review"
+    ],
+    [
+      "Crab rangoon pannini was so good.",
+      "Google review"
+    ],
+    [
+      "Sticky caramel buns literally dripping.",
+      "Google review"
+    ]
+  ],
+  "visitTitle": "Stop in",
+  "visitNote": "On Court Street in downtown Beatrice.",
+  "about": "Kala's Savory Bites & Sifted Sweets is a cafe and tea room in Beatrice, Nebraska, with vintage charm. Visitors love the food, the bakery case and the friendly service, and say Kala is an asset to the community.",
+  "formIntro": "Have a question or a big order? Send a note and we'll get back to you.",
+  "formQuestion": "What can we help with?",
+  "formPlaceholder": "For example: can I order a dozen caramel buns for Saturday?",
+  "requestTitle": "Say hello",
+  "feature": {
+    "type": "order",
+    "id": "order",
+    "eyebrow": "Order ahead",
+    "title": "Order ahead",
+    "intro": "Pick your bites and sweets and a pickup time, and we'll have them ready.",
+    "pill": "Pickup",
+    "heroCta": "Order ahead",
+    "nav": "Order",
+    "groups": [
+      {
+        "name": "Bites",
+        "items": [
+          [
+            "Breakfast burrito",
+            ""
+          ],
+          [
+            "Panini",
+            "Ask about today's"
+          ],
+          [
+            "Coffee",
+            "Hot or iced"
+          ]
+        ]
+      },
+      {
+        "name": "Sweets",
+        "items": [
+          [
+            "Sticky caramel bun",
+            ""
+          ],
+          [
+            "Muffin",
+            ""
+          ],
+          [
+            "Bread loaf",
+            ""
+          ]
+        ]
+      }
+    ],
+    "days": [
+      "Today",
+      "Tomorrow",
+      "Saturday"
+    ],
+    "times": [
+      "9:00 am",
+      "10:00 am",
+      "11:00 am",
+      "12:00 pm",
+      "1:00 pm",
+      "2:00 pm",
+      "3:00 pm"
+    ],
+    "bagTitle": "Your order",
+    "pickupNote": "Ready at the counter",
+    "cta": "Place pickup order",
+    "note": "Pay when you pick up.",
+    "doneText": "On the real site, the order goes straight to the shop so it's ready when you walk in."
+  },
+  "theme": {
+    "paper": "#F8F2EA",
+    "ink": "#231C18",
+    "muted": "#6B5F57",
+    "line": "#E6D8C6",
+    "brand": "#5A3E5D",
+    "accent": "#E7B75F",
+    "accentInk": "#231C18"
+  },
+  "heroImage": "https://images.unsplash.com/photo-1775203291807-c086b69cba1a?auto=format&fit=crop&w=2000&q=70",
+  "storefront": true,
+  "slug": "kalas-savory-bites-preview",
+  "demo": true,
+  "demoNote": "Concept homepage for Kala's Savory Bites & Sifted Sweets, made by a Pennsylvania designer. Not live and not affiliated with the business."
+}

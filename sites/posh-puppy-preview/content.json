@@ -1,0 +1,146 @@
+{
+  "template": "friendly",
+  "schemaType": "LocalBusiness",
+  "business": "Posh Puppy",
+  "shortName": "Posh Puppy",
+  "initials": "PP",
+  "tagline": "Dog grooming",
+  "town": "Kearney, NE",
+  "phone": "308-698-3256",
+  "address": "2501 E 3rd St, Suite B, Kearney, NE 68847",
+  "email": "poshpuppy2010@gmail.com",
+  "headline": "Cute, fluffy and fresh.",
+  "intro": "Dog grooming in Kearney with friendly groomers who love animals. Full grooms by appointment, and you can walk in for a quick nail trim.",
+  "hours": [
+    [
+      "Monday to Friday",
+      "7am to 5pm"
+    ],
+    [
+      "Saturday and Sunday",
+      "Closed"
+    ]
+  ],
+  "proof": [
+    [
+      "4.6 stars",
+      "from 16 Google reviews"
+    ],
+    [
+      "Since 2010",
+      "in Kearney"
+    ],
+    [
+      "Walk-in",
+      "nail trims"
+    ]
+  ],
+  "servicesTitle": "What we do",
+  "services": [
+    [
+      "Full groom",
+      "Bath, haircut and tidy up."
+    ],
+    [
+      "Bath and brush",
+      "Clean, fluffy and smelling good."
+    ],
+    [
+      "Nail trims",
+      "Walk in, no appointment needed."
+    ],
+    [
+      "Breed cuts",
+      "The look you want for your pup."
+    ],
+    [
+      "Puppy grooms",
+      "A calm first visit."
+    ],
+    [
+      "Tricky pups",
+      "Patient with the ones who wiggle."
+    ]
+  ],
+  "steps": [
+    [
+      "Book a spot",
+      "Pick a day that works."
+    ],
+    [
+      "Drop off",
+      "Tell us how you like the cut."
+    ],
+    [
+      "Pick up",
+      "Clean, happy and smelling good."
+    ]
+  ],
+  "reviewsTitle": "Happy tails",
+  "reviews": [
+    [
+      "Oliver LOVES going to see Kailie at Posh Puppy!",
+      "Google review"
+    ],
+    [
+      "Lucky is always so cute, fluffy and smells wonderful after her groom!",
+      "Google review"
+    ],
+    [
+      "…her and Megan are so friendly and kind!",
+      "Google review"
+    ]
+  ],
+  "visitTitle": "Find us",
+  "visitNote": "On East 3rd Street in Kearney, Suite B.",
+  "about": "Posh Puppy is a dog grooming shop in Kearney, Nebraska. Customers say groomers Kailie and Megan are friendly, kind and true animal lovers, and that pups come home cute, fluffy and smelling great.",
+  "formIntro": "Have a question about your pup? Send a note and we'll get back to you.",
+  "formQuestion": "Tell us about your dog",
+  "formPlaceholder": "For example: shih tzu, a little overdue, likes it short",
+  "requestLabel": "Ask a question",
+  "requestTitle": "Questions?",
+  "feature": {
+    "type": "book",
+    "id": "book",
+    "eyebrow": "Book online",
+    "title": "Book a groom",
+    "intro": "Pick a service, a day and a time, and we'll confirm your spot.",
+    "pill": "Sample times",
+    "heroCta": "Book a groom",
+    "nav": "Book",
+    "services": [
+      "Full groom",
+      "Bath and brush",
+      "Nail trim",
+      "Puppy groom"
+    ],
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "from": 7,
+    "to": 16,
+    "step": 60,
+    "extra": "Tell us about your dog",
+    "extraPlaceholder": "Breed, size and how you like the cut",
+    "cta": "Request this time",
+    "doneText": "On the real site, the request lands on the shop calendar and you get a text confirming your spot."
+  },
+  "theme": {
+    "paper": "#FFF7F8",
+    "ink": "#26233A",
+    "muted": "#6A6478",
+    "line": "#F3DDE3",
+    "brand": "#3B3A6B",
+    "accent": "#FF9FB8",
+    "accentInk": "#26233A"
+  },
+  "heroImage": "https://images.unsplash.com/photo-1760596687383-887f0eeae71b?auto=format&fit=crop&w=2000&q=70",
+  "storefront": true,
+  "slug": "posh-puppy-preview",
+  "demo": true,
+  "demoNote": "Concept homepage for Posh Puppy, made by a Pennsylvania designer. Not live and not affiliated with the business."
+}

@@ -1,0 +1,152 @@
+{
+  "template": "western",
+  "schemaType": "LocalBusiness",
+  "business": "Pampered Paws",
+  "shortName": "Pampered Paws",
+  "town": "Hutchinson, KS",
+  "phone": "620-665-7297",
+  "address": "818 W 2nd Ave, Suite B, Hutchinson, KS 67501",
+  "email": "pamperedpawshutch@gmail.com",
+  "eyebrow": "Hutchinson, Kansas",
+  "headline": "Grooming and boarding.",
+  "intro": "Dog grooming and boarding in Hutchinson. Baths, nail trims and walks during their stay, so pups come home soft, clean and happy.",
+  "posterTitle": "PAMPERED PAWS",
+  "posterCaption": "Hutchinson, Kansas",
+  "hours": [
+    [
+      "Monday to Friday",
+      "8am to 11:30am, 1pm to 5pm"
+    ],
+    [
+      "Saturday",
+      "8am to noon"
+    ],
+    [
+      "Sunday",
+      "Closed"
+    ]
+  ],
+  "proof": [
+    [
+      "4.7 stars",
+      "from 57 Google reviews"
+    ],
+    [
+      "Boarding",
+      "and grooming"
+    ],
+    [
+      "Big and small",
+      "dogs welcome"
+    ]
+  ],
+  "servicesTitle": "What we do",
+  "servicesNote": "Grooming can be worked in during a stay.",
+  "services": [
+    [
+      "Full groom",
+      "Bath, haircut and nail trim."
+    ],
+    [
+      "Bath",
+      "Soft coat, smells great."
+    ],
+    [
+      "Nail trim",
+      "Done right."
+    ],
+    [
+      "Boarding",
+      "A safe place while you travel."
+    ],
+    [
+      "Walks",
+      "During their stay."
+    ],
+    [
+      "Small dogs",
+      "Extra care for little ones."
+    ]
+  ],
+  "steps": [
+    [
+      "Call or book",
+      "Tell us the dates."
+    ],
+    [
+      "Drop off",
+      "We'll take it from here."
+    ],
+    [
+      "Pick up",
+      "Clean and happy."
+    ]
+  ],
+  "reviewsTitle": "Happy tails",
+  "reviews": [
+    [
+      "They have taken such good care of all three of my pups…",
+      "Google review"
+    ],
+    [
+      "Jamie was very kind and returned phone calls promptly…",
+      "Google review"
+    ],
+    [
+      "Hate leaving my dog at kennels, but was extremely happy with Pampered Paws…",
+      "Google review"
+    ]
+  ],
+  "visitTitle": "Come on by",
+  "visitNote": "On West 2nd Avenue in Hutchinson, Suite B.",
+  "about": "Pampered Paws is a dog grooming and boarding shop in Hutchinson, Kansas. Customers say their dogs are well cared for during a stay, come home with soft coats and trimmed nails, and that Jamie is kind and quick to call back.",
+  "formIntro": "Have a question about your pup? Send a note and we'll get back to you.",
+  "formQuestion": "Tell us about your dog",
+  "formPlaceholder": "For example: shih tzu, a little overdue, likes it short",
+  "requestTitle": "Questions?",
+  "feature": {
+    "type": "book",
+    "id": "book",
+    "eyebrow": "Book online",
+    "title": "Book a groom or stay",
+    "intro": "Pick a service, a day and a time, and we'll confirm your spot.",
+    "pill": "Sample times",
+    "heroCta": "Book a groom",
+    "nav": "Book",
+    "services": [
+      "Full groom",
+      "Bath",
+      "Nail trim",
+      "Boarding"
+    ],
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "from": 8,
+    "to": 16,
+    "step": 60,
+    "extra": "Tell us about your dog",
+    "extraPlaceholder": "Breed, size and how you like the cut",
+    "cta": "Request this time",
+    "doneText": "On the real site, the request lands on the shop calendar and you get a text confirming your spot."
+  },
+  "theme": {
+    "paper": "#F4ECDD",
+    "ink": "#2A1E16",
+    "muted": "#6B5A4A",
+    "line": "#E1D2BA",
+    "brand": "#8A3B2B",
+    "accent": "#E3A73B",
+    "accentInk": "#2A1E16"
+  },
+  "heroImage": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=2000&q=70",
+  "storefront": true,
+  "slug": "pampered-paws-hutchinson-preview",
+  "demo": true,
+  "demoNote": "Concept homepage for Pampered Paws, made by a Pennsylvania designer. Not live and not affiliated with the business."
+}

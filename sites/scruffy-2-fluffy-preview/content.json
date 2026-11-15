@@ -1,0 +1,148 @@
+{
+  "template": "garden",
+  "schemaType": "LocalBusiness",
+  "business": "Scruffy 2 Fluffy",
+  "shortName": "Scruffy 2 Fluffy",
+  "town": "Sedalia, MO",
+  "phone": "660-851-0248",
+  "address": "26503 Goodwill Chapel Rd, Sedalia, MO 65301",
+  "email": "scruffytofluffy98@gmail.com",
+  "eyebrow": "Dog grooming · Sedalia",
+  "headline": "From scruffy to fluffy.",
+  "intro": "Dog grooming outside Sedalia with super friendly people who love what they do. Look for the mural on the building.",
+  "hours": [
+    [
+      "Wednesday to Friday",
+      "8am to 3pm"
+    ],
+    [
+      "Saturday",
+      "8am to noon"
+    ],
+    [
+      "Sunday to Tuesday",
+      "Closed"
+    ]
+  ],
+  "proof": [
+    [
+      "5.0 stars",
+      "from 27 Google reviews"
+    ],
+    [
+      "Years",
+      "of happy regulars"
+    ],
+    [
+      "The mural",
+      "on Goodwill Chapel Rd"
+    ]
+  ],
+  "servicesEyebrow": "Services",
+  "servicesTitle": "What we do",
+  "servicesNote": "Tell us how you want it and we'll listen.",
+  "services": [
+    [
+      "Full groom",
+      "Bath, haircut and finish."
+    ],
+    [
+      "Bath and brush",
+      "Clean and fluffy."
+    ],
+    [
+      "Nail trim",
+      "Quick and gentle."
+    ],
+    [
+      "Poodle cuts",
+      "Standards too."
+    ],
+    [
+      "Shy pups",
+      "Lots of love and kindness."
+    ],
+    [
+      "The cut you want",
+      "Exactly how you asked."
+    ]
+  ],
+  "steps": [
+    [
+      "Book a spot",
+      "Pick a day that works."
+    ],
+    [
+      "Drop off",
+      "Tell us how you like the cut."
+    ],
+    [
+      "Pick up",
+      "Clean, happy and smelling good."
+    ]
+  ],
+  "reviewsTitle": "Happy tails",
+  "reviews": [
+    [
+      "Ashley does an excellent job with his grooming.",
+      "Google review"
+    ],
+    [
+      "We've been taking our dogs here for years and are always satisfied!",
+      "Google review"
+    ],
+    [
+      "When I picked them up they looked amazing!!!",
+      "Google review"
+    ]
+  ],
+  "visitTitle": "Find us",
+  "visitNote": "On Goodwill Chapel Road outside Sedalia. Look for the mural.",
+  "about": "Scruffy 2 Fluffy is a dog grooming shop in Sedalia, Missouri, with a perfect 5.0 rating on Google. Customers say the staff love the animals they care for, listen to what you want and send dogs home happy.",
+  "formIntro": "Have a question about your pup? Send a note and we'll get back to you.",
+  "formQuestion": "Tell us about your dog",
+  "formPlaceholder": "For example: shih tzu, a little overdue, likes it short",
+  "requestTitle": "Questions?",
+  "feature": {
+    "type": "book",
+    "id": "book",
+    "eyebrow": "Book online",
+    "title": "Book a groom",
+    "intro": "Pick a service, a day and a time, and we'll confirm your spot.",
+    "pill": "Sample times",
+    "heroCta": "Book a groom",
+    "nav": "Book",
+    "services": [
+      "Full groom",
+      "Bath and brush",
+      "Nail trim"
+    ],
+    "days": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "from": 8,
+    "to": 14,
+    "step": 60,
+    "extra": "Tell us about your dog",
+    "extraPlaceholder": "Breed, size and how you like the cut",
+    "cta": "Request this time",
+    "doneText": "On the real site, the request lands on the shop calendar and you get a text confirming your spot."
+  },
+  "theme": {
+    "paper": "#F6F8F1",
+    "ink": "#1F2A22",
+    "muted": "#5D6A60",
+    "line": "#DCE5D3",
+    "brand": "#2F5D3A",
+    "accent": "#F2B544",
+    "accentInk": "#1F2A22"
+  },
+  "heroImage": "https://images.unsplash.com/photo-1789846958599-f9a52b76f0da?auto=format&fit=crop&w=2000&q=70",
+  "storefront": true,
+  "slug": "scruffy-2-fluffy-preview",
+  "demo": true,
+  "demoNote": "Concept homepage for Scruffy 2 Fluffy, made by a Pennsylvania designer. Not live and not affiliated with the business."
+}

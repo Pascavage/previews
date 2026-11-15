@@ -1,0 +1,149 @@
+{
+  "template": "spa",
+  "schemaType": "LocalBusiness",
+  "business": "Aunt Sheri's Grooming",
+  "shortName": "Aunt Sheri's",
+  "owner": "Sheri",
+  "town": "Batesville, AR",
+  "phone": "870-307-4818",
+  "address": "445 Lawrence St, Batesville, AR 72501",
+  "eyebrow": "Lawrence Street · Batesville",
+  "chip": "small breeds only",
+  "headline": "Treated like family.",
+  "intro": "Dog grooming for small breeds in Batesville. Aunt Sheri takes her time, so even nervous and older pups come out happy and looking great.",
+  "hours": [
+    [
+      "Monday to Friday",
+      "9am to 5pm"
+    ],
+    [
+      "Saturday and Sunday",
+      "Closed"
+    ]
+  ],
+  "proof": [
+    [
+      "4.8 stars",
+      "from 19 Google reviews"
+    ],
+    [
+      "Small breeds",
+      "only"
+    ],
+    [
+      "Patient",
+      "with nervous pups"
+    ]
+  ],
+  "servicesEyebrow": "Services",
+  "servicesTitle": "Grooming for little ones",
+  "servicesNote": "Not sure what to book? Send a note about your dog.",
+  "services": [
+    [
+      "Full groom",
+      "Bath, haircut and finish."
+    ],
+    [
+      "Bath and brush",
+      "Clean and fluffy."
+    ],
+    [
+      "Nail trim",
+      "Gentle and quick."
+    ],
+    [
+      "Senior pups",
+      "Extra care for older dogs."
+    ],
+    [
+      "Nervous pups",
+      "Lots of patience and love."
+    ],
+    [
+      "The cut you want",
+      "Exactly how you asked."
+    ]
+  ],
+  "stepsTitle": "How a visit works",
+  "steps": [
+    [
+      "Book a spot",
+      "Pick a day that works."
+    ],
+    [
+      "Drop off",
+      "Tell us how you like the cut."
+    ],
+    [
+      "Pick up",
+      "Clean, happy and smelling good."
+    ]
+  ],
+  "reviewsTitle": "Happy tails",
+  "reviews": [
+    [
+      "Aunt Sheri treats your fur babies as if their her own.",
+      "Google review"
+    ],
+    [
+      "She's wonderful with our baby and does an excellent job.",
+      "Google review"
+    ],
+    [
+      "Aunt Sheri took him and made him look the best he has in years!",
+      "Google review"
+    ]
+  ],
+  "visitTitle": "Visit us",
+  "visitNote": "On Lawrence Street in Batesville.",
+  "about": "Aunt Sheri's is a small-breed dog grooming shop in Batesville, Arkansas. Owners say Sheri treats their fur babies like her own, takes her time with anxious and older dogs, and cuts them exactly how they asked.",
+  "formIntro": "Have a question about your pup? Send a note and we'll get back to you.",
+  "formQuestion": "Tell us about your dog",
+  "formPlaceholder": "For example: shih tzu, a little overdue, likes it short",
+  "requestTitle": "Questions? Send a note",
+  "feature": {
+    "type": "book",
+    "id": "book",
+    "eyebrow": "Book online",
+    "title": "Book a groom",
+    "intro": "Pick a service, a day and a time, and we'll confirm your spot.",
+    "pill": "Sample times",
+    "heroCta": "Book a groom",
+    "nav": "Book",
+    "services": [
+      "Full groom",
+      "Bath and brush",
+      "Nail trim"
+    ],
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "from": 9,
+    "to": 16,
+    "step": 60,
+    "extra": "Tell us about your dog",
+    "extraPlaceholder": "Breed, size and how you like the cut",
+    "cta": "Request this time",
+    "doneText": "On the real site, the request lands on the shop calendar and you get a text confirming your spot."
+  },
+  "theme": {
+    "paper": "#FBF5F3",
+    "ink": "#2B2426",
+    "muted": "#6F6466",
+    "line": "#EEDFDB",
+    "brand": "#7A3E55",
+    "accent": "#F2B8C6",
+    "accentInk": "#2B2426"
+  },
+  "bookUrl": "#book",
+  "bookLabel": "Book a groom",
+  "heroImage": "https://images.unsplash.com/photo-1779127291721-732206746340?auto=format&fit=crop&w=2000&q=70",
+  "storefront": true,
+  "slug": "aunt-sheris-grooming-preview",
+  "demo": true,
+  "demoNote": "Concept homepage for Aunt Sheri's Grooming, made by a Pennsylvania designer. Not live and not affiliated with the business."
+}

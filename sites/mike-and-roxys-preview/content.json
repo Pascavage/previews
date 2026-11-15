@@ -1,0 +1,179 @@
+{
+  "template": "diner",
+  "schemaType": "Bakery",
+  "business": "Mike & Roxy's Donut Shop",
+  "shortName": "Mike & Roxy's",
+  "initials": "MR",
+  "town": "Wabash, IN",
+  "phone": "260-560-4146",
+  "address": "1710 S Wabash St, Wabash, IN 46992",
+  "kicker": "South Wabash Street · Wabash",
+  "headline": "Donuts done right.",
+  "intro": "A donut shop in Wabash with a cozy hometown feel. Yeast and cake donuts, filled donuts, glazed and the tigertails people drive in for.",
+  "since": "1988",
+  "sinceNote": "in Wabash",
+  "boardTitle": "Fan favorites",
+  "menuLabel": "The case",
+  "servicesNav": "Donuts",
+  "callLabel": "Call ahead",
+  "hours": [
+    [
+      "Wednesday to Sunday",
+      "6am to 2pm"
+    ],
+    [
+      "Monday and Tuesday",
+      "Closed"
+    ]
+  ],
+  "proof": [
+    [
+      "4.9 stars",
+      "from 45 Google reviews"
+    ],
+    [
+      "Since 1988",
+      "in Wabash"
+    ],
+    [
+      "Open early",
+      "at 6am"
+    ]
+  ],
+  "servicesTitle": "What's in the case",
+  "servicesNote": "Get a dozen and try them all.",
+  "services": [
+    [
+      "Tigertails",
+      "The local favorite."
+    ],
+    [
+      "Glazed",
+      "Simple and perfect."
+    ],
+    [
+      "Filled donuts",
+      "Pick your filling."
+    ],
+    [
+      "Cake donuts",
+      "Plenty of varieties."
+    ],
+    [
+      "Yeast donuts",
+      "Light and fresh."
+    ],
+    [
+      "By the dozen",
+      "For the office or the family."
+    ]
+  ],
+  "steps": [
+    [
+      "Order ahead",
+      "Pick your dozen."
+    ],
+    [
+      "Stop in",
+      "On South Wabash Street."
+    ],
+    [
+      "Enjoy",
+      "Still fresh."
+    ]
+  ],
+  "reviewsTitle": "Word around town",
+  "reviews": [
+    [
+      "Their tigertails are the absolute best!!!!",
+      "Google review"
+    ],
+    [
+      "What a beautiful business with a small hometown feel",
+      "Google review"
+    ],
+    [
+      "…this little gem in Wabash has THE BEST!",
+      "Google review"
+    ]
+  ],
+  "visitTitle": "Come hungry",
+  "visitNote": "On South Wabash Street in Wabash.",
+  "about": "Mike & Roxy's is a donut shop in Wabash, Indiana, with a cozy, small hometown feel. Customers rave about the variety, the reasonable prices and the tigertails, and say the people behind the counter are as sweet as the donuts.",
+  "formIntro": "Ordering for a crowd? Send a note and we'll get back to you.",
+  "formQuestion": "What can we help with?",
+  "formPlaceholder": "For example: can I pick up four dozen Saturday at 7?",
+  "requestTitle": "Big order?",
+  "requestNav": "Contact",
+  "feature": {
+    "type": "order",
+    "id": "order",
+    "eyebrow": "Order ahead",
+    "title": "Save me a dozen",
+    "intro": "Pick your donuts and a pickup time, and we'll have them boxed and ready.",
+    "pill": "Pickup",
+    "heroCta": "Order ahead",
+    "nav": "Order ahead",
+    "groups": [
+      {
+        "name": "Donuts",
+        "items": [
+          [
+            "Dozen, assorted",
+            ""
+          ],
+          [
+            "Tigertail",
+            ""
+          ],
+          [
+            "Glazed",
+            ""
+          ],
+          [
+            "Filled donut",
+            "Ask about fillings"
+          ],
+          [
+            "Cake donut",
+            ""
+          ]
+        ]
+      }
+    ],
+    "days": [
+      "Today",
+      "Tomorrow",
+      "Saturday"
+    ],
+    "times": [
+      "6:00 am",
+      "7:00 am",
+      "8:00 am",
+      "9:00 am",
+      "10:00 am",
+      "11:00 am",
+      "12:00 pm",
+      "1:00 pm"
+    ],
+    "bagTitle": "Your order",
+    "pickupNote": "Ready at the counter",
+    "cta": "Place pickup order",
+    "note": "Pay when you pick up.",
+    "doneText": "On the real site, the order goes straight to the shop so it's ready when you walk in."
+  },
+  "theme": {
+    "paper": "#FFF8EE",
+    "ink": "#2B1D16",
+    "muted": "#6E5D52",
+    "line": "#F1DFC9",
+    "brand": "#B23A48",
+    "accent": "#F6C445",
+    "accentInk": "#2B1D16"
+  },
+  "heroImage": "https://images.unsplash.com/photo-1527515545081-5db817172677?auto=format&fit=crop&w=2000&q=70",
+  "storefront": true,
+  "slug": "mike-and-roxys-preview",
+  "demo": true,
+  "demoNote": "Concept homepage for Mike & Roxy's Donut Shop, made by a Pennsylvania designer. Not live and not affiliated with the business."
+}

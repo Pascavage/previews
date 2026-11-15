@@ -1,0 +1,153 @@
+{
+  "template": "garden",
+  "schemaType": "PetStore",
+  "business": "Healthy Paws",
+  "shortName": "Healthy Paws",
+  "town": "Norfolk, NE",
+  "phone": "402-371-0789",
+  "address": "232 W Norfolk Ave, Norfolk, NE 68701",
+  "email": "healthypawsllc@hotmail.com",
+  "eyebrow": "Grooming · Pet supplies",
+  "headline": "Great clips, happy pups.",
+  "intro": "Dog grooming and pet supplies on Norfolk Avenue. Kind groomers, affordable prices and a reminder call the day before.",
+  "hours": [
+    [
+      "Monday to Wednesday",
+      "7:30am to 5:30pm"
+    ],
+    [
+      "Thursday",
+      "7:30am to 7pm"
+    ],
+    [
+      "Friday",
+      "7:30am to 5:30pm"
+    ],
+    [
+      "Weekends",
+      "Closed"
+    ]
+  ],
+  "proof": [
+    [
+      "4.6 stars",
+      "from 95 Google reviews"
+    ],
+    [
+      "Reminder calls",
+      "the day before"
+    ],
+    [
+      "Fish",
+      "and supplies"
+    ]
+  ],
+  "servicesEyebrow": "Services",
+  "servicesTitle": "What we do",
+  "servicesNote": "Grab supplies while you're here.",
+  "services": [
+    [
+      "Full groom",
+      "Bath, haircut and finish."
+    ],
+    [
+      "Bath and brush",
+      "Clean and fluffy."
+    ],
+    [
+      "Nail trim",
+      "Quick and gentle."
+    ],
+    [
+      "Doodles",
+      "And herding breeds."
+    ],
+    [
+      "Fish",
+      "No trip to Omaha needed."
+    ],
+    [
+      "Pet supplies",
+      "What your pets need."
+    ]
+  ],
+  "steps": [
+    [
+      "Book a spot",
+      "Pick a day that works."
+    ],
+    [
+      "Drop off",
+      "Tell us how you like the cut."
+    ],
+    [
+      "Pick up",
+      "Clean, happy and smelling good."
+    ]
+  ],
+  "reviewsTitle": "Happy tails",
+  "reviews": [
+    [
+      "They did such a wonderful job grooming my border collie aussie!",
+      "Google review"
+    ],
+    [
+      "…they call to remind us the day before of his appointment.",
+      "Google review"
+    ],
+    [
+      "Almost 10 years of great clips & excellent service.",
+      "Google review"
+    ]
+  ],
+  "visitTitle": "Find us",
+  "visitNote": "On West Norfolk Avenue in Norfolk.",
+  "about": "Healthy Paws is a dog grooming and pet supply shop in Norfolk, Nebraska. Customers say the groomers are kind and caring, prices are affordable, and it's nice to buy fish in town instead of driving to Omaha.",
+  "formIntro": "Have a question about your pup? Send a note and we'll get back to you.",
+  "formQuestion": "Tell us about your dog",
+  "formPlaceholder": "For example: shih tzu, a little overdue, likes it short",
+  "requestTitle": "Questions?",
+  "feature": {
+    "type": "book",
+    "id": "book",
+    "eyebrow": "Book online",
+    "title": "Book a groom",
+    "intro": "Pick a service, a day and a time, and we'll confirm your spot.",
+    "pill": "Sample times",
+    "heroCta": "Book a groom",
+    "nav": "Book",
+    "services": [
+      "Full groom",
+      "Bath and brush",
+      "Nail trim"
+    ],
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "from": 8,
+    "to": 16,
+    "step": 60,
+    "extra": "Tell us about your dog",
+    "extraPlaceholder": "Breed, size and how you like the cut",
+    "cta": "Request this time",
+    "doneText": "On the real site, the request lands on the shop calendar and you get a text confirming your spot."
+  },
+  "theme": {
+    "paper": "#F5F8F3",
+    "ink": "#1E2A24",
+    "muted": "#5D6A63",
+    "line": "#DCE6D8",
+    "brand": "#2C6E58",
+    "accent": "#F4A259",
+    "accentInk": "#1E2A24"
+  },
+  "heroImage": "https://images.unsplash.com/photo-1769523371421-1524a2c74ba3?auto=format&fit=crop&w=2000&q=70",
+  "storefront": true,
+  "slug": "healthy-paws-norfolk-preview",
+  "demo": true,
+  "demoNote": "Concept homepage for Healthy Paws, made by a Pennsylvania designer. Not live and not affiliated with the business."
+}

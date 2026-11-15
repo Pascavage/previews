@@ -1,0 +1,156 @@
+{
+  "template": "bold",
+  "schemaType": "TattooParlor",
+  "business": "Altered Ink Tattoo Parlor",
+  "shortName": "Altered Ink",
+  "initials": "AI",
+  "town": "Dickinson, ND",
+  "phone": "701-483-3311",
+  "address": "117 2nd Ave E, Dickinson, ND 58601",
+  "email": "alteredinktattoo@gmail.com",
+  "headline": "Tattoos and piercings.",
+  "intro": "A clean, comfortable tattoo and piercing studio in Dickinson. Custom drawn work and artists who get it, even when you can't describe it.",
+  "hours": [
+    [
+      "Wednesday",
+      "2pm to 7pm"
+    ],
+    [
+      "Thursday to Saturday",
+      "Noon to 7pm"
+    ],
+    [
+      "Sunday to Tuesday",
+      "Closed"
+    ]
+  ],
+  "proof": [
+    [
+      "4.8 stars",
+      "from 103 Google reviews"
+    ],
+    [
+      "Custom",
+      "drawn work"
+    ],
+    [
+      "Piercings",
+      "too"
+    ]
+  ],
+  "servicesTitle": "What we do",
+  "servicesNote": "Send your idea and we'll talk it through.",
+  "services": [
+    [
+      "Custom tattoos",
+      "Drawn just for you."
+    ],
+    [
+      "Piercings",
+      "Placed right, healed easy."
+    ],
+    [
+      "Add-ons",
+      "Build on a piece you have."
+    ],
+    [
+      "First tattoos",
+      "We'll walk you through it."
+    ],
+    [
+      "Ideas",
+      "Even if you can't describe it."
+    ],
+    [
+      "Clean studio",
+      "Every time."
+    ]
+  ],
+  "steps": [
+    [
+      "Send your idea",
+      "Photos or sketches help."
+    ],
+    [
+      "Get a reply",
+      "Thoughts and timing."
+    ],
+    [
+      "Book your session",
+      "Pick a time."
+    ]
+  ],
+  "reviewsTitle": "What people say",
+  "reviews": [
+    [
+      "Studio was extremely clean inside.",
+      "Google review"
+    ],
+    [
+      "Amber did a piercing for me. She did an awesome job!",
+      "Google review"
+    ],
+    [
+      "…the talent of artistry is amazing.",
+      "Google review"
+    ]
+  ],
+  "visitTitle": "Find the studio",
+  "visitNote": "On 2nd Avenue East in downtown Dickinson.",
+  "about": "Altered Ink is a tattoo and piercing studio in Dickinson, North Dakota. Clients say the studio is extremely clean, the artists make you feel comfortable, and the custom work is amazing.",
+  "formIntro": "Have a question? Send a note and we'll get back to you.",
+  "formQuestion": "What can we help with?",
+  "formPlaceholder": "For example: how far out are you booking for a forearm piece?",
+  "requestLabel": "Ask a question",
+  "requestTitle": "Questions?",
+  "feature": {
+    "type": "quote",
+    "id": "idea",
+    "eyebrow": "Got an idea?",
+    "title": "Send us your tattoo idea",
+    "intro": "Share a reference photo and a few details, and we'll reply with thoughts and when we can get you in.",
+    "pill": "No obligation",
+    "heroCta": "Send your idea",
+    "nav": "Your idea",
+    "itemLabel": "1. What are you thinking?",
+    "items": [
+      "New tattoo",
+      "Add to a piece",
+      "Piercing",
+      "Not sure yet"
+    ],
+    "placeholder": "Placement, size, colors, and any reference",
+    "steps": [
+      [
+        "Send a reference",
+        "Photos or sketches help."
+      ],
+      [
+        "Get a reply",
+        "Ideas and timing."
+      ],
+      [
+        "Book your session",
+        "Pick a time that works."
+      ]
+    ],
+    "cta": "Send my idea",
+    "doneText": "On the real site, your idea and photos go straight to the studio and you get a reply by email."
+  },
+  "theme": {
+    "paper": "#F1F0EE",
+    "ink": "#121212",
+    "muted": "#5B5A58",
+    "line": "#DCDAD6",
+    "brand": "#121212",
+    "accent": "#2EC4B6",
+    "accentInk": "#121212"
+  },
+  "bookUrl": "#idea",
+  "bookLabel": "Send your idea",
+  "heroImage": "https://images.unsplash.com/photo-1775134061575-80f4bbd1a189?auto=format&fit=crop&w=2000&q=70",
+  "storefront": true,
+  "slug": "altered-ink-tattoo-preview",
+  "demo": true,
+  "demoNote": "Concept homepage for Altered Ink Tattoo Parlor, made by a Pennsylvania designer. Not live and not affiliated with the business."
+}

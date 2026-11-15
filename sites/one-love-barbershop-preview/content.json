@@ -1,0 +1,169 @@
+{
+  "template": "neon",
+  "schemaType": "BarberShop",
+  "business": "One Love Barbershop",
+  "shortName": "One Love",
+  "town": "Marshalltown, IA",
+  "address": "16 N 1st Ave, Marshalltown, IA 50158",
+  "email": "onelovebarbershop22@gmail.com",
+  "emailLabel": "Email the shop",
+  "eyebrow": "Marshalltown, Iowa",
+  "headline": "Good cuts, good vibes.",
+  "intro": "A chill barbershop in Marshalltown with good music and good conversation. Cuts for grown-ups and kids, plus braids.",
+  "ticker": [
+    "Cuts",
+    "Fades",
+    "Kids' cuts",
+    "Braids",
+    "Good music"
+  ],
+  "hours": [
+    [
+      "Tuesday",
+      "8am to 7:30pm"
+    ],
+    [
+      "Wednesday",
+      "10am to 7:30pm"
+    ],
+    [
+      "Thursday",
+      "10am to 7pm"
+    ],
+    [
+      "Friday",
+      "9am to 7:30pm"
+    ],
+    [
+      "Saturday",
+      "9am to 6pm"
+    ],
+    [
+      "Sunday and Monday",
+      "Closed"
+    ]
+  ],
+  "proof": [
+    [
+      "4.9 stars",
+      "from 43 Google reviews"
+    ],
+    [
+      "Kids",
+      "welcome"
+    ],
+    [
+      "Braids",
+      "too"
+    ]
+  ],
+  "servicesTitle": "What we do",
+  "servicesNote": "Not sure what you want? Talk it through in the chair.",
+  "services": [
+    [
+      "Haircuts",
+      "Taking pride in every one."
+    ],
+    [
+      "Fades",
+      "Clean and blended."
+    ],
+    [
+      "Kids' cuts",
+      "We talk them through it."
+    ],
+    [
+      "Braids",
+      "Ask for Nancy."
+    ],
+    [
+      "Lineups",
+      "Sharp edges."
+    ],
+    [
+      "Beard trims",
+      "Neat and shaped."
+    ]
+  ],
+  "steps": [
+    [
+      "Book a time",
+      "Pick your barber."
+    ],
+    [
+      "Kick back",
+      "Good music, good talk."
+    ],
+    [
+      "Walk out fresh",
+      "And come back soon."
+    ]
+  ],
+  "reviewsTitle": "What people say",
+  "reviews": [
+    [
+      "The barber takes the time to talk to the kids through out the haircut…",
+      "Google review"
+    ],
+    [
+      "Aden did an amazing job.",
+      "Google review"
+    ],
+    [
+      "…a chill place to get your hair done and relax with good music…",
+      "Google review"
+    ]
+  ],
+  "visitTitle": "Find the shop",
+  "visitNote": "On North 1st Avenue in Marshalltown.",
+  "about": "One Love is a barbershop in Marshalltown, Iowa. Customers say the barbers take pride in their work and their time with kids, and that it's a chill place to relax with good music and conversation.",
+  "formIntro": "Have a question? Send a note and we'll get back to you.",
+  "formQuestion": "What can we help with?",
+  "formPlaceholder": "For example: can you fit in two kids' cuts Saturday morning?",
+  "requestTitle": "Questions?",
+  "feature": {
+    "type": "book",
+    "id": "book",
+    "eyebrow": "Book online",
+    "title": "Book a cut",
+    "intro": "Pick a service, a day and a time, and we'll confirm your spot.",
+    "pill": "Sample times",
+    "heroCta": "Book a cut",
+    "nav": "Book",
+    "services": [
+      "Haircut",
+      "Kids' cut",
+      "Fade",
+      "Braids",
+      "Beard"
+    ],
+    "days": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "from": 9,
+    "to": 18,
+    "step": 30,
+    "extra": "Anything we should know?",
+    "extraPlaceholder": "The cut you want, or who you usually see",
+    "cta": "Request this time",
+    "doneText": "On the real site, the request lands on the shop calendar and you get a text confirming your spot."
+  },
+  "theme": {
+    "paper": "#121018",
+    "ink": "#F4F0FA",
+    "muted": "#A69DB5",
+    "line": "#2A2533",
+    "brand": "#121018",
+    "accent": "#FFD23F",
+    "accentInk": "#121018"
+  },
+  "heroImage": "https://images.unsplash.com/photo-1759134198561-e2041049419c?auto=format&fit=crop&w=2000&q=70",
+  "storefront": true,
+  "slug": "one-love-barbershop-preview",
+  "demo": true,
+  "demoNote": "Concept homepage for One Love Barbershop, made by a Pennsylvania designer. Not live and not affiliated with the business."
+}

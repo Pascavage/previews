@@ -1,0 +1,153 @@
+{
+  "template": "western",
+  "schemaType": "BarberShop",
+  "business": "The 2/4",
+  "shortName": "The 2/4",
+  "town": "Ardmore, OK",
+  "address": "2416 Autumn Run, Ardmore, OK 73401",
+  "eyebrow": "Ardmore, Oklahoma",
+  "headline": "A real barbershop.",
+  "intro": "A clean, friendly barbershop in Ardmore with meticulous cuts, beard trims and straight razor shaves. Easy to book online.",
+  "posterTitle": "THE 2/4",
+  "posterCaption": "Ardmore, Oklahoma",
+  "hours": [
+    [
+      "Tuesday",
+      "10am to 6:30pm"
+    ],
+    [
+      "Wednesday to Friday",
+      "10am to 7pm, closed 2 to 3"
+    ],
+    [
+      "Saturday",
+      "9am to 3pm"
+    ],
+    [
+      "Sunday and Monday",
+      "Closed"
+    ]
+  ],
+  "proof": [
+    [
+      "4.8 stars",
+      "from 134 Google reviews"
+    ],
+    [
+      "Straight razor",
+      "shaves"
+    ],
+    [
+      "Easy",
+      "online booking"
+    ]
+  ],
+  "servicesTitle": "What we do",
+  "servicesNote": "Book ahead and skip the wait.",
+  "services": [
+    [
+      "Haircuts",
+      "Meticulous and detailed."
+    ],
+    [
+      "Full service",
+      "Cut, beard and shave."
+    ],
+    [
+      "Straight razor shave",
+      "The real thing."
+    ],
+    [
+      "Beard trims",
+      "Shaped and clean."
+    ],
+    [
+      "Fades",
+      "Blended right."
+    ],
+    [
+      "Regulars",
+      "We'll learn your cut."
+    ]
+  ],
+  "steps": [
+    [
+      "Book online",
+      "Pick your barber and time."
+    ],
+    [
+      "Sit back",
+      "Relax and talk."
+    ],
+    [
+      "Walk out sharp",
+      "Every time."
+    ]
+  ],
+  "reviewsTitle": "Word around town",
+  "reviews": [
+    [
+      "Its nice to have a real barbershop in town.",
+      "Google review"
+    ],
+    [
+      "Best haircut ive ever had.",
+      "Google review"
+    ],
+    [
+      "Very meticulous and detailed. 10/10 will recommend to anyone.",
+      "Google review"
+    ]
+  ],
+  "visitTitle": "Come on by",
+  "visitNote": "On Autumn Run in Ardmore.",
+  "about": "The 2/4 is a barbershop in Ardmore, Oklahoma, with more than 130 Google reviews. Customers say it's a clean, professional shop with good value, detailed cuts and a real straight razor shave.",
+  "formIntro": "Have a question? Send a note and we'll get back to you.",
+  "formQuestion": "What can we help with?",
+  "formPlaceholder": "For example: do you have room for a cut and shave Saturday?",
+  "requestTitle": "Holler at us",
+  "feature": {
+    "type": "book",
+    "id": "book",
+    "eyebrow": "Book online",
+    "title": "Book a cut",
+    "intro": "Pick a service, a day and a time, and we'll confirm your spot.",
+    "pill": "Sample times",
+    "heroCta": "Book a cut",
+    "nav": "Book",
+    "services": [
+      "Haircut",
+      "Full service",
+      "Straight razor shave",
+      "Beard trim"
+    ],
+    "days": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "from": 10,
+    "to": 18,
+    "step": 30,
+    "extra": "Anything we should know?",
+    "extraPlaceholder": "The cut you want, or who you usually see",
+    "cta": "Request this time",
+    "doneText": "On the real site, the request lands on the shop calendar and you get a text confirming your spot."
+  },
+  "theme": {
+    "paper": "#F3EBDD",
+    "ink": "#241A14",
+    "muted": "#6A5848",
+    "line": "#E0CFB5",
+    "brand": "#2E3B4E",
+    "accent": "#C8873A",
+    "accentInk": "#FFFFFF"
+  },
+  "heroImage": "https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=2000&q=70",
+  "storefront": true,
+  "slug": "the-two-four-preview",
+  "demo": true,
+  "demoNote": "Concept homepage for The 2/4, made by a Pennsylvania designer. Not live and not affiliated with the business."
+}

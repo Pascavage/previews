@@ -1,0 +1,156 @@
+{
+  "template": "editorial",
+  "schemaType": "Florist",
+  "business": "Ooo So Pretty Flowers and Accessories",
+  "shortName": "Ooo So Pretty",
+  "initials": "OSP",
+  "town": "Clarksdale, MS",
+  "phone": "662-624-4007",
+  "address": "393 Issaquena Ave, Clarksdale, MS 38614",
+  "email": "ooosopretty@yahoo.com",
+  "headline": "Flowers, even last minute.",
+  "intro": "A flower shop in Clarksdale that comes through when you need it. Arrangements, delivery and wire orders, even when you call from out of state.",
+  "stampText": "Ooo So Pretty · Clarksdale · ",
+  "hours": [
+    [
+      "Monday to Saturday",
+      "10am to 6pm"
+    ],
+    [
+      "Sunday",
+      "Closed"
+    ]
+  ],
+  "proof": [
+    [
+      "4.6 stars",
+      "from 34 Google reviews"
+    ],
+    [
+      "Delivery",
+      "and wire orders"
+    ],
+    [
+      "Last minute",
+      "we'll try"
+    ]
+  ],
+  "servicesEyebrow": "The shop",
+  "servicesTitle": "What we do",
+  "servicesNote": "Order by phone or send a note.",
+  "services": [
+    [
+      "Arrangements",
+      "For any occasion."
+    ],
+    [
+      "Delivery",
+      "Next day when you need it."
+    ],
+    [
+      "Wire orders",
+      "Send flowers farther away."
+    ],
+    [
+      "Sympathy",
+      "Handled with care."
+    ],
+    [
+      "Birthdays",
+      "Big ones included."
+    ],
+    [
+      "Accessories",
+      "Pretty things in the shop."
+    ]
+  ],
+  "steps": [
+    [
+      "Tell us what you need",
+      "Occasion, colors, date."
+    ],
+    [
+      "We put it together",
+      "Made with care."
+    ],
+    [
+      "We deliver",
+      "Or you pick it up."
+    ]
+  ],
+  "reviewsTitle": "Kind words",
+  "reviews": [
+    [
+      "If I need flowers for anything again, I am only going to use them.",
+      "Google review"
+    ],
+    [
+      "Denise took care of my needs and was soooo pleasant to work with.",
+      "Google review"
+    ],
+    [
+      "I ordered last minute, they were super nice and took care of me.",
+      "Google review"
+    ]
+  ],
+  "visitTitle": "Visit the shop",
+  "visitNote": "On Issaquena Avenue in Clarksdale.",
+  "about": "Ooo So Pretty is a flower and accessories shop in Clarksdale, Mississippi. Customers say the shop is adorable, the owner is friendly and helpful, and they come through on last-minute orders, even for people calling from out of state.",
+  "formIntro": "Have a question? Send a note and we'll get back to you.",
+  "formQuestion": "What can we help with?",
+  "formPlaceholder": "For example: do you deliver to Shelby?",
+  "requestLabel": "Ask a question",
+  "requestTitle": "Questions?",
+  "feature": {
+    "type": "quote",
+    "id": "flowers",
+    "eyebrow": "Order flowers",
+    "title": "Tell us what you need",
+    "intro": "Pick the occasion and tell us the colors, date and where it's going. We'll get back to you with ideas and a price.",
+    "pill": "No obligation",
+    "heroCta": "Order flowers",
+    "nav": "Order flowers",
+    "itemLabel": "1. What's the occasion?",
+    "items": [
+      "Birthday",
+      "Sympathy",
+      "Anniversary",
+      "Just because",
+      "Event",
+      "Something else"
+    ],
+    "placeholder": "Colors, budget, delivery address and date",
+    "steps": [
+      [
+        "Tell us the occasion",
+        "Plus colors and budget."
+      ],
+      [
+        "Get a reply",
+        "Ideas and a price."
+      ],
+      [
+        "We deliver",
+        "Or you pick it up."
+      ]
+    ],
+    "cta": "Send my request",
+    "doneText": "On the real site, your request goes straight to the shop and you get a reply by email."
+  },
+  "theme": {
+    "paper": "#FBF6F1",
+    "ink": "#2A2120",
+    "muted": "#6F6260",
+    "line": "#EEDFD5",
+    "brand": "#8C3B4A",
+    "accent": "#F2B36D",
+    "accentInk": "#2A2120"
+  },
+  "bookUrl": "#flowers",
+  "bookLabel": "Order flowers",
+  "heroImage": "https://images.unsplash.com/photo-1780687368321-6c6a14fa09d9?auto=format&fit=crop&w=2000&q=70",
+  "storefront": true,
+  "slug": "ooo-so-pretty-preview",
+  "demo": true,
+  "demoNote": "Concept homepage for Ooo So Pretty Flowers and Accessories, made by a Pennsylvania designer. Not live and not affiliated with the business."
+}

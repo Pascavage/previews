@@ -1,0 +1,152 @@
+{
+  "template": "spa",
+  "schemaType": "NailSalon",
+  "business": "T&H Nails Spa",
+  "shortName": "T&H Nails Spa",
+  "town": "Hastings, NE",
+  "phone": "402-519-3138",
+  "address": "303 N Burlington Ave, Suite B, Hastings, NE 68901",
+  "eyebrow": "Burlington Avenue · Hastings",
+  "chip": "open seven days",
+  "headline": "Nails just how you want.",
+  "intro": "A nail salon in Hastings with new sets, pedicures and nail art. Bring a photo and we'll make it match.",
+  "hours": [
+    [
+      "Monday to Saturday",
+      "9am to 7pm"
+    ],
+    [
+      "Sunday",
+      "11am to 5pm"
+    ]
+  ],
+  "proof": [
+    [
+      "4.6 stars",
+      "from 45 Google reviews"
+    ],
+    [
+      "Open daily",
+      "Sundays too"
+    ],
+    [
+      "Bring a photo",
+      "we'll match it"
+    ]
+  ],
+  "servicesEyebrow": "Services",
+  "servicesTitle": "The menu",
+  "servicesNote": "Bring the whole family.",
+  "services": [
+    [
+      "New sets",
+      "Done right, start to finish."
+    ],
+    [
+      "Pedicures",
+      "Relax and unwind."
+    ],
+    [
+      "Nail art",
+      "Show us a photo."
+    ],
+    [
+      "Fix a set",
+      "We'll make it right."
+    ],
+    [
+      "Weekly regulars",
+      "Keep them looking fresh."
+    ],
+    [
+      "For him too",
+      "Pedicures for everyone."
+    ]
+  ],
+  "stepsTitle": "How a visit works",
+  "steps": [
+    [
+      "Book a time",
+      "Or walk in."
+    ],
+    [
+      "Show us the look",
+      "A photo helps."
+    ],
+    [
+      "Love your nails",
+      "Every time."
+    ]
+  ],
+  "reviewsTitle": "Kind words",
+  "reviews": [
+    [
+      "Jonathan is an amazing nail tech!!",
+      "Google review"
+    ],
+    [
+      "…it was the best pedicure experience I have ever had.",
+      "Google review"
+    ],
+    [
+      "I showed him what I wanted and he recreated it exactly.",
+      "Google review"
+    ]
+  ],
+  "visitTitle": "Visit the salon",
+  "visitNote": "On North Burlington Avenue in Hastings, Suite B.",
+  "about": "T&H Nails Spa is a nail salon in Hastings, Nebraska. Clients say tech Jonathan takes his time and recreates designs exactly, the pedicures are some of the best around and the prices are great.",
+  "formIntro": "Have a question? Send a note and we'll get back to you.",
+  "formQuestion": "What can we help with?",
+  "formPlaceholder": "For example: can we book pedicures for three on Saturday?",
+  "requestLabel": "Ask a question",
+  "requestTitle": "Questions?",
+  "feature": {
+    "type": "book",
+    "id": "book",
+    "eyebrow": "Book online",
+    "title": "Book a visit",
+    "intro": "Pick a service, a day and a time, and we'll confirm your spot.",
+    "pill": "Sample times",
+    "heroCta": "Book a visit",
+    "nav": "Book",
+    "services": [
+      "New set",
+      "Fix a set",
+      "Pedicure",
+      "Nail art"
+    ],
+    "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "from": 9,
+    "to": 18,
+    "step": 30,
+    "extra": "Anything we should know?",
+    "extraPlaceholder": "The look you want, or who you usually see",
+    "cta": "Request this time",
+    "doneText": "On the real site, the request lands on the shop calendar and you get a text confirming your spot."
+  },
+  "theme": {
+    "paper": "#FBF6F7",
+    "ink": "#2A2326",
+    "muted": "#6F6468",
+    "line": "#EEDFE3",
+    "brand": "#5E3A5C",
+    "accent": "#E9B7C9",
+    "accentInk": "#2A2326"
+  },
+  "bookUrl": "#book",
+  "bookLabel": "Book a visit",
+  "heroImage": "https://images.unsplash.com/photo-1619607146034-5a05296c8f9a?auto=format&fit=crop&w=2000&q=70",
+  "storefront": true,
+  "slug": "th-nails-spa-preview",
+  "demo": true,
+  "demoNote": "Concept homepage for T&H Nails Spa, made by a Pennsylvania designer. Not live and not affiliated with the business."
+}

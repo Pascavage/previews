@@ -1,0 +1,144 @@
+{
+  "template": "friendly",
+  "schemaType": "LocalBusiness",
+  "business": "Becky's Bubbles & Bows",
+  "shortName": "Becky's Bubbles & Bows",
+  "initials": "BB",
+  "owner": "Becky",
+  "tagline": "Dog grooming",
+  "town": "Sedalia, MO",
+  "phone": "660-829-3647",
+  "address": "3385 S Washington Ave, Sedalia, MO 65301",
+  "headline": "Bubbles, bows and love.",
+  "intro": "Dog grooming in Sedalia from Becky, who gives every pet her very best. Friendly, professional and priced right.",
+  "hours": [
+    [
+      "Tuesday to Friday",
+      "8am to 4pm"
+    ],
+    [
+      "Saturday to Monday",
+      "Closed"
+    ]
+  ],
+  "proof": [
+    [
+      "5.0 stars",
+      "from 27 Google reviews"
+    ],
+    [
+      "Fair prices",
+      "no hassle"
+    ],
+    [
+      "Toy breeds",
+      "and more"
+    ]
+  ],
+  "servicesTitle": "What we do",
+  "services": [
+    [
+      "Full groom",
+      "Bath, haircut and tidy up."
+    ],
+    [
+      "Bath and brush",
+      "Clean and smelling good."
+    ],
+    [
+      "Nail trim",
+      "Quick and gentle."
+    ],
+    [
+      "Toy breeds",
+      "Little ones are in good hands."
+    ],
+    [
+      "Breed cuts",
+      "The look you want."
+    ],
+    [
+      "Gentle handling",
+      "Kind and patient."
+    ]
+  ],
+  "steps": [
+    [
+      "Book a spot",
+      "Pick a day that works."
+    ],
+    [
+      "Drop off",
+      "Tell us how you like the cut."
+    ],
+    [
+      "Pick up",
+      "Clean, happy and smelling good."
+    ]
+  ],
+  "reviewsTitle": "Happy tails",
+  "reviews": [
+    [
+      "Excellent care, Becky truly gives each pet her very best",
+      "Google review"
+    ],
+    [
+      "She really expressed genuine care for and love to my dog.",
+      "Google review"
+    ],
+    [
+      "Fairest price I have seen anywhere.",
+      "Google review"
+    ]
+  ],
+  "visitTitle": "Find us",
+  "visitNote": "On South Washington Avenue in Sedalia.",
+  "about": "Becky's Bubbles & Bows is a dog grooming shop in Sedalia, Missouri, with a perfect 5.0 rating on Google. Customers say Becky is kind and professional, truly cares about every dog and charges a fair price.",
+  "formIntro": "Have a question about your pup? Send a note and we'll get back to you.",
+  "formQuestion": "Tell us about your dog",
+  "formPlaceholder": "For example: shih tzu, a little overdue, likes it short",
+  "requestLabel": "Ask a question",
+  "requestTitle": "Questions?",
+  "feature": {
+    "type": "book",
+    "id": "book",
+    "eyebrow": "Book online",
+    "title": "Book a groom",
+    "intro": "Pick a service, a day and a time, and we'll confirm your spot.",
+    "pill": "Sample times",
+    "heroCta": "Book a groom",
+    "nav": "Book",
+    "services": [
+      "Full groom",
+      "Bath and brush",
+      "Nail trim"
+    ],
+    "days": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "from": 8,
+    "to": 15,
+    "step": 60,
+    "extra": "Tell us about your dog",
+    "extraPlaceholder": "Breed, size and how you like the cut",
+    "cta": "Request this time",
+    "doneText": "On the real site, the request lands on the shop calendar and you get a text confirming your spot."
+  },
+  "theme": {
+    "paper": "#F4F9FC",
+    "ink": "#1E2836",
+    "muted": "#5E6878",
+    "line": "#DCE8F1",
+    "brand": "#2D5C8A",
+    "accent": "#FF8FA3",
+    "accentInk": "#1E2836"
+  },
+  "heroImage": "https://images.unsplash.com/photo-1663108903748-590d5fa4b2d1?auto=format&fit=crop&w=2000&q=70",
+  "storefront": true,
+  "slug": "beckys-bubbles-and-bows-preview",
+  "demo": true,
+  "demoNote": "Concept homepage for Becky's Bubbles & Bows, made by a Pennsylvania designer. Not live and not affiliated with the business."
+}

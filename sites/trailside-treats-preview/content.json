@@ -1,0 +1,164 @@
+{
+  "template": "groovy",
+  "schemaType": "IceCreamShop",
+  "business": "Trailside Treats",
+  "shortName": "Trailside Treats",
+  "town": "Sweetser, IN",
+  "phone": "765-618-5332",
+  "address": "102 S Main St, Sweetser, IN 46987",
+  "email": "trailsidetreat@gmail.com",
+  "eyebrow": "Main Street · Sweetser",
+  "headline": "Ice cream worth the drive.",
+  "intro": "Traditional and unique treats on Main Street in Sweetser. Sundaes, an affogato float and s'mores nachos, with fair prices and fast service.",
+  "hours": [
+    [
+      "Wednesday to Friday",
+      "2pm to 6pm"
+    ],
+    [
+      "Saturday to Tuesday",
+      "Closed"
+    ]
+  ],
+  "proof": [
+    [
+      "4.8 stars",
+      "from 75 Google reviews"
+    ],
+    [
+      "Fair prices",
+      "fast service"
+    ],
+    [
+      "Main Street",
+      "in Sweetser"
+    ]
+  ],
+  "servicesTitle": "What's in the case",
+  "servicesNote": "Can't decide? Ask for a recommendation.",
+  "services": [
+    [
+      "Ice cream",
+      "Cones and cups."
+    ],
+    [
+      "Sundaes",
+      "Piled high."
+    ],
+    [
+      "Affogato float",
+      "A customer favorite."
+    ],
+    [
+      "S'mores nachos",
+      "Worth the trip."
+    ],
+    [
+      "Unique treats",
+      "Something new to try."
+    ],
+    [
+      "Classics",
+      "The traditional favorites."
+    ]
+  ],
+  "steps": [
+    [
+      "Order ahead",
+      "Pick your treats."
+    ],
+    [
+      "Stop by",
+      "On Main Street in Sweetser."
+    ],
+    [
+      "Dig in",
+      "Grab a spoon."
+    ]
+  ],
+  "reviewsTitle": "Overheard at the window",
+  "reviews": [
+    [
+      "Phenomenal ice cream! Fair prices and fast service. Love this small town gem!",
+      "Google review"
+    ],
+    [
+      "The affogato float is worthy of an award.",
+      "Google review"
+    ],
+    [
+      "Cutest little place with traditional and unique treats.",
+      "Google review"
+    ]
+  ],
+  "visitTitle": "Stop by",
+  "visitNote": "On South Main Street in Sweetser.",
+  "about": "Trailside Treats is an ice cream shop on Main Street in Sweetser, Indiana. Visitors love the traditional and unique treats, the fair prices and the friendly staff, and many find it on a drive down the back roads.",
+  "formIntro": "Have a question or a big order? Send a note and we'll get back to you.",
+  "formQuestion": "What can we help with?",
+  "formPlaceholder": "For example: can we bring a group of 15 on Friday?",
+  "requestTitle": "Say hello",
+  "feature": {
+    "type": "order",
+    "id": "order",
+    "eyebrow": "Order ahead",
+    "title": "Order ahead",
+    "intro": "Pick your treats and a pickup time, and we'll have them ready.",
+    "pill": "Pickup",
+    "heroCta": "Order ahead",
+    "nav": "Order ahead",
+    "groups": [
+      {
+        "name": "Treats",
+        "items": [
+          [
+            "Ice cream",
+            "Cone or cup"
+          ],
+          [
+            "Sundae",
+            ""
+          ],
+          [
+            "Affogato float",
+            ""
+          ],
+          [
+            "S'mores nachos",
+            ""
+          ]
+        ]
+      }
+    ],
+    "days": [
+      "Today",
+      "Tomorrow",
+      "Friday"
+    ],
+    "times": [
+      "2:00 pm",
+      "3:00 pm",
+      "4:00 pm",
+      "5:00 pm"
+    ],
+    "bagTitle": "Your order",
+    "pickupNote": "Ready at the counter",
+    "cta": "Place pickup order",
+    "note": "Pay when you pick up.",
+    "doneText": "On the real site, the order goes straight to the shop so it's ready when you walk in."
+  },
+  "theme": {
+    "paper": "#FFF6EA",
+    "ink": "#2A1F1A",
+    "muted": "#6F6058",
+    "line": "#F2DEC6",
+    "brand": "#2F5D50",
+    "accent": "#F7A541",
+    "accentInk": "#2A1F1A"
+  },
+  "heroImage": "https://images.unsplash.com/photo-1695886855588-47117bca2fe6?auto=format&fit=crop&w=2000&q=70",
+  "storefront": true,
+  "slug": "trailside-treats-preview",
+  "demo": true,
+  "demoNote": "Concept homepage for Trailside Treats, made by a Pennsylvania designer. Not live and not affiliated with the business."
+}

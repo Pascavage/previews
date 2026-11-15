@@ -1,0 +1,152 @@
+{
+  "template": "bold",
+  "schemaType": "BarberShop",
+  "business": "American Vintage Barbershop",
+  "shortName": "American Vintage",
+  "initials": "AV",
+  "town": "Pikeville, KY",
+  "phone": "606-791-8477",
+  "address": "3767 N Mayo Trail, Pikeville, KY 41501",
+  "headline": "Good cuts, short waits.",
+  "intro": "A busy barbershop on North Mayo Trail with real barbershop atmosphere, a full crew of barbers and short waits, even on a packed day.",
+  "hours": [
+    [
+      "Monday to Friday",
+      "8:30am to 7:30pm"
+    ],
+    [
+      "Saturday",
+      "8:30am to noon"
+    ],
+    [
+      "Sunday",
+      "Closed"
+    ]
+  ],
+  "proof": [
+    [
+      "4.8 stars",
+      "from 91 Google reviews"
+    ],
+    [
+      "Short waits",
+      "even when packed"
+    ],
+    [
+      "Seven barbers",
+      "on a busy day"
+    ]
+  ],
+  "servicesTitle": "What we do",
+  "servicesNote": "Walk in or book ahead.",
+  "services": [
+    [
+      "Haircuts",
+      "Exactly what you want."
+    ],
+    [
+      "Fades",
+      "Clean and sharp."
+    ],
+    [
+      "Beard trims",
+      "Shaped and neat."
+    ],
+    [
+      "Lineups",
+      "Sharp edges."
+    ],
+    [
+      "Classic cuts",
+      "For grandpa too."
+    ],
+    [
+      "Good prices",
+      "Worth the drive."
+    ]
+  ],
+  "steps": [
+    [
+      "Walk in or book",
+      "Whatever's easier."
+    ],
+    [
+      "Pull up a chair",
+      "Talk about anything."
+    ],
+    [
+      "Walk out sharp",
+      "And come back."
+    ]
+  ],
+  "reviewsTitle": "What people say",
+  "reviews": [
+    [
+      "Real barbershop atmosphere, excellent service, and top-tier barbers.",
+      "Google review"
+    ],
+    [
+      "Gavin cut my hair perfectly made sure it was what I wanted…",
+      "Google review"
+    ],
+    [
+      "Took my grandfather here for a haircut, and he really seemed to enjoy himself.",
+      "Google review"
+    ]
+  ],
+  "visitTitle": "Find the shop",
+  "visitNote": "On North Mayo Trail in Pikeville.",
+  "about": "American Vintage Barbershop is a barbershop on North Mayo Trail in Pikeville, Kentucky. Customers say the barbers are top-tier, the hospitality is the best they've had, and the wait stays short even when it's packed.",
+  "formIntro": "Have a question? Send a note and we'll get back to you.",
+  "formQuestion": "What can we help with?",
+  "formPlaceholder": "For example: can you fit in three cuts Saturday morning?",
+  "requestLabel": "Ask a question",
+  "requestTitle": "Questions?",
+  "feature": {
+    "type": "book",
+    "id": "book",
+    "eyebrow": "Book online",
+    "title": "Book a cut",
+    "intro": "Pick a service, a day and a time, and we'll confirm your spot.",
+    "pill": "Sample times",
+    "heroCta": "Book a cut",
+    "nav": "Book",
+    "services": [
+      "Haircut",
+      "Fade",
+      "Beard trim",
+      "Classic cut"
+    ],
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "from": 9,
+    "to": 19,
+    "step": 30,
+    "extra": "Anything we should know?",
+    "extraPlaceholder": "The cut you want, or who you usually see",
+    "cta": "Request this time",
+    "doneText": "On the real site, the request lands on the shop calendar and you get a text confirming your spot."
+  },
+  "theme": {
+    "paper": "#F2F1EE",
+    "ink": "#141414",
+    "muted": "#5C5B58",
+    "line": "#DDDBD6",
+    "brand": "#1F2D44",
+    "accent": "#C0392B",
+    "accentInk": "#FFFFFF"
+  },
+  "bookUrl": "#book",
+  "bookLabel": "Book a cut",
+  "heroImage": "https://images.unsplash.com/photo-1781455793310-8427c96454c7?auto=format&fit=crop&w=2000&q=70",
+  "storefront": true,
+  "slug": "american-vintage-barbershop-preview",
+  "demo": true,
+  "demoNote": "Concept homepage for American Vintage Barbershop, made by a Pennsylvania designer. Not live and not affiliated with the business."
+}

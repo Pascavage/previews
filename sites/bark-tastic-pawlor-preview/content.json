@@ -1,0 +1,141 @@
+{
+  "template": "groovy",
+  "schemaType": "LocalBusiness",
+  "business": "Danielle's Bark-Tastic Pawlor",
+  "shortName": "Bark-Tastic Pawlor",
+  "owner": "Danielle",
+  "town": "Ottumwa, IA",
+  "phone": "641-680-2820",
+  "address": "404 Church St, Ottumwa, IA 52501",
+  "email": "bark-tasticpawlor@hotmail.com",
+  "eyebrow": "Church Street · Ottumwa",
+  "headline": "Fresh, fun and fluffy.",
+  "intro": "Dog grooming in Ottumwa with friendly, caring ladies who take good care of your pup. Every dog goes home with a fun bandana.",
+  "hours": [
+    [
+      "By appointment",
+      "Send a note to book"
+    ]
+  ],
+  "proof": [
+    [
+      "4.8 stars",
+      "from 42 Google reviews"
+    ],
+    [
+      "Bandana",
+      "with every groom"
+    ],
+    [
+      "Church Street",
+      "in Ottumwa"
+    ]
+  ],
+  "servicesTitle": "What we do",
+  "servicesNote": "Tell us about your dog and we'll take it from there.",
+  "services": [
+    [
+      "Full groom",
+      "Bath, haircut and tidy up."
+    ],
+    [
+      "Bath and brush",
+      "Clean and fluffy."
+    ],
+    [
+      "Nail trim",
+      "Quick and gentle."
+    ],
+    [
+      "Breed cuts",
+      "Schnauzers, collies and more."
+    ],
+    [
+      "New clients",
+      "Easy first visits."
+    ],
+    [
+      "A bandana",
+      "Every pup goes home styled."
+    ]
+  ],
+  "steps": [
+    [
+      "Book a spot",
+      "Pick a day that works."
+    ],
+    [
+      "Drop off",
+      "Tell us how you like the cut."
+    ],
+    [
+      "Pick up",
+      "Clean, happy and smelling good."
+    ]
+  ],
+  "reviewsTitle": "Happy tails",
+  "reviews": [
+    [
+      "We love taking our fur babies to Danielle's!",
+      "Google review"
+    ],
+    [
+      "…they always get a fun bandana",
+      "Google review"
+    ],
+    [
+      "The ladies are friendly and caring.",
+      "Google review"
+    ]
+  ],
+  "visitTitle": "Stop by",
+  "visitNote": "On Church Street in Ottumwa.",
+  "about": "Danielle's Bark-Tastic Pawlor is a dog grooming shop in Ottumwa, Iowa. Customers say all the groomers do a great job, take good care of their pups, and send them home with a fun bandana.",
+  "formIntro": "Have a question about your pup? Send a note and we'll get back to you.",
+  "formQuestion": "Tell us about your dog",
+  "formPlaceholder": "For example: shih tzu, a little overdue, likes it short",
+  "requestTitle": "Questions?",
+  "feature": {
+    "type": "book",
+    "id": "book",
+    "eyebrow": "Book online",
+    "title": "Book a groom",
+    "intro": "Pick a service, a day and a time, and we'll confirm your spot.",
+    "pill": "Sample times",
+    "heroCta": "Book a groom",
+    "nav": "Book",
+    "services": [
+      "Full groom",
+      "Bath and brush",
+      "Nail trim"
+    ],
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "from": 8,
+    "to": 15,
+    "step": 60,
+    "extra": "Tell us about your dog",
+    "extraPlaceholder": "Breed, size and how you like the cut",
+    "cta": "Request this time",
+    "doneText": "On the real site, the request lands on the shop calendar and you get a text confirming your spot."
+  },
+  "theme": {
+    "paper": "#FFF7EC",
+    "ink": "#2B1F2E",
+    "muted": "#6E6070",
+    "line": "#F3E0CC",
+    "brand": "#7B3F8C",
+    "accent": "#FFB627",
+    "accentInk": "#2B1F2E"
+  },
+  "heroImage": "https://images.unsplash.com/photo-1782022491533-267c13b410bf?auto=format&fit=crop&w=2000&q=70",
+  "storefront": true,
+  "slug": "bark-tastic-pawlor-preview",
+  "demo": true,
+  "demoNote": "Concept homepage for Danielle's Bark-Tastic Pawlor, made by a Pennsylvania designer. Not live and not affiliated with the business."
+}
