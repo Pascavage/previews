@@ -149,6 +149,7 @@ form .btn{width:100%}
 .fx textarea.t{min-height:90px;resize:vertical}
 .fx .two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .chips{display:flex;flex-wrap:wrap;gap:8px}
+.fx .chip{position:static;left:auto;top:auto;box-shadow:none;animation:none;font-style:normal}
 .chip{font:600 15px/1.2 system-ui,sans-serif;padding:11px 15px;border-radius:999px;border:1.5px solid var(--line);background:#fff;color:var(--ink);cursor:pointer;transition:all .15s}
 .chip:hover{border-color:var(--brand)}
 .chip[aria-pressed=true]{background:var(--brand);border-color:var(--brand);color:#fff}
@@ -246,7 +247,7 @@ form textarea{min-height:110px;resize:vertical}form button{width:100%}.hp{positi
 
 <header class="site-head" id="head"><div class="wrap bar">
   <a class="logo" href="#top">Frangelli&#39;s</a>
-  <nav aria-label="Main"><a href="#menu">Menu</a><a href="#reviews">Reviews</a><a href="#visit">Hours</a><a href="#request">Orders</a></nav>
+  <nav aria-label="Main"><a href="#locked">Menu</a><a href="#locked">Reviews</a><a href="#locked">Hours</a><a href="#locked">Orders</a></nav>
   <a class="btn alt small" href="tel:+12152717878"><svg class="phi" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg>215-271-7878</a>
 </div><div class="check" aria-hidden="true"></div></header>
 
@@ -256,7 +257,7 @@ form textarea{min-height:110px;resize:vertical}form button{width:100%}.hp{positi
     <span class="kicker">9th &amp; Ritner · South Philly</span>
     <h1>Doughnuts filled while you wait.</h1>
     <p class="lead">A South Philly corner bakery since 1947. Every doughnut is hand cut and filled to order with jelly, Italian cream or custard, plus cakes, cookies and the famous Franolli.</p>
-    <div class="actions"><a class="btn main" href="#order">Holiday pre-orders</a><a class="btn alt" href="#menu">See what&#39;s fresh</a></div>
+    <div class="actions"><a class="btn main" href="#locked">Holiday pre-orders</a><a class="btn alt" href="#locked">See what&#39;s fresh</a></div>
   </div>
   <div class="plate">
     <div class="ph" style="--img:url('https://images.unsplash.com/photo-1785386451920-a22dc8eb1206?auto=format&amp;fit=crop&amp;w=2000&amp;q=70')"></div>
@@ -264,105 +265,68 @@ form textarea{min-height:110px;resize:vertical}form button{width:100%}.hp{positi
     <div class="badge stars" aria-hidden="true"><span><b>4.7★</b>583 reviews</span></div>
   </div>
 </div></section>
-
-<section class="strip"><ul class="wrap">
-  <li><b>4.7 stars</b><span>from 583 Google reviews</span></li>
-  <li><b>Since 1947</b><span>on the corner of 9th &amp; Ritner</span></li>
-  <li><b>Filled to order</b><span>hand cut, every one</span></li>
-</ul></section>
-
-<section class="band" id="menu"><div class="wrap">
-  <div class="center reveal"><h2>Fresh this morning</h2><p class="sub">Doughnuts are filled as you wait. Get here early.</p></div>
-  <div class="board reveal" data-title="House favorites"><ul>
-    <li><h3>Filled doughnuts</h3><p>Jelly, Italian cream or custard, filled to order and dusted by hand.</p></li>
-    <li><h3>The Franolli</h3><p>A fresh doughnut shell filled with cannoli cream and tiny chocolate chips.</p></li>
-    <li><h3>Ice cream doughnuts</h3><p>Your favorite ice cream sandwiched in a fresh doughnut.</p></li>
-    <li><h3>Sticky buns</h3><p>Our twist on the traditional sticky bun.</p></li>
-    <li><h3>Cookies</h3><p>Made the same way today as in 1947.</p></li>
-    <li><h3>Cakes</h3><p>Baked fresh and personalized on request.</p></li>
-  </ul></div>
-</div></section>
-
-<section class="fx" id="order"><div class="fxw"><div class="fx-top"><div><span class="fx-eye">Holiday pre-orders</span><h2>Order ahead for the holidays</h2><p>Get holiday cookies, doughnuts and sticky buns on the list so they are boxed and waiting.</p></div><span class="fx-pill">Thanksgiving &amp; Christmas</span></div><div class="ord">
-    <div><div class="ord-tabs" role="tablist"><button type="button" class="chip" data-tab="0" aria-pressed="true">Cookies</button><button type="button" class="chip" data-tab="1" aria-pressed="false">Doughnuts</button><button type="button" class="chip" data-tab="2" aria-pressed="false">Bakery</button></div>
-      <div class="fx-card ord-list"><div class="ord-grp" data-g="0">
-      <div class="ord-item" data-name="Italian cookies"><div><h4>Italian cookies</h4><p>The 1947 recipes, for trays and gifts</p></div>
-        <div class="qty"><button type="button" class="sub" aria-label="Remove one Italian cookies">−</button><output>0</output><button type="button" class="add" aria-label="Add Italian cookies">+</button></div></div></div><div class="ord-grp" data-g="1" hidden>
-      <div class="ord-item" data-name="Filled doughnuts"><div><h4>Filled doughnuts</h4><p>Jelly, Italian cream or custard</p></div>
-        <div class="qty"><button type="button" class="sub" aria-label="Remove one Filled doughnuts">−</button><output>0</output><button type="button" class="add" aria-label="Add Filled doughnuts">+</button></div></div>
-      <div class="ord-item" data-name="Franollis"><div><h4>Franollis</h4><p>Cannoli cream doughnuts</p></div>
-        <div class="qty"><button type="button" class="sub" aria-label="Remove one Franollis">−</button><output>0</output><button type="button" class="add" aria-label="Add Franollis">+</button></div></div></div><div class="ord-grp" data-g="2" hidden>
-      <div class="ord-item" data-name="Sticky buns"><div><h4>Sticky buns</h4></div>
-        <div class="qty"><button type="button" class="sub" aria-label="Remove one Sticky buns">−</button><output>0</output><button type="button" class="add" aria-label="Add Sticky buns">+</button></div></div>
-      <div class="ord-item" data-name="Cake"><div><h4>Cake</h4><p>Personalized on request</p></div>
-        <div class="qty"><button type="button" class="sub" aria-label="Remove one Cake">−</button><output>0</output><button type="button" class="add" aria-label="Add Cake">+</button></div></div></div></div></div>
-    <aside class="fx-card bag" aria-live="polite">
-      <h3>Your holiday order</h3><div style="color:var(--muted);font-size:15px">Pick up on the day you choose</div>
-      <ul class="bag-list"><li class="empty">Nothing added yet. Tap + to add items.</li></ul>
-      <label class="l">Pickup time</label>
-      <div class="two"><select class="t" aria-label="Pickup day"><option>Tue, Nov 24</option><option>Wed, Nov 25</option><option>Wed, Dec 23</option><option>Thu, Dec 24</option></select><select class="t" aria-label="Pickup time"><option>6:00 am</option><option>7:00 am</option><option>8:00 am</option><option>9:00 am</option><option>10:00 am</option><option>11:00 am</option><option>12:00 pm</option><option>1:00 pm</option><option>2:00 pm</option><option>3:00 pm</option></select></div>
-      <label class="l">Name and phone</label>
-      <div class="two"><input class="t" placeholder="Name" autocomplete="name"><input class="t" type="tel" placeholder="Phone" autocomplete="tel"></div>
-      <div style="margin-top:18px"><button type="button" class="fx-btn go" disabled>Reserve my order</button></div>
-      <p class="fx-note">Pay when you pick up.</p>
-      <div class="fx-done">This is a preview, so nothing was sent. On the real site, holiday orders come straight to the bakery in one list, so nothing gets lost on a sticky note.</div>
-    </aside></div>
-  <script>(()=>{const r=document.currentScript.closest('.fx');const bag=r.querySelector('.bag-list'),go=r.querySelector('.go');const q={};
-    const draw=()=>{const e=Object.entries(q).filter(([,n])=>n>0);bag.innerHTML=e.length?e.map(([k,n])=>'<li><span>'+k+'</span><b>× '+n+'</b></li>').join(''):'<li class="empty">Nothing added yet. Tap + to add items.</li>';go.disabled=!e.length;};
-    r.querySelectorAll('.ord-item').forEach(it=>{const n=it.dataset.name,o=it.querySelector('output');it.querySelector('.add').onclick=()=>{q[n]=(q[n]||0)+1;o.value=q[n];draw()};it.querySelector('.sub').onclick=()=>{q[n]=Math.max(0,(q[n]||0)-1);o.value=q[n];draw()}});
-    r.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>{r.querySelectorAll('[data-tab]').forEach(x=>x.setAttribute('aria-pressed',x===b));r.querySelectorAll('.ord-grp').forEach(g=>g.hidden=g.dataset.g!==b.dataset.tab)});
-    go.onclick=()=>r.querySelector('.fx-done').classList.add('on');})()</script></div></section><section class="band" id="reviews" style="padding-top:0"><div class="wrap">
-  <div class="center reveal"><h2>Order up!</h2><p class="sub">4.7 stars from 583 Google reviews</p></div>
-  <div class="tickets reveal"><div class="ticket"><div class="tno"><span>Ticket #001</span><span class="st">★★★★★</span></div><p>Best chocolate donut I’ve ever had!</p><div class="who">Google review</div></div><div class="ticket"><div class="tno"><span>Ticket #002</span><span class="st">★★★★★</span></div><p>Bought a few fresh filled donuts and haven’t stopped thinking about them since!</p><div class="who">Google review</div></div><div class="ticket"><div class="tno"><span>Ticket #003</span><span class="st">★★★★★</span></div><p>Very friendly staff, actually a few generations of the same family.</p><div class="who">Google review</div></div></div>
-</div></section>
-
-<section class="band visit" id="visit"><div class="wrap">
-  <div class="reveal">
-    <span class="kicker">Come early</span>
-    <p class="addr">847 W Ritner St, Philadelphia</p>
-    <p style="margin:0 0 28px;font-weight:500">On the corner of 9th and Ritner in South Philly.</p>
-    <div class="actions"><a class="btn main" href="https://www.google.com/maps/search/?api=1&query=Frangelli's%20Bakery%20847%20W%20Ritner%20St%2C%20Philadelphia%2C%20PA%2019148" target="_blank" rel="noopener">Get directions</a><a class="btn alt" href="tel:+12152717878"><svg class="phi" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg>215-271-7878</a></div>
-    <p class="about">Frangelli&#39;s has been a South Philly neighborhood staple since 1947, run by a few generations of the same family. Every doughnut is hand cut and hand pumped to order, and the cookies are still made the same way they were on day one.</p>
+<section id="locked" class="locked">
+  <div class="lk-ghost" aria-hidden="true">
+    <div class="lk-row"><i></i><i></i><i></i></div>
+    <div class="lk-row"><i></i><i></i><i></i></div>
+    <div class="lk-bar"></div><div class="lk-bar short"></div>
+    <div class="lk-row two"><i></i><i></i></div>
+    <div class="lk-row"><i></i><i></i><i></i></div>
   </div>
-  <div class="sign reveal">
-    <div class="disp">We&#39;re open</div>
-    <table class="hours"><tr><td>Tuesday to Saturday</td><td>6am to 5pm</td></tr><tr><td>Sunday</td><td>7am to 2pm</td></tr><tr><td>Monday</td><td>Closed</td></tr></table>
+</section>
+<div class="lk-veil" aria-hidden="true"></div>
+<div class="lk-card" id="lk-card" role="dialog" aria-label="See the full homepage">
+  <button class="lk-pill" type="button" aria-expanded="false">
+    <span class="lk-lock" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 4.6L18.5 9l-4.7 1.6L12 15l-1.8-4.4L5.5 9l4.7-1.4z"/><path d="M19 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></svg></span>
+    <span class="lk-short">There's more to this homepage. Let's&nbsp;talk.</span>
+    <span class="lk-chev" aria-hidden="true">&#8963;</span>
+  </button>
+  <div class="lk-more">
+    <h2>The rest of the Frangelli's Bakery homepage is ready to come to&nbsp;life.</h2>
+    <p>Want to see it all? Get in touch and let's bring it to life&nbsp;together.</p>
+    <a class="lk-btn" href="mailto:pascavage@gmail.com?subject=Website%20for%20Frangelli's%20Bakery">Get in touch</a>
+    <small>pascavage@gmail.com</small>
   </div>
-</div></section>
-
-<section class="band" id="request"><div class="wrap req">
-  <div class="reveal">
-    <h2>Big order?</h2>
-    <p style="font-weight:500">Ordering a cake or a few dozen for the office? Send a note and we&#39;ll get back to you.</p>
-    <a class="bigtel" href="tel:+12152717878"><svg class="phi" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg>215-271-7878</a>
-  </div>
-  <div class="reveal"><form name="visit" method="POST" action="thanks.html" data-netlify="true" netlify-honeypot="company" onsubmit="event.preventDefault();this.querySelector('.fnote').hidden=false">
-    <input type="hidden" name="form-name" value="visit">
-    <p class="hp"><label>Leave this empty <input name="company"></label></p>
-    <div><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name" required></div>
-    <div><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" required></div>
-    <div class="full"><label for="f-email">Email (optional)</label><input id="f-email" name="email" type="email" autocomplete="email"></div>
-    <div class="full"><label for="f-msg">What are you ordering?</label><textarea id="f-msg" name="message" placeholder="For example: three dozen filled doughnuts for Friday morning"></textarea></div>
-    <div class="full"><label for="f-when">Best time to reach you</label>
-      <select id="f-when" name="best_time"><option>Morning</option><option>Afternoon</option><option>Evening</option><option>Any time</option></select></div>
-    <div class="full"><button class="btn main" type="submit">Send request</button></div>
-    <p class="full fnote" hidden style="margin:0;font-size:15px">This is a preview, so nothing was sent. On the real site, this form sends requests straight to the business.</p>
-  </form></div>
-</div></section>
-</main>
-
-<div class="check" aria-hidden="true"></div>
-<footer class="foot"><div class="wrap">
-  <span class="logo">Frangelli&#39;s</span>
-  <span>847 W Ritner St, Philadelphia, PA 19148 · <a href="tel:+12152717878">215-271-7878</a> · <a href="mailto:john@frangellis.com">john@frangellis.com</a></span>
-</div></footer>
-<div class="callbar"><a class="btn main" href="tel:+12152717878"><svg class="phi" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg>Call 215-271-7878</a></div>
+</div>
+<style>
+.locked{position:relative;padding:40px 20px 30vh;background:#FFF3F1;overflow:hidden;min-height:110vh}
+.lk-ghost{max-width:1080px;margin:0 auto;filter:blur(10px);opacity:.55;pointer-events:none;user-select:none}
+.lk-row{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-bottom:22px}
+.lk-row.two{grid-template-columns:1fr 1fr}
+.lk-row i{display:block;height:170px;border-radius:18px;background:linear-gradient(135deg,#B8325A33,#F0D5CF)}
+.lk-bar{height:26px;border-radius:13px;background:#B8325A40;margin:34px 0 14px;width:60%}
+.lk-bar.short{width:38%;margin-top:0;margin-bottom:30px}
+.lk-veil{position:fixed;left:0;right:0;bottom:0;height:24vh;z-index:90;pointer-events:none;background:linear-gradient(to bottom,#FFF3F100,#FFF3F1d9 70%);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);-webkit-mask-image:linear-gradient(to bottom,transparent,#000 55%);mask-image:linear-gradient(to bottom,transparent,#000 55%);transition:height .55s cubic-bezier(.2,.8,.2,1)}
+body.lk-open .lk-veil{height:100vh;-webkit-mask-image:linear-gradient(to bottom,transparent,#000 25%);mask-image:linear-gradient(to bottom,transparent,#000 25%)}
+.lk-card{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);z-index:100;width:min(430px,calc(100% - 32px));background:#fff;color:#1d1d1f;border:1px solid #F0D5CF;border-radius:999px;box-shadow:0 18px 50px rgba(0,0,0,.2);text-align:center;overflow:hidden;transition:bottom .55s cubic-bezier(.2,.8,.2,1),width .55s cubic-bezier(.2,.8,.2,1),border-radius .45s ease}
+.lk-pill{all:unset;box-sizing:border-box;display:flex;align-items:center;gap:12px;width:100%;padding:10px 18px 10px 10px;cursor:pointer;font:600 15px/1.3 system-ui,-apple-system,sans-serif;color:#1d1d1f;text-align:left}
+.lk-short{flex:1;text-wrap:balance}
+.lk-chev{font-size:18px;color:#77777c;transition:transform .4s}
+.lk-lock{display:inline-grid;place-items:center;flex:none;width:38px;height:38px;border-radius:50%;background:#B8325A;color:#fff;transition:width .45s,height .45s}
+.lk-more{max-height:0;opacity:0;padding:0 30px;transition:max-height .55s cubic-bezier(.2,.8,.2,1),opacity .35s ease,padding .55s}
+.lk-card h2{text-wrap:balance;font:700 24px/1.25 system-ui,-apple-system,sans-serif!important;margin:0 0 10px;color:#1d1d1f!important;text-transform:none!important;letter-spacing:normal!important;font-style:normal!important;text-shadow:none!important;-webkit-text-stroke:0!important}
+.lk-card p{text-wrap:balance;margin:0 0 22px;color:#5b5b60!important;font:16px/1.5 system-ui,-apple-system,sans-serif}
+.lk-btn{display:inline-block;background:#B8325A;color:#fff;text-decoration:none;font:700 16px system-ui,-apple-system,sans-serif;padding:13px 28px;border-radius:999px}
+.lk-btn:hover{filter:brightness(1.1)}
+.lk-card small{display:block;margin-top:12px;color:#77777c!important;font:13px system-ui,-apple-system,sans-serif}
+body.lk-open .lk-card{bottom:calc(50vh - 150px);width:min(460px,calc(100% - 32px));border-radius:22px}
+body.lk-open .lk-pill{flex-direction:column;justify-content:center;gap:0;padding:28px 30px 12px;cursor:default;text-align:center}
+body.lk-open .lk-short,body.lk-open .lk-chev{display:none}
+body.lk-open .lk-lock{width:48px;height:48px}
+body.lk-open .lk-more{max-height:320px;opacity:1;padding:4px 30px 28px}
+.reveal{opacity:1!important;transform:none!important}
+.site-head nav,.site-head .menu,.mobile-call,.sticky-call,.callbar{display:none!important}
+@media(max-width:640px){.lk-row{grid-template-columns:1fr 1fr}.lk-row i{height:120px}.lk-short{font-size:14px}body.lk-open .lk-card{bottom:calc(50vh - 170px)}}
+@media(prefers-reduced-motion:reduce){.lk-card,.lk-veil,.lk-more{transition:none}}
+</style>
 <script>
-(() => { const h = document.getElementById('head'); if (h) { const f = () => h.classList.toggle('scrolled', scrollY > 8); f(); addEventListener('scroll', f, {passive:true}); }
-  const els = document.querySelectorAll('.reveal');
-  if ('IntersectionObserver' in window) { const o = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('on'); o.unobserve(e.target); } }), {threshold:.12}); els.forEach(el => o.observe(el)); }
-  else els.forEach(el => el.classList.add('on'));
-})();
+(function(){var b=document.body,card=document.getElementById('lk-card'),pill=card.querySelector('.lk-pill'),hero=document.querySelector('.hero');
+function set(o){b.classList.toggle('lk-open',o);pill.setAttribute('aria-expanded',o?'true':'false')}
+function check(){var h=hero?hero.getBoundingClientRect():null;var past=h?h.bottom<innerHeight*0.75:scrollY>200;set(past||b.dataset.pin==='1')}
+pill.addEventListener('click',function(){b.dataset.pin='1';set(true)});
+document.querySelectorAll('a[href="#locked"]').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();b.dataset.pin='1';set(true)})});
+addEventListener('scroll',check,{passive:true});addEventListener('resize',check);check();})();
 </script>
-</body>
-</html>
+</main>
+<footer style="text-align:center;padding:28px 20px;font-size:13px;opacity:.7">Concept homepage. Not live and not affiliated with the business.</footer>
+</body></html>
