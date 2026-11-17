@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>document.documentElement.classList.add('js')</script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MC Nail Bar | Tupelo, MS</title>
+<meta name="description" content="A nail bar on West Main Street in Tupelo with friendly techs, fun nail art and a full spa menu for hands and feet.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#8A3E63">
+<link rel="preload" href="fonts/cormorant-garamond-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/cormorant-garamond-latin-500-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/dm-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+:root{--paper:#FBF7F8;--ink:#2A2327;--muted:#6F656A;--line:#EEE0E5;--brand:#8A3E63;--accent:#E7C26B;--accent-ink:#2A2327}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0}a{color:inherit}img{max-width:100%;display:block}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.demo{background:#111;color:#fff;font:500 13px/1.4 system-ui,sans-serif;text-align:center;padding:8px 16px}
+.js .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}.js .reveal.on{opacity:1;transform:none}
+
+@font-face{font-family:'Cormorant';src:url(fonts/cormorant-garamond-latin-500-normal.woff2) format('woff2');font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:'Cormorant';src:url(fonts/cormorant-garamond-latin-500-italic.woff2) format('woff2');font-weight:500;font-style:italic;font-display:swap}
+@font-face{font-family:'DM Sans';src:url(fonts/dm-sans-latin-wght-normal.woff2) format('woff2');font-weight:100 1000;font-display:swap}
+body{background:var(--paper);color:var(--ink);font:400 17px/1.75 'DM Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.wrap{max-width:1200px;margin:0 auto;padding:0 32px}
+h1,h2,h3{font-family:'Cormorant',Georgia,serif;font-weight:500;margin:0;line-height:1;letter-spacing:-.01em}
+h1 em,h2 em{font-style:italic;color:var(--brand)}
+h2{font-size:clamp(44px,5.6vw,76px)}
+.lbl{font-size:12px;letter-spacing:.28em;text-transform:uppercase;font-weight:600;color:var(--brand)}
+.wash{position:absolute;border-radius:50%;filter:blur(60px);opacity:.55;pointer-events:none}
+
+/* header */
+.site-head{position:sticky;top:0;z-index:20;transition:background .3s,box-shadow .3s}
+.site-head.scrolled{background:color-mix(in srgb,var(--paper) 82%,transparent);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);box-shadow:0 1px 0 var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;min-height:84px;gap:24px}
+.word{font-family:'Cormorant',serif;font-size:30px;text-decoration:none;letter-spacing:.02em}
+.word i{color:var(--brand)}
+.site-head nav{display:flex;gap:34px;font-size:14px;letter-spacing:.1em;text-transform:uppercase}
+.site-head nav a{text-decoration:none;opacity:.7}.site-head nav a:hover{opacity:1}
+.phi{width:1em;height:1em}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font:500 15px/1 'DM Sans',sans-serif;letter-spacing:.06em;padding:18px 30px;border-radius:999px;text-decoration:none;border:0;cursor:pointer;transition:transform .25s,background .25s,box-shadow .25s}
+.btn.main{background:var(--brand);color:#fff;box-shadow:0 14px 30px -14px color-mix(in srgb,var(--brand) 80%,transparent)}
+.btn.main:hover{transform:translateY(-2px)}
+.btn.ghost{color:var(--ink);box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--ink) 35%,transparent)}
+.btn.ghost:hover{box-shadow:inset 0 0 0 1px var(--ink)}
+
+/* hero */
+.hero{position:relative;padding:50px 0 110px;overflow:hidden}
+.hero .w1{width:520px;height:520px;background:var(--accent);left:-160px;top:-80px}
+.hero .w2{width:420px;height:420px;background:color-mix(in srgb,var(--brand) 40%,var(--paper));right:-120px;top:140px}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.05fr .95fr;gap:70px;align-items:center}
+.hero h1{font-size:clamp(58px,8vw,118px);margin:24px 0 28px}
+.hero .lead{font-size:19px;color:var(--muted);max-width:30em;margin:0 0 36px}
+.actions{display:flex;flex-wrap:wrap;gap:14px}
+.rate{display:flex;align-items:center;gap:14px;margin-top:40px;font-size:15px;color:var(--muted)}
+.rate b{font-family:'Cormorant',serif;font-size:44px;line-height:1;color:var(--ink);font-weight:500}
+.rate .st{color:var(--brand);letter-spacing:3px;display:block}
+.pics{position:relative;height:620px}
+.pill{position:absolute;right:0;top:0;width:76%;height:100%;border-radius:999px;background:var(--brand) var(--img,none) center/cover no-repeat;box-shadow:0 50px 90px -50px rgba(0,0,0,.5)}
+.pill .ini{position:absolute;inset:0;display:grid;place-items:center;font-family:'Cormorant',serif;font-style:italic;font-size:150px;color:#fff;opacity:.35}
+.dot{position:absolute;left:0;bottom:60px;width:44%;aspect-ratio:1;border-radius:50%;background:var(--accent) var(--img,none) 70% 30%/260% no-repeat;border:10px solid var(--paper);box-shadow:0 30px 60px -30px rgba(0,0,0,.45)}
+.chip{position:absolute;left:6%;top:70px;background:var(--paper);border-radius:999px;padding:14px 22px;box-shadow:0 20px 40px -20px rgba(0,0,0,.35);font-family:'Cormorant',serif;font-style:italic;font-size:22px;animation:float 6s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-10px)}}
+
+/* proof */
+.proof ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.proof li{padding:30px 10px;text-align:center}
+.proof li+li{border-left:1px solid var(--line)}
+.proof b{display:block;font-family:'Cormorant',serif;font-size:32px;font-weight:500;font-style:italic;color:var(--brand)}
+.proof span{font-size:14px;color:var(--muted)}
+
+section.band{padding:120px 0;position:relative}
+.intro{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:end;margin-bottom:60px}
+.intro p{color:var(--muted);margin:0;max-width:28em}
+
+/* treatments */
+.list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.list li{display:grid;grid-template-columns:90px 1fr 1.1fr auto;gap:30px;align-items:center;padding:30px 6px;border-bottom:1px solid var(--line);transition:background .35s,padding .35s}
+.list li:hover{background:color-mix(in srgb,var(--accent) 22%,var(--paper));padding-left:22px;padding-right:22px}
+.list .n{font-family:'Cormorant',serif;font-style:italic;font-size:30px;color:var(--brand)}
+.list h3{font-size:34px}
+.list p{margin:0;color:var(--muted)}
+.list .pr{font-family:'Cormorant',serif;font-size:24px;font-style:italic;color:var(--brand)}
+
+/* quotes */
+.quotes{background:var(--brand);color:#fff;overflow:hidden}
+.quotes .wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:44px}
+.quotes .q p{font-family:'Cormorant',serif;font-style:italic;font-size:27px;line-height:1.3;margin:18px 0 18px}
+.quotes .q::before{content:"\201C";display:block;font-family:'Cormorant',serif;font-size:90px;line-height:.6;color:var(--accent)}
+.quotes .lbl{color:#fff;opacity:.7}
+.quotes .w3{width:600px;height:600px;background:var(--accent);opacity:.18;right:-200px;top:-200px}
+
+/* path */
+.path{max-width:760px;margin:0 auto;list-style:none;padding:0;position:relative}
+.path::before{content:"";position:absolute;left:31px;top:10px;bottom:10px;width:1px;background:var(--line)}
+.path li{display:grid;grid-template-columns:64px 1fr;gap:28px;padding:0 0 46px;position:relative}
+.path li span{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;background:var(--paper);border:1px solid var(--brand);color:var(--brand);font-family:'Cormorant',serif;font-style:italic;font-size:28px;position:relative}
+.path h3{font-size:32px;margin:10px 0 6px}.path p{margin:0;color:var(--muted)}
+
+/* visit */
+.visit .wrap{display:grid;grid-template-columns:1fr 1fr;gap:80px}
+.card{background:#fff;border-radius:32px;padding:44px;box-shadow:0 30px 60px -40px rgba(0,0,0,.35)}
+.addr{font-family:'Cormorant',serif;font-size:clamp(38px,4.4vw,56px);line-height:1.05;margin:18px 0}
+.addr em{color:var(--brand)}
+.hours{width:100%;border-collapse:collapse}
+.hours td{padding:14px 0;border-bottom:1px solid var(--line)}.hours td:last-child{text-align:right;font-weight:600}
+.about{color:var(--muted);margin:0 0 30px}
+
+/* request */
+.req{display:grid;grid-template-columns:.85fr 1.15fr;gap:70px;align-items:start}
+.req .bigtel{display:inline-flex;align-items:center;gap:10px;font-family:'Cormorant',serif;font-size:36px;text-decoration:none;margin-top:16px}
+form input,form textarea,form select{border-radius:14px}
+form .btn{width:100%}
+
+.foot{padding:56px 0 64px;border-top:1px solid var(--line)}
+.foot .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;color:var(--muted);font-size:15px}
+.callbar{display:none}
+
+@media (max-width:900px){
+  .site-head nav,.bar .btn{display:none}
+  .hero{padding:24px 0 80px}
+  .hero .wrap,.intro,.visit .wrap,.req,.quotes .wrap{grid-template-columns:1fr;gap:44px}
+  .pics{height:440px}
+  .chip{top:24px;font-size:19px}
+  .proof ul{grid-template-columns:1fr}.proof li+li{border-left:0;border-top:1px solid var(--line)}
+  .list li{grid-template-columns:52px 1fr;gap:6px 16px;padding:24px 0}
+  .list li:hover{padding-left:0;padding-right:0}
+  .list p,.list .pr{grid-column:2}
+  section.band{padding:80px 0}
+  .card{padding:30px 24px}
+  .callbar{display:flex;position:fixed;left:12px;right:12px;bottom:12px;z-index:30}.callbar .btn{flex:1}
+  .foot{padding-bottom:110px}
+}
+.fx{color:var(--ink);padding:100px 0;background:color-mix(in srgb,var(--brand) 7%,var(--paper));border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.fx h2,.fx h3,.fx h4,.fx dd{color:var(--ink)}
+.fx .fxw{max-width:1180px;margin:0 auto;padding:0 28px}
+.fx-top{display:flex;justify-content:space-between;align-items:end;gap:28px;flex-wrap:wrap;margin-bottom:40px}
+.fx-top p{margin:12px 0 0;max-width:34em;color:var(--muted)}
+.fx-eye{display:inline-flex;align-items:center;gap:8px;font:800 12px/1 system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--brand)}
+.fx-eye::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 30%,transparent)}
+.fx-pill{font:700 13px/1 system-ui,sans-serif;padding:10px 14px;border-radius:999px;background:var(--paper);border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.fx-card{background:#fff;border:1px solid var(--line);border-radius:var(--r-card,18px);box-shadow:0 24px 50px -36px rgba(0,0,0,.45)}
+.fx-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:100%;font:800 16px/1 system-ui,sans-serif;padding:17px 20px;border-radius:var(--r-btn,12px);border:0;background:var(--brand);color:#fff;cursor:pointer;transition:transform .15s,opacity .15s}
+.fx-btn:hover{transform:translateY(-1px)}.fx-btn[disabled]{opacity:.4;cursor:not-allowed;transform:none}
+.fx-note{margin:12px 0 0;font-size:14px;color:var(--muted);text-align:center}
+.fx-done{display:none;margin-top:14px;padding:14px 16px;border-radius:12px;background:color-mix(in srgb,var(--accent) 22%,#fff);font-size:15px;line-height:1.45}
+.fx-done.on{display:block}
+.fx label.l{display:block;font:700 13px/1 system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:22px 0 10px}
+.fx input.t,.fx select.t,.fx textarea.t{width:100%;font:inherit;font-size:16px;padding:12px 13px;border:1.5px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
+.fx textarea.t{min-height:90px;resize:vertical}
+.fx .two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.fx .chip{position:static;left:auto;top:auto;box-shadow:none;animation:none;font-style:normal}
+.chip{font:600 15px/1.2 system-ui,sans-serif;padding:11px 15px;border-radius:999px;border:1.5px solid var(--line);background:#fff;color:var(--ink);cursor:pointer;transition:all .15s}
+.chip:hover{border-color:var(--brand)}
+.chip[aria-pressed=true]{background:var(--brand);border-color:var(--brand);color:#fff}
+
+/* order */
+.ord{display:grid;grid-template-columns:1.35fr .9fr;gap:30px;align-items:start}
+.ord-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.ord-list{padding:8px 26px}
+.ord-item{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:18px 0;border-bottom:1px dashed var(--line)}
+.ord-item:last-child{border-bottom:0}
+.ord-item h4{margin:0;font:700 18px/1.25 inherit}
+.ord-item p{margin:4px 0 0;font-size:15px;color:var(--muted);line-height:1.4}
+.qty{display:flex;align-items:center;gap:6px;flex:none}
+.qty button{width:38px;height:38px;border-radius:50%;border:1.5px solid var(--line);background:#fff;font:700 20px/1 system-ui;color:var(--ink);cursor:pointer}
+.qty button.add{background:var(--brand);border-color:var(--brand);color:#fff}
+.qty output{min-width:22px;text-align:center;font-weight:800}
+.ord-grp[hidden]{display:none}
+.bag{position:sticky;top:110px;padding:26px}
+.bag h3{margin:0 0 6px;font-size:24px}
+.bag ul{list-style:none;margin:14px 0 0;padding:0;max-height:220px;overflow:auto}
+.bag li{display:flex;justify-content:space-between;gap:10px;padding:9px 0;border-bottom:1px solid var(--line);font-size:15.5px}
+.bag li b{color:var(--brand)}
+.bag .empty{color:var(--muted);font-size:15px;padding:14px 0;border:0}
+
+/* book */
+.bk{display:grid;grid-template-columns:1.3fr .8fr;gap:30px;align-items:start}
+.bk-main{padding:28px 30px 32px}
+.bk-main label.l:first-child{margin-top:0}
+.days{display:grid;grid-template-columns:repeat(7,1fr);gap:8px}
+.day{display:flex;flex-direction:column;align-items:center;gap:3px;padding:11px 4px;border-radius:12px;border:1.5px solid var(--line);background:#fff;cursor:pointer;font:600 13px/1.1 system-ui,sans-serif;color:var(--muted)}
+.day b{font-size:20px;color:var(--ink)}
+.day[aria-pressed=true]{background:var(--brand);border-color:var(--brand);color:#fff}.day[aria-pressed=true] b{color:#fff}
+.slots{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:8px}
+.slot{padding:12px 6px;border-radius:10px;border:1.5px solid var(--line);background:#fff;font:700 15px/1 system-ui,sans-serif;cursor:pointer;color:var(--ink)}
+.slot[disabled]{opacity:.35;text-decoration:line-through;cursor:not-allowed}
+.slot[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.sum{position:sticky;top:110px;padding:26px}
+.sum h3{margin:0 0 14px;font-size:24px}
+.sum dl{margin:0 0 6px;display:grid;grid-template-columns:auto 1fr;gap:10px 14px;font-size:15.5px}
+.sum dt{color:var(--muted);font-weight:600}.sum dd{margin:0;font-weight:700;text-align:right}
+
+/* quote */
+.qt{display:grid;grid-template-columns:1.25fr .85fr;gap:30px;align-items:start}
+.qt-main{padding:28px 30px 32px}
+.qt-main label.l:first-child{margin-top:0}
+.drop{display:grid;place-items:center;text-align:center;gap:6px;padding:28px 18px;border:2px dashed color-mix(in srgb,var(--brand) 45%,var(--line));border-radius:14px;background:color-mix(in srgb,var(--brand) 4%,#fff);cursor:pointer;color:var(--muted);font-size:15px}
+.drop b{color:var(--brand);font-size:17px}
+.drop input{display:none}
+.thumbs{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.thumbs img{width:68px;height:68px;object-fit:cover;border-radius:10px;border:1px solid var(--line)}
+.how{padding:28px}
+.how ol{margin:0;padding:0;list-style:none;counter-reset:s}
+.how li{counter-increment:s;position:relative;padding:0 0 22px 52px}
+.how li::before{content:counter(s);position:absolute;left:0;top:0;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:var(--accent-ink);font-weight:800}
+.how li b{display:block;font-size:17px}
+.how li span{font-size:15px;color:var(--muted)}
+
+/* classes */
+.cl{display:grid;grid-template-columns:1.35fr .85fr;gap:30px;align-items:start}
+.cl-days{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.cl-list{padding:6px 24px}
+.cl-row{display:grid;grid-template-columns:120px 1fr auto;align-items:center;gap:16px;padding:18px 0;border-bottom:1px dashed var(--line)}
+.cl-row:last-child{border-bottom:0}
+.cl-row.nt{grid-template-columns:1fr auto}.cl-row.nt time{display:none}
+.cl-row time{font-weight:800;color:var(--brand)}
+.cl-row h4{margin:0;font:700 18px/1.2 inherit}
+.cl-row p{margin:3px 0 0;font-size:14.5px;color:var(--muted)}
+.cl-row button{font:700 14px/1 system-ui,sans-serif;padding:11px 14px;border-radius:999px;border:1.5px solid var(--brand);background:#fff;color:var(--brand);cursor:pointer;white-space:nowrap}
+.cl-row button[aria-pressed=true]{background:var(--brand);color:#fff}
+.cl-day[hidden]{display:none}
+.trial{position:sticky;top:110px;padding:26px}
+.trial h3{margin:0 0 6px;font-size:24px}
+.trial .pick{margin:12px 0 0;padding:12px 14px;border-radius:10px;background:color-mix(in srgb,var(--accent) 20%,#fff);font-weight:700;font-size:15px}
+
+@media (max-width:900px){
+  .fx{padding:72px 0}.fx h2,.fx h3,.fx h4,.fx dd{color:var(--ink)}
+.fx .fxw{padding:0 20px}
+  .ord,.bk,.qt,.cl{grid-template-columns:1fr}
+  .bag,.sum,.trial{position:static}
+  .ord-list,.cl-list{padding:4px 18px}.bk-main,.qt-main{padding:22px 18px 24px}
+  .days{grid-template-columns:repeat(4,1fr)}
+  .cl-row{grid-template-columns:1fr auto}.cl-row time{grid-column:1/-1;margin-bottom:-8px}
+}
+form{display:grid;grid-template-columns:1fr 1fr;gap:16px}form .full{grid-column:1/-1}
+form label{display:block;font-size:14px;font-weight:600;margin-bottom:6px}
+form input,form textarea,form select{width:100%;font:inherit;font-size:16px;padding:13px 14px;border:1.5px solid var(--line);border-radius:var(--r-in,10px);background:#fff;color:var(--ink)}
+form textarea{min-height:110px;resize:vertical}form button{width:100%}.hp{position:absolute;left:-9999px}
+@media (max-width:700px){form{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none !important;transition:none !important}.reveal{opacity:1;transform:none}}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"NailSalon","name":"MC Nail Bar","telephone":"662-269-2065","address":"1811 W Main St, Suite C, Tupelo, MS 38801"}</script>
+</head>
+<body>
+<div class="demo">Concept homepage for MC Nail Bar, made by a Pennsylvania designer. Not live and not affiliated with the business.</div>
+
+<header class="site-head" id="head"><div class="wrap bar">
+  <a class="word" href="#top">MC Nail <i>Bar</i></a>
+  <nav aria-label="Main"><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav>
+  <a class="btn main" href="#book" style="padding:13px 22px">Book a visit</a>
+</div></header>
+
+<main id="top">
+<section class="hero"><span class="wash w1"></span><span class="wash w2"></span><div class="wrap">
+  <div>
+    <div class="lbl">West Main Street · Tupelo</div>
+    <h1>A little luxury, <em>no wait.</em></h1>
+    <p class="lead">A nail bar on West Main Street in Tupelo with friendly techs, fun nail art and a full spa menu for hands and feet.</p>
+    <div class="actions"><a class="btn main" href="#book">Book a visit</a><a class="btn ghost" href="tel:+16622692065"><svg class="phi" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg>662-269-2065</a></div>
+    <div class="rate"><b>4.6</b><span><span class="st">★★★★★</span>from 99 Google reviews</span></div>
+  </div>
+  <div class="pics" aria-hidden="true">
+    <div class="pill" style="--img:url('https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&amp;fit=crop&amp;w=2000&amp;q=70')"></div>
+    <div class="dot" style="--img:url('https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&amp;fit=crop&amp;w=2000&amp;q=70')"></div>
+    <div class="chip">happy you, happy us</div>
+  </div>
+</div></section>
+
+<section class="proof"><div class="wrap"><ul>
+  <li><b>4.6 stars</b><span>from 99 Google reviews</span></li>
+  <li><b>Nail art</b><span>that wows</span></li>
+  <li><b>Open early</b><span>Fridays and Saturdays</span></li>
+</ul></div></section>
+
+<section class="band" id="services"><div class="wrap">
+  <div class="intro reveal"><div><div class="lbl">Services</div><h2 style="margin-top:16px">The menu</h2></div><p>Bring the girls.</p></div>
+  <ul class="list reveal">
+    <li><span class="n">01</span><h3>Full sets</h3><p>Shaped how you like.</p><span></span></li>
+    <li><span class="n">02</span><h3>Gel manicures</h3><p>Glossy and lasting.</p><span></span></li>
+    <li><span class="n">03</span><h3>Pedicures</h3><p>Relax and unwind.</p><span></span></li>
+    <li><span class="n">04</span><h3>Nail art</h3><p>Bring a photo.</p><span></span></li>
+    <li><span class="n">05</span><h3>Girls&#39; day</h3><p>Come as a group.</p><span></span></li>
+    <li><span class="n">06</span><h3>Fills</h3><p>Keep them fresh.</p><span></span></li>
+  </ul>
+</div></section>
+
+<section class="fx" id="book"><div class="fxw"><div class="fx-top"><div><span class="fx-eye">Book online</span><h2>Book a visit</h2><p>Pick a service, a day and a time, and we&#39;ll confirm your spot.</p></div><span class="fx-pill">Sample times</span></div><div class="bk">
+    <div class="fx-card bk-main">
+      <label class="l">1. Pick a service</label>
+      <div class="chips svc"><button type="button" class="chip" aria-pressed="true">Full set</button><button type="button" class="chip" aria-pressed="false">Fill</button><button type="button" class="chip" aria-pressed="false">Gel manicure</button><button type="button" class="chip" aria-pressed="false">Pedicure</button><button type="button" class="chip" aria-pressed="false">Nail art</button></div>
+      
+      <label class="l">2. Pick a day</label><div class="days"></div>
+      <label class="l">3. Pick a time</label><div class="slots"></div>
+    </div>
+    <aside class="fx-card sum" aria-live="polite">
+      <h3>Your appointment</h3>
+      <dl><dt>Service</dt><dd class="s-svc">–</dd><dt>Day</dt><dd class="s-day">–</dd><dt>Time</dt><dd class="s-time">–</dd></dl>
+      <label class="l">Name and phone</label>
+      <div class="two"><input class="t" placeholder="Name" autocomplete="name"><input class="t" type="tel" placeholder="Phone" autocomplete="tel"></div>
+      <label class="l">Anything we should know?</label><input class="t" placeholder="The look you want, or who you usually see">
+      <div style="margin-top:18px"><button type="button" class="fx-btn go" disabled>Request this time</button></div>
+      <p class="fx-note">Sample times shown. The real version shows your actual openings.</p>
+      <div class="fx-done">This is a preview, so nothing was sent. On the real site, the request lands on the shop calendar and you get a text confirming your spot.</div>
+    </aside></div>
+  <script>(()=>{const r=document.currentScript.closest('.fx');const open=[1,2,3,4,5,6],from=9,to=18,step=30;
+    const D=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],M=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];const st={};
+    const pick=(box,cls,fn)=>box.querySelectorAll(cls).forEach(b=>b.addEventListener('click',()=>{if(b.disabled)return;box.querySelectorAll(cls).forEach(x=>x.setAttribute('aria-pressed',x===b));fn(b)}));
+    const upd=()=>{r.querySelector('.s-svc').textContent=st.svc||'–';const s=r.querySelector('.s-stf');if(s)s.textContent=st.stf||'–';r.querySelector('.s-day').textContent=st.day||'–';r.querySelector('.s-time').textContent=st.time||'–';r.querySelector('.go').disabled=!(st.svc&&st.day&&st.time)};
+    const days=r.querySelector('.days'),slots=r.querySelector('.slots');const list=[];for(let d=new Date(),i=0;list.length<7&&i<30;i++){const x=new Date(d.getFullYear(),d.getMonth(),d.getDate()+i+1);if(open.includes(x.getDay()))list.push(x)}
+    days.innerHTML=list.map((x,i)=>'<button type="button" class="day" data-i="'+i+'" aria-pressed="false">'+D[x.getDay()]+'<b>'+x.getDate()+'</b>'+M[x.getMonth()]+'</button>').join('');
+    const fill=x=>{const t=[];for(let m=from*60;m<to*60;m+=step){const h=Math.floor(m/60),mm=m%60;t.push({l:((h+11)%12+1)+':'+String(mm).padStart(2,'0')+(h<12?' am':' pm'),busy:((m/step+x.getDate()*3)%5===0)||((m/step+x.getDate())%7===2)})}
+      slots.innerHTML=t.map(s=>'<button type="button" class="slot" aria-pressed="false"'+(s.busy?' disabled aria-label="'+s.l+' taken"':'')+'>'+s.l+'</button>').join('');st.time=null;upd();pick(slots,'.slot',b=>{st.time=b.textContent;upd()})};
+    pick(days,'.day',b=>{const x=list[b.dataset.i];st.day=D[x.getDay()]+', '+M[x.getMonth()]+' '+x.getDate();fill(x);upd()});
+    pick(r.querySelector('.svc'),'.chip',b=>{st.svc=b.textContent;upd()});st.svc=r.querySelector('.svc .chip').textContent;
+    const sf=r.querySelector('.stf');if(sf){pick(sf,'.chip',b=>{st.stf=b.textContent;upd()});st.stf='First available'}
+    days.querySelector('.day').click();r.querySelector('.go').onclick=()=>r.querySelector('.fx-done').classList.add('on');})()</script></div></section><section class="band quotes" id="reviews"><span class="wash w3"></span><div class="wrap">
+  <div class="q reveal"><p>Tony took care of me and my friends today, and did an amazing job!</p><span class="lbl">Google review</span></div>
+  <div class="q reveal"><p>Everytime I come I receive luxury treatment and the best service…</p><span class="lbl">Google review</span></div>
+  <div class="q reveal"><p>They do good job been with them a long time</p><span class="lbl">Google review</span></div>
+</div></section>
+
+<section class="band"><div class="wrap">
+  <div class="reveal" style="text-align:center;margin-bottom:60px"><div class="lbl">Your visit</div><h2 style="margin-top:16px">How a visit works</h2></div>
+  <ol class="path reveal"><li><span>1</span><div><h3>Book a time</h3><p>Or stop in.</p></div></li><li><span>2</span><div><h3>Show us the look</h3><p>A photo helps.</p></div></li><li><span>3</span><div><h3>Love your nails</h3><p>Every time.</p></div></li></ol>
+</div></section>
+
+<section class="band visit" id="visit" style="padding-top:0"><div class="wrap">
+  <div class="reveal">
+    <div class="lbl">Visit the salon</div>
+    <p class="addr">1811 W Main St,<br><em>Tupelo</em></p>
+    <p class="about">MC Nail Bar is a nail salon on West Main Street in Tupelo, Mississippi. Clients say the techs are sweet and friendly, the service feels like a treat, and the nail art is amazing.</p>
+    <div class="actions"><a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=MC%20Nail%20Bar%201811%20W%20Main%20St%2C%20Suite%20C%2C%20Tupelo%2C%20MS%2038801" target="_blank" rel="noopener">Get directions</a></div>
+  </div>
+  <div class="card reveal">
+    <div class="lbl" style="margin-bottom:8px">Hours</div>
+    <table class="hours"><tr><td>Monday to Thursday</td><td>8:30am to 7pm</td></tr><tr><td>Friday and Saturday</td><td>8am to 7pm</td></tr><tr><td>Sunday</td><td>Closed</td></tr></table>
+    <p style="color:var(--muted);margin:22px 0 0">On West Main Street in Tupelo, Suite C.</p>
+  </div>
+</div></section>
+
+<section class="band" id="request" style="padding-top:0"><div class="wrap req">
+  <div class="reveal">
+    <div class="lbl">Questions</div>
+    <h2 style="margin-top:16px;font-size:clamp(40px,4.6vw,60px)">Questions?</h2>
+    <p style="color:var(--muted)">Have a question? Send a note and we&#39;ll get back to you.</p>
+    <a class="bigtel" href="tel:+16622692065"><svg class="phi" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg>662-269-2065</a>
+  </div>
+  <div class="card reveal"><form name="visit" method="POST" action="thanks.html" data-netlify="true" netlify-honeypot="company" onsubmit="event.preventDefault();this.querySelector('.fnote').hidden=false">
+    <input type="hidden" name="form-name" value="visit">
+    <p class="hp"><label>Leave this empty <input name="company"></label></p>
+    <div><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name" required></div>
+    <div><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" required></div>
+    <div class="full"><label for="f-email">Email (optional)</label><input id="f-email" name="email" type="email" autocomplete="email"></div>
+    <div class="full"><label for="f-msg">What can we help with?</label><textarea id="f-msg" name="message" placeholder="For example: can you fit two of us in for pedicures Saturday?"></textarea></div>
+    <div class="full"><label for="f-when">Best time to reach you</label>
+      <select id="f-when" name="best_time"><option>Morning</option><option>Afternoon</option><option>Evening</option><option>Any time</option></select></div>
+    <div class="full"><button class="btn main" type="submit">Send request</button></div>
+    <p class="full fnote" hidden style="margin:0;font-size:15px">This is a preview, so nothing was sent. On the real site, this form sends requests straight to the business.</p>
+  </form></div>
+</div></section>
+</main>
+
+<footer class="foot"><div class="wrap">
+  <span class="word">MC Nail <i>Bar</i></span>
+  <span>1811 W Main St, Suite C, Tupelo, MS 38801 · <a href="tel:+16622692065">662-269-2065</a></span>
+</div></footer>
+<div class="callbar"><a class="btn main" href="#book">Book a visit</a></div>
+<script>
+(() => { const h = document.getElementById('head'); if (h) { const f = () => h.classList.toggle('scrolled', scrollY > 8); f(); addEventListener('scroll', f, {passive:true}); }
+  const els = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) { const o = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('on'); o.unobserve(e.target); } }), {threshold:.12}); els.forEach(el => o.observe(el)); }
+  else els.forEach(el => el.classList.add('on'));
+})();
+</script>
+</body>
+</html>
